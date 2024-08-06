@@ -39,7 +39,7 @@ main {
 	padding: 3em 1em;
 }
 footer {
-	width: var(--max-width);
+	max-width: var(--max-width);
 }
 
 h1, h2, h3 {
@@ -111,14 +111,6 @@ blockquote::after {
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
-}
-@media (max-width: 720px) {
-	body {
-		font-size: 18px;
-	}
-	main {
-		padding: 1em;
-	}
 }
 
 .sr-only {
