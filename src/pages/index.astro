@@ -17,23 +17,38 @@ import '@fontsource-variable/inter';
 				font-style: italic;
 				font-weight: 300;
 			}
+			.content {
+				color: var(--text);
+			}
+
+			.content > p,
+			.content > blockquote {
+				margin: 0.5rem 0;
+			}
+
+			.menu {
+				margin-top: 3rem;
+			}
+			.menu > ul {
+				list-style: none;
+				padding-left: 0;
+			}
 		</style>
 	</head>
 	<body>
 		<main>
 			<div class="header">
-				<h1>Jii Yoo <span class="handle">/ rolemadelen</span></h1>
+				<h1>유지이 <span class="handle">/ rolemadelen</span></h1>
 			</div>
-			<div>
-				<p>
-					기록하기를 좋아하는 인간에게 축복을.
-				</p>
-				<!-- <blockquote>
-					I use the Pensieve. One simply siphons the excess thoughts from one's mind, pours them into the basin, and examines them at one's leisure. It becomes easier to spot patterns and links, you understand, when they are in this form."  ー Albus Dumbledore explaining his Pensieve to Harry Potter.
-				</blockquote>
-				<p>
-					To put it simply, these are just my notes. Well, <a href="/notes/evergreen-notes">Evergreen notes</a> to be exact. These notes are not written for others to understand; it is written solely for myself, so if you don't understand something, that's normal. Feel free to navigate through my pensieve.
-				</p> -->
+			<div class="content">
+				<p>머릿속 망상과 생각, 그리고 흩어진 지식의 조각들을 기록합니다.</p>
+				<blockquote>기록하기를 좋아하는 인간에게 축복을.</blockquote>
+
+				<div class="menu">
+					<ul role="navigation">
+						<li><a href="/notes">기록</a></li>
+					</ul>
+				</div>
 			</div>
 		</main>
 		<Footer />

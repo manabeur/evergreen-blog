@@ -12,6 +12,7 @@
 	--max-width: 600px;
 
 	--black: #4f4f4f;
+	--text: #666;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
 	--gray-dark: 34, 41, 57;
@@ -45,6 +46,20 @@ footer {
 h1, h2, h3 {
 	font-size: 1rem;
 	font-weight: 600;
+	margin-top: 3rem;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	padding-left: 1rem;
+	margin-bottom: 2rem;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin: 0;
 }
 
 strong,
@@ -52,7 +67,8 @@ b {
 	font-weight: 700;
 }
 a {
-	color: var(--link);
+	/* color: var(--link); */
+	color: var(--text);
 	text-decoration-color: #d9d9d9;
 	text-underline-offset: 3px;
 	padding: 0.2rem 0.1rem;
@@ -65,10 +81,7 @@ a > span {
 	font-size: 0.8rem;
 }
 p {
-	margin-bottom: 1em;
-}
-.prose p {
-	margin-bottom: 2em;
+	margin: 1rem 0;
 }
 textarea {
 	width: 100%;
@@ -91,7 +104,7 @@ code {
 	border-radius: 2px;
 }
 pre {
-	padding: 1.5em;
+	padding: 1rem;
 	border-radius: 8px;
 }
 pre > code {
@@ -107,6 +120,10 @@ blockquote::before {
 }
 blockquote::after {
 	content: close-quote;
+}
+blockquote > p {
+	margin: 0;
+	display: inline;
 }
 hr {
 	border: none;

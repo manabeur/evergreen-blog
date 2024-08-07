@@ -7,12 +7,12 @@ import '@fontsource-variable/inter';
 
 type Props = CollectionEntry<'notes'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} />
 		<style>
 			.blur {
 				position: fixed;
@@ -49,6 +49,11 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.last-updated-on {
 				font-style: italic;
+				margin: 0.75rem 0;
+			}
+
+			.prose {
+				color: var(--text);
 			}
 		</style>
 	</head>
@@ -75,7 +80,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						</div>
 						<div class="author">
 							<span>by</span>
-							<a href="/">Jii Yoo</a>
+							<a href="/">유지이</a>
 						</div>
 						<!-- <hr /> -->
 					</div>
