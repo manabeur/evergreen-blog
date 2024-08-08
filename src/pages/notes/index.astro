@@ -26,24 +26,81 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			li {
-				list-style: none;
+		<style lang="scss">
+			.header {
+				margin-bottom: 3rem;
+
+				.menu {
+					font-size: 0.875rem;
+				}
+			}
+			
+			.posts {
+				a {
+					text-decoration: none;
+					display: block;
+					
+					&:hover {
+						background-color: inherit;
+					}
+					
+					& span {
+						font-size: 1rem;
+						transition: all 0.2s ease-in-out;
+					}
+				}
+				
+				& > ul {
+					padding: 0;
+				}
+				
+				li {
+					list-style: none;
+					transition: opacity 0.2s ease;
+
+					&:hover{
+						a span {
+							background-color: rgb(var(--gray-light));
+							padding: 0.2rem 0.15rem;
+							border-radius: 3px;
+						}
+					}
+				}
 			}
 		</style>
+		<script>
+			const listItems = document.querySelectorAll('li');
+
+			listItems.forEach(li => {
+				li.addEventListener('mouseenter', (e) => {
+					const elem = e.currentTarget;
+					elem.classList.add('--hover');
+				})
+				li.addEventListener('mouseleave', (e) => {
+					const elem = e.currentTarget;
+					elem.classList.remove('--hover');
+				})
+			})
+		</script>
 	</head>
 	<body>
 		<main>
 			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/notes/${post.slug}/`}>{post.data.title}</a>
-							</li>
-						))
-					}
-				</ul>
+				<div class="header">
+					<h1>기록</h1>
+					<div class="menu">by <a href="/">유지이</a></div>
+				</div>
+				<div class="posts">
+					<ul>
+						{
+							posts.map((post) => (
+								<li>
+									<a href={`/notes/${post.slug}/`}><span>{post.data.title}</span></a>
+								</li>
+							))
+						}
+					</ul>
+				</div>
 			</section>
 		</main>
 		<!-- <Footer /> -->

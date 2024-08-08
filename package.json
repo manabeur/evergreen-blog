@@ -17,5 +17,8 @@
     "@fontsource/oxygen": "^5.0.13",
     "astro": "^4.13.1",
     "rehype-external-links": "^3.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
   }
 }

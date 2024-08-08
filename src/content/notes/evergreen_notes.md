@@ -16,4 +16,4 @@ Evergreen notes constitute these five principles:
 4. Evergreen notes should be unlabeled (non-hierarchical)
 5. Evergreen notes should be written for yourself by default, not for an audience
 
-These concepts are similar to those used in Zettelkasten system because it was originally derived from it by [[Andy Matuschak]].
+These concepts are similar to those used in Zettelkasten system because it was originally derived from it by [Andy Matuschak](/notes/andy_matuschak).
