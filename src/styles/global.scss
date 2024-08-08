@@ -4,6 +4,9 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 
+ @import '@fontsource/nanum-gothic/400.css';
+ @import '@fontsource/nanum-gothic/700.css';
+
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
@@ -23,7 +26,7 @@
 }
 
 body {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -118,7 +121,7 @@ pre > code {
 
 blockquote {
 	font-size: inherit;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Times New Roman', Times, 'Klee One', serif;
 	margin: 2rem 0;
 }
 blockquote::before {
@@ -138,6 +141,8 @@ hr {
 }
 
 .i18n {
+	margin-top: 2rem;
+	
 	& > a {
 		display: flex;
 		justify-content: center;

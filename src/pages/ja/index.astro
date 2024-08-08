@@ -2,7 +2,10 @@
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import '@fontsource-variable/inter';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <!doctype html>
@@ -15,14 +18,11 @@ import '@fontsource-variable/inter';
 				align-items: center;
 				justify-content: space-between;
 				margin-bottom: 3rem;
-
-				h1 {
-					margin: 0;
-				}
 			}
 			.handle {
 				font-style: italic;
 				font-weight: 300;
+				font-size: 0.875rem;
 			}
 			.content {
 				color: var(--text);
@@ -45,20 +45,20 @@ import '@fontsource-variable/inter';
 	<body>
 		<main>
 			<div class="header">
-				<h1>ジーユー <span class="handle">/ rolemadelen</span></h1>
+				<h1>{t('home.name')} <span class="handle">/ rolemadelen</span></h1>
 				<div class="i18n">
 					<a href="/">
-						<span>가</span>
+						<span>{t('home.lang')}</span>
 					</a>
 				</div>
 			</div>
 			<div class="content">
-				<p>頭の中の妄想や思考、そして散らばった知識の断片を記録します。</p>
-				<blockquote>記録をする人達へ祝福を。</blockquote>
+				<p>{t('home.text')}</p>
+				<blockquote>{t('home.quote')}</blockquote>
 
 				<div class="menu">
 					<ul role="navigation">
-						<li><a href="/notes">記録</a></li>
+						<li><a href="/notes">{t('home.menu1')}</a></li>
 					</ul>
 				</div>
 			</div>
