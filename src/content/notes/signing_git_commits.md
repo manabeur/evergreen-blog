@@ -4,7 +4,7 @@ description: ''
 pubDate: 'May 15 2024'
 ---
 
-List your GPG keys ([[Check for existing GPG keys]]) and choose one to use for signing git commits. In this example, we will use `3AA5C34371567BD2` as the GPG key ID.
+List your GPG keys ([Check for existing GPG keys](/notes/check_for_existing_gpg_keys)) and choose one to use for signing git commits. In this example, we will use `3AA5C34371567BD2` as the GPG key ID.
 
 ```shell
 $ gpg --list-secret-keys --keyid-format=long

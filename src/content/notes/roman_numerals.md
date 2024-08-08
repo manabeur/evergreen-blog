@@ -4,11 +4,6 @@ description: ''
 pubDate: 'May 15 2024'
 ---
 
-
-Roman numerals are numbers represented by series of specific symbols. 
-
-//
-
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
 - `I`:  `1`
@@ -33,3 +28,5 @@ There are six instances where subtraction is used to represent numbers like 4, 9
 - `CM`: `900`
 
 For example, `49` is written as `XLIX`. `14` is written as `XIV`.
+
+Using these rules, you can [convert any roman numerals into an integer](/notes/convert_roman_numerals_to_integer).

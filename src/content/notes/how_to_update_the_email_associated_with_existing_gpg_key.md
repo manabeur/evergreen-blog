@@ -4,7 +4,7 @@ description: ''
 pubDate: 'May 18 2024'
 ---
 
-[[Check for existing GPG keys]] and get the key which you want to update the email.
+[Check for existing GPG keys](/notes/check_for_existing_gpg_keys) and get the key which you want to update the email.
 
 ```sh
 $ gpg --list-secret-keys --keyid-format=long

@@ -4,7 +4,7 @@ description: ''
 pubDate: 'Jun 11 2024'
 ---
 
-There are [[Different types of an array]] and _static array_ is one of them.
+There are [Different types of an array](/notes/different_types_of_an_array) and _static array_ is one of them.
 
 Static array is created at compile time. That's why it is _static_. Since the size of the array is fixed, you must know the size of it beforehand. Also it cannot be extended or re-scaled during the runtime.
 
@@ -30,4 +30,4 @@ int main() {
 }
 ```
 
-If you don't know the size beforehand or you need to be able to rescale the array, you might want to use a [[Dynamic Array]].
+If you don't know the size beforehand or you need to be able to rescale the array, you might want to use a [Dynamic Array](/notes/dynamic_array).

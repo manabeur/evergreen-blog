@@ -4,7 +4,7 @@ description: ''
 pubDate: 'May 1 2024'
 ---
 
-My git aliases for the [[fish shell]]. I created a file `git_aliases.fish` and add it to `~/.config/fish/conf.d/`.
+My git aliases for the [fish shell](/notes/fish_shell). I created a file `git_aliases.fish` and add it to `~/.config/fish/conf.d/`.
 
 ```bash
 alias g='git'

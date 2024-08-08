@@ -4,7 +4,7 @@ description: ''
 pubDate: 'May 15 2024'
 ---
 
-After creating a new SSH key ([[Generate a new SSH key]]), you can create a SSH configuration file to let every terminal sessions pick up this new SSH key.
+After creating a new SSH key ([Generate a new SSH key](/notes/generate_a_new_ssh_key)), you can create a SSH configuration file to let every terminal sessions pick up this new SSH key.
 
 First create the SSH configuration file.
 ```shell

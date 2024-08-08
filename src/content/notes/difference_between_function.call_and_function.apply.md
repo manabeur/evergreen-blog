@@ -44,8 +44,3 @@ var cancellable = function(fn, args, t) {
     return cancelFn
 };
 ```
-  
----
-
-## Reference
-- [What is the difference between call and apply?](https://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply)

@@ -29,4 +29,4 @@ fn bubble_sort(nums: &mut Vec<i32>) {
 ```
 
 - Best-case time complexity: **O(N)**
-- Average / Worst-case time complexity: **O(N^2)**
+- Average / Worst-case time complexity: **O(N<sup>2</sup>)**

@@ -4,7 +4,7 @@ description: ''
 pubDate: 'Jun 10 2024'
 ---
 
-[[Arrays]] in JavaScript are quite far from the traditional array. In JavaScript, arrays are more like objects. Integer indexes become keys and you can even add properties to it.
+[Arrays](/notes/arrays) in JavaScript are quite far from the traditional array. In JavaScript, arrays are more like objects. Integer indexes become keys and you can even add properties to it.
 
 ```js
 let arr = []

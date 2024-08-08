@@ -112,7 +112,7 @@ defaults write com.apple.finder ShowStatusBar -bool true
 ```
 
 ## Homebrew
-Setup [[Homebrew]] and install GUI and CLI applications: [[GUI and CLI applications I install when first setting up macOS]].
+Setup [Homebrew](/notes/homebrew) and install GUI and CLI applications: [GUI and CLI applications I install when first setting up macOS](/notes/gui_and_cli_applications_i_install_when_first_setting_up_macos).
 
 ### Git & Git LFS
 
@@ -157,15 +157,15 @@ gpgconf --kill gpg-agent # restart the gpg service
 I'm using the [kitty](https://sw.kovidgoyal.net/kitty/) terminal.
 
 ### Oh-My-Fish
-Install [[oh-my-fish]] and go through basics about installing packages, changing the theme, and setting up a font.
+Install [oh-my-fish](/notes/oh_my_fish) (OMF) and go through basics about installing packages, changing the theme, and setting up a font.
 
-Also setup the node environment in [[oh-my-fish]]:  [[Setting up NVM on oh-my-fish]].
+Also setup the node environment in OMF:  [Setting up NVM on oh-my-fish](/notes/setting_up_nvm_on_oh-my-fish).
 
 ### LazyVim
-LazyVim makes your terminal into an IDE and makes it super easy and convenient to customize it. Go through the installation of [[LazyVim]].
+LazyVim makes your terminal into an IDE and makes it super easy and convenient to customize it. Go through the installation of [LazyVim](/notes/lazyvim).
 
 ## shell setup
-[[Let the default shell start up with tmux]]. Then [[Configure tmux to start with a fish shell]]. If you don't like the initial greeting message of a fish, you can [[Configure fish shell's greeting message]].
+[Let the default shell start up with tmux](/notes/let_the_default_shell_start_up_with_tmux). Then [Configure tmux to start with a fish shell](/notes/configure_tmux_to_start_with_a_fish_shell). If you don't like the initial greeting message of a fish, you can [Configure fish shell's greeting message](/notes/configure_fish_shells_greeting_message).
 
 ## Fish shell aliases
-[[Configure aliases in the fish shell]]. You can add your [[git aliases]] here as well or create a separate file such as `git_aliases.fish`.
+[Configure aliases in the fish shell](/notes/configure_aliases_in_the_fish_shell). You can add your [git aliases](/notes/git_aliases) here as well or create a separate file such as `git_aliases.fish`.

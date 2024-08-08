@@ -5,7 +5,7 @@ pubDate: 'May 2 2024'
 ---
 
 
-setting up node in [[oh-my-fish]] requires a bit of configuration than simply installing it.
+setting up node in [oh-my-fish](/notes/oh_my_fish) requires a bit of configuration than simply installing it.
 
 ### install NVM package
 ```bash

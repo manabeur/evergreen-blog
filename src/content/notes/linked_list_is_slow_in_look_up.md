@@ -21,4 +21,4 @@ int LinkedList::does_exist(int value) {
 }
 ```
 
-But [[Linked List is better if lots of insertions and deletions are required]] because there's no need to shift whole bunch of data to fit in a data in between other elements. Also we don't have to create a new array and copy over everything from the old array to expand or shrink the array.
+But [Linked List is better if lots of insertions and deletions are required](/notes/linked_list_is_better_if_lots_of_insertions_and_deletions_are_required) because there's no need to shift whole bunch of data to fit in a data in between other elements. Also we don't have to create a new array and copy over everything from the old array to expand or shrink the array.

@@ -32,7 +32,7 @@ The application allows users to download the top 10 tracks as an image. For this
 
 I implemented the Authorization Code with PKCE flow to authenticate users and obtain the access token. This access token is then utilized to make API calls to Spotify.
 
-To provide a brief overview of PKCE, it stands for Proof Key for Code Exchange—an authorization code extension designed to prevent CSRF and authorization code injection attacks. While it was originally employed for mobile devices, it has become the recommended approach for applications unable to securely store client secrets within their codebase. For more in-depth information on the PKCE extension and implementation details, please refer to this note: [[Implementing PKCE Authorization Code Flow]].
+To provide a brief overview of PKCE, it stands for Proof Key for Code Exchange—an authorization code extension designed to prevent CSRF and authorization code injection attacks. While it was originally employed for mobile devices, it has become the recommended approach for applications unable to securely store client secrets within their codebase. For more in-depth information on the PKCE extension and implementation details, please refer to this note: [Implementing PKCE Authorization Code Flow](/notes/implementing_pkce_authorization_code_flow).
 
 ### 30-Second Track Preview
 <!-- ![](Side%20Project%20-%20YourTrack/yourtrack-track-preview.gif) -->

@@ -23,7 +23,7 @@ ssh-keygen -t ed25519 -C "github"
 
 This will create two files: a private key (`id_25519`) and the public one (`id_25519.pub`).
 
-These files can be used to add the new SSH key to the machine (e.g. macOS's keychain) or other hub accounts (e.g. GitHub or BitBucket). These files are also used when configuring SSH ([[Create the SSH configuration file]]).
+These files can be used to add the new SSH key to the machine (e.g. macOS's keychain) or other hub accounts (e.g. GitHub or BitBucket). These files are also used when configuring SSH ([Create the SSH configuration file](/notes/create_the_ssh_configuration_file)).
 
 ```sh
 # add the new SSH key to macOS's keychain

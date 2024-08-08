@@ -4,7 +4,7 @@ description: ''
 pubDate: 'May 18 2024'
 ---
 
-The Sieve of Eratosthenes is an algorithm used to find all [[prime numbers]] up to a given value `N`.
+The Sieve of Eratosthenes is an algorithm used to find all [prime numbers](/notes/prime_numbers) up to a given value `N`.
 
 The algorithm begins by creating a list of numbers from `2` to `N`. It then iteratively marks the multiples of each prime number as composite (not prime). At the conclusion of the algorithm, the numbers that remain unmarked are the prime numbers within the range.
 

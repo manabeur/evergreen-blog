@@ -4,7 +4,7 @@ description: ''
 pubDate: 'Jun 10 2024'
 ---
 
-Install `cmake` using [[Homebrew]].
+Install `cmake` using [Homebrew](/notes/homebrew).
 
 ```sh
 $ brew install cmake

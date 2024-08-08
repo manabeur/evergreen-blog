@@ -28,4 +28,4 @@ fn main() {
 
 Not sure where I can utilize this to be honest. 
 
-I got curious about getting the data type because of this problem given in JavaScript ([[Group by data types]]) where you need to create a function that regroups the elements in a given array by their data type. This problem makes sense in JavaScript because JS array can contain different data types. 
+I got curious about getting the data type because of this problem given in JavaScript ([Group by data types](/notes/group_by_data_types)) where you need to create a function that regroups the elements in a given array by their data type. This problem makes sense in JavaScript because JS array can contain different data types. 

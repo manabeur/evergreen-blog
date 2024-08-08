@@ -134,6 +134,6 @@ async function fetchProfile(token) {
 ---
 
 ## Reference
-- [[Spotify Developer Documentation](https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow)]
+- [Spotify Developer Documentation](https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow)
 - [OAUTH2 Documentation](https://www.oauth.com/oauth2-servers/pkce/)
 

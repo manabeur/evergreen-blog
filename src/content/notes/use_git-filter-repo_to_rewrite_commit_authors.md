@@ -4,7 +4,7 @@ description: ''
 pubDate: 'Apr 30 2024'
 ---
 
-[[git-filter-repo]] is a tool to rewrite github repository commit history. It can be used to rewrite authors information on a commit.
+[git-filter-repo](/notes/git_filter_repo) is a tool to rewrite github repository commit history. It can be used to rewrite authors information on a commit.
 
 ## mailmap
 

@@ -4,7 +4,7 @@ description: ''
 pubDate: 'May 15 2024'
 ---
 
-[[Roman numerals]] are numbers represented by series of designated symbols like `I`, `V`, `X`, etc...
+[Roman numerals](/notes/roman_numerals) are numbers represented by series of designated symbols like `I`, `V`, `X`, etc...
 
 We can implement a function to convert roman numerals to an integer. There are many different ways to implement it. One simple method is to use `if` and `switch` statements.
 

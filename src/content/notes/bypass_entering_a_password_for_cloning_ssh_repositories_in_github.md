@@ -4,9 +4,9 @@ description: ''
 pubDate: 'Apr 30 2024'
 ---
 
-I was trying to [[Clone all repositories using GitHub CLI]] but it kept prompting password for my github account for each clone. I was looking for a way to bypass this and the key was in SSH configuration.
+I was trying to [Clone all repositories using GitHub CLI](/notes/clone_all_repositories_using_github_cli) but it kept prompting password for my github account for each clone. I was looking for a way to bypass this and the key was in SSH configuration.
 
-First [[Create the SSH configuration file]] in `~/.ssh` if it doesn't already exist:
+First [Create the SSH configuration file](/notes/create_the_ssh_configuration_file) in `~/.ssh` if it doesn't already exist:
 ```sh
 touch ~/.ssh/config
 ```
@@ -42,5 +42,6 @@ gh ssh-key add ~/.ssh/id_ed25519.pub
 Now it shouldn't ask for the password.
 
 ---
+
 ## References
 - [Using multiple GitHub accounts with SSH keys](https://gist.github.com/oanhnn/80a89405ab9023894df7)

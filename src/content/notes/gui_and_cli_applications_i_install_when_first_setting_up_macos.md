@@ -4,7 +4,7 @@ description: ''
 pubDate: 'May 2 2024'
 ---
 
-These are applications I first install when I set up a fresh mac. I'm use [[Homebrew]] to make installation quick and easy.
+These are applications I first install when I set up a fresh mac. I'm use [Homebrew](/notes/homebrew) to make installation quick and easy.
 
 ## GUI Applications 
 ```bash
