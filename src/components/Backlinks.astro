@@ -1,0 +1,45 @@
+---
+const backlinks = {
+    "6k_plus_minus_1_optimization": [
+        "primality_test",
+        "prime_numbers"
+    ],
+    "primality_test": [
+        "6k_plus_minus_1_optimization"
+    ],
+    "prime_numbers": [
+        "6k_plus_minus_1_optimization"
+    ]
+};
+
+const currentPath = Astro.url.pathname.split('/')[2];
+---
+
+<style lang="scss">
+    .bounds {
+        margin-top: 5rem;
+    }
+
+    .outbound {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        a {
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+
+            // border: 1px solid red;
+            height: 5rem;
+            width: 100%;
+        }
+    }
+</style>
+<div class="bounds">
+    <p>This note is mentioned in:</p>
+    {backlinks[currentPath].map(path => (
+        <div class="outbound">
+            <a href={`/notes/${path}`}>{path}</a>
+        </div>
+    ))}
+</div>
