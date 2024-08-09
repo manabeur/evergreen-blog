@@ -10,7 +10,7 @@ Previously, people used [git-filter-branch](https://git-scm.com/docs/git-filter-
 
 ## brew
 
-Since I'm using macOS, I can use Homebrew to easily install it.
+Since I'm using macOS, I can use [Homebrew](/notes/homebrew) to easily install it.
 ```sh
 $ brew install git-filter-repo
 ```

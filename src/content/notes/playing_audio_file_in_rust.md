@@ -45,7 +45,7 @@ Make sure to add the `rodio` dependency to your `Cargo.toml` file
 rodio="0.13"
 ```
 
-If you're distributing your rust application with an audio file, [don't use File::open when distributing your app](/notes/don't_use_fileopen_when_distributing_your_app). Use `include_bytes` to embed the audio binary data directly into the compiled binary which makes the audio file accessible regardless of the platform.
+If you're distributing your rust application with an audio file, [don't use File::open when distributing your app](/notes/dont_use_fileopen_when_distributing_your_app). Use `include_bytes` to embed the audio binary data directly into the compiled binary which makes the audio file accessible regardless of the platform.
 
 ## Reference
 - [rodio - Rust](https://docs.rs/rodio/latest/rodio/)

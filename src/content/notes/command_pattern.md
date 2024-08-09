@@ -194,6 +194,6 @@ order.execute()
 ---
 
 ## Reference
-- [Refactoring Guru - Command Pattern](https://refactoring.guru/design-patterns/command)]
-- [Patterns.dev - Command Pattern](https://www.patterns.dev/vanilla/command-pattern)]
-- [[Donghyeon Blog - Command Pattern](https://donghyeon.dev/design%20pattern/2020/05/20/%EC%BB%A4%EB%A7%A8%EB%93%9C-%ED%8C%A8%ED%84%B4/)]
+- [Refactoring Guru - Command Pattern](https://refactoring.guru/design-patterns/command)
+- [Patterns.dev - Command Pattern](https://www.patterns.dev/vanilla/command-pattern)
+- [Donghyeon Blog - Command Pattern](https://donghyeon.dev/design%20pattern/2020/05/20/%EC%BB%A4%EB%A7%A8%EB%93%9C-%ED%8C%A8%ED%84%B4/)

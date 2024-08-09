@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
+import Backlinks from '../components/Backlinks.astro';
 import Footer from '../components/Footer.astro';
 import Giscus from '../components/Giscus.astro';
 import FormattedDate from '../components/FormattedDate.astro';
@@ -93,6 +94,7 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 					<slot />
 				</div>
 			</article>
+			<Backlinks />
 		</main>
 		<Footer />
 		<Giscus />
