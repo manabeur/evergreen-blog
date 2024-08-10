@@ -80,7 +80,6 @@ Replace `TYPE` with any of the following:
 - u128
 - usize
 
----
 
 ## Reference
 - [Rust IO Scanner](https://gist.github.com/tivrfoa/9d8fc68d36221dff8943032f93333023)

@@ -54,7 +54,6 @@ The operations used with `map` (`map.get`, `map.has`, `map.set`) are generally O
 
 The overall time complexity of this algorithm is **O(N)**. 
 
----
 
 ## Reference
 - an interview question; I don't remember from which company

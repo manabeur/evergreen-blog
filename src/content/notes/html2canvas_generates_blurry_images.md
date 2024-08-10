@@ -18,7 +18,6 @@ html2canvas(el, {
 
 <!-- ![](html2canvas%20generates%20blurry%20images/yourtrack.webp){"width":211} -->
 
----
 
 ## Reference
 - [HTML2canvas generates Blurry images](https://stackoverflow.com/questions/22803825/html2canvas-generates-blurry-images)

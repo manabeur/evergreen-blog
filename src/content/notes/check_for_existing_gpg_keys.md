@@ -27,7 +27,5 @@ uid                          Hubot <hubot@example.com>
 ssb   4096R/4BB6D45482678BE3 2016-03-10
 ```
 
----
-
 ## Reference
 - [Github Documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys)

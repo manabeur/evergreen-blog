@@ -31,7 +31,6 @@ println!("{:~<20}", "Hello");
 // Hello~~~~~~~~~~~~~~~
 ```
 
----
 
 ## Reference
 - [std::fmt - Rust](https://doc.rust-lang.org/std/fmt/#fillalignment)

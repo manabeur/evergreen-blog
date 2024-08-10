@@ -191,8 +191,6 @@ order = new OrderInvoker(cancelOrderCommand)
 order.execute()
 ```
 
----
-
 ## Reference
 - [Refactoring Guru - Command Pattern](https://refactoring.guru/design-patterns/command)
 - [Patterns.dev - Command Pattern](https://www.patterns.dev/vanilla/command-pattern)

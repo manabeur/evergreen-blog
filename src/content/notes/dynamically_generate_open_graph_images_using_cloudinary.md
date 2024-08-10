@@ -150,7 +150,6 @@ const Post = (post) => {
 }
 ```
 
----
 
 ## Reference
 - [Open Graph Images: Automatically Generate OG Images From Post Content](https://delba.dev/blog/next-blog-generate-og-image#what-is-cloudinary)

@@ -76,6 +76,5 @@ $ gh repo list --json=sshUrl --limit=1000 -q ".[].sshUrl" | xargs -n1 git clone
 
 The `-n1` option specifies that `xargs` should use at most one argument per command. Therefore, the above command will use each URL resulting from the first command before the pipe as an argument for the second command, which is `git clone`. 
 
----
 ## References
 - [@Vaisakhkm2625's comment on Gist](https://gist.github.com/caniszczyk/3856584?permalink_comment_id=4832274#gistcomment-4832274)

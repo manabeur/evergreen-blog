@@ -1,5 +1,5 @@
 ---
-const backlinks = {
+const inoutBounds = {
     "6k_plus_minus_1_optimization": [
         "primality_test",
         "prime_numbers"
@@ -222,7 +222,13 @@ const backlinks = {
 };
 
 const currentPath = Astro.url.pathname.split('/')[2];
-const matchingKeys = Object.keys(backlinks).filter(key => backlinks[key].includes(currentPath));
+const backlinks = Object.keys(inoutBounds).filter(key => inoutBounds[key].includes(currentPath));
+
+const capitalizeFirstChar = (str) => {
+    if (str.length === 0) return str; // Handle empty strings
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 ---
 
 <style lang="scss">
@@ -232,22 +238,22 @@ const matchingKeys = Object.keys(backlinks).filter(key => backlinks[key].include
 
 </style>
 <div class="bounds">
-    {backlinks[currentPath] && backlinks[currentPath].length > 0 && (
+    <!-- {inoutBounds[currentPath] && inoutBounds[currentPath].length > 0 && (
         <h2>Outbound Links:</h2>
         <ul>
-            {backlinks[currentPath].map(path => (
+            {inoutBounds[currentPath].map(path => (
                 <li class="outbound">
-                    <a href={`/notes/${path}`}>{path}</a>
+                    <a href={`/notes/${path}`}>{path.split('_').join(' ')}</a>
                 </li>
             ))}
         </ul>
-    )}
-    {matchingKeys.length > 0 && (
+    )} -->
+    {backlinks.length > 0 && (
         <h2>Backlinks:</h2>
         <ul>
-            {matchingKeys.map(key => (
-                <li key={key}>
-                    <a href={`/notes/${key}`}>{key}</a>
+            {backlinks.map(link => (
+                <li key={link}>
+                    <a href={`/notes/${link}`}>{capitalizeFirstChar(link.split('_').join(' '))}</a>
                 </li>
             ))}
         </ul>

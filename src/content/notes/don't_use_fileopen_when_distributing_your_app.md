@@ -29,7 +29,5 @@ fn play_audio() {
 }
 ```
 
----
-
 ## Reference
 - [include_bytes in std - Rust](https://doc.rust-lang.org/std/macro.include_bytes.html)

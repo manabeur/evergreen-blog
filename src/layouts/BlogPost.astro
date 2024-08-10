@@ -46,7 +46,7 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 
 			.title h1,
-			.title .author,
+			.title .navi,
 			.title .date {
 				margin-bottom: 0.75rem;
 			}
@@ -60,6 +60,21 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 
 				a > span {
 					font-size: 0.9rem;
+				}
+			}
+
+			.navi {
+				display: flex;
+				align-items: center;
+				
+				a {
+					color: inherit;
+					font-weight: 400;
+					font-size: var(--sm);
+				}
+
+				.separator {
+					margin: 0 0.25rem;
 				}
 			}
 		</style>
@@ -85,9 +100,15 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 								)
 							}
 						</div>
-						<div class="author">
-							<span>by</span>
-							<a href="/">유지이</a>
+						<div class="navi">
+							<div class="author">
+								<span>by</span>
+								<a href="/">유지이</a>
+							</div>
+							<span class="separator">・</span>
+							<div class="navi_item">
+								<a href="/notes">기록</a>
+							</div>
 						</div>
 						<!-- <hr /> -->
 					</div>

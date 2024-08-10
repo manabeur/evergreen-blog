@@ -10,7 +10,7 @@
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
-	--link: #4284c9;
+	--link: #5387c0;
 	--sm: 0.875rem;
 	--max-width: 650px;
 	--min-width: 380px;
@@ -52,7 +52,7 @@ footer {
 h1, h2, h3 {
 	font-size: 1rem;
 	font-weight: 600;
-	margin-top: 2rem;
+	margin-top: 4rem;
 	margin-bottom: 0;
 }
 
@@ -87,7 +87,7 @@ a:hover {
 }
 
 p {
-	margin: 1rem 0;
+	margin: 1.5rem 0;
 }
 textarea {
 	width: 100%;

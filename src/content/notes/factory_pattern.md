@@ -151,7 +151,6 @@ mac.boot() // 'Booting MacOS...'
 mac.openBrowser() // 'Opening Safari'
 ```
 
----
 
 ## Reference
 - [Refactoring Guru](https://refactoring.guru/design-patterns/factory-method)
