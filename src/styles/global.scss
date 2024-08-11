@@ -12,8 +12,7 @@
 	--accent-dark: #000d8a;
 	--link: #5387c0;
 	--sm: 0.875rem;
-	--max-width: 650px;
-	--min-width: 380px;
+	--max-width: 640px;
 
 	--black: #111;
 	--text: #666;
@@ -40,13 +39,11 @@ body {
 main {
 	width: var(--max-width);
 	max-width: calc(100% - 2em);
-	// min-width: var(--min-width);
 	margin: 2rem auto;
 	padding: 3rem 1rem;
 }
 footer {
 	max-width: var(--max-width);
-	// min-width: var(--min-width);
 }
 
 h1, h2, h3 {
@@ -54,6 +51,7 @@ h1, h2, h3 {
 	font-weight: 600;
 	margin-top: 4rem;
 	margin-bottom: 0;
+	line-height: 1.5;
 }
 
 ul, ol {
@@ -146,7 +144,7 @@ hr {
 }
 
 .i18n {
-	margin-top: 2rem;
+	margin-top: 4rem;
 	
 	& > a {
 		display: flex;
