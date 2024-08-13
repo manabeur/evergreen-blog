@@ -189,7 +189,9 @@ const inoutBounds = {
     "signing_git_commits": [
         "check_for_existing_gpg_keys",
     ],
-    "social_media_handle": [],
+    "history_of_my_user_handles": [
+        "the_origin_of_rolemadelen"
+    ],
     "sort_alphabetically": [],
     "sort_string_numbers_using_sort_by": [],
     "sort_by를_사용해서_2차원_평면상의_점들을_정렬하는_방법": [],
@@ -220,6 +222,17 @@ const inoutBounds = {
     ],
     "you_can_be_more_proactive_by_being_the_first_one_to_act_with_genuine_kindness": [],
     "you_have_to_be_willing_to_be_a_fool_to_advance": [],
+    "regular": [],
+    "finding_what_drives_you": [],
+    "how_i_learned_to_speak_japanese": [],
+    "the_origin_of_rolemadelen": [
+        "history_of_my_user_handles"
+    ],
+    "why_the_dvorak_keyboard_was_created": [],
+    "qwerty_inertia": [
+        "why_the_dvorak_keyboard_was_created"
+    ],
+    "transitioning_from_monitors_to_a_vr_workspace": []
 };
 
 const currentPath = Astro.url.pathname.split('/')[2];
@@ -234,7 +247,7 @@ const capitalizeFirstChar = (str) => {
 
 <style lang="scss">
     .bounds {
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
 
 </style>
@@ -250,7 +263,7 @@ const capitalizeFirstChar = (str) => {
         </ul>
     )} -->
     {backlinks.length > 0 && (
-        <h2>Backlinks:</h2>
+        <div>This note was referenced in...</div>
         <ul>
             {backlinks.map(link => (
                 <li key={link}>

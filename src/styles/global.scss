@@ -14,7 +14,7 @@
 	--sm: 0.875rem;
 	--max-width: 640px;
 
-	--black: #111;
+	--black: #333;
 	--text: #666;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -46,12 +46,22 @@ footer {
 	max-width: var(--max-width);
 }
 
+.footnotes {
+	margin-top: 5rem;
+	font-size: 0.8rem;
+
+	p {
+		margin: 0.5rem 0;
+		line-height: 1.5;
+	}
+}
 h1, h2, h3 {
+	color: var(--black);
 	font-size: 1rem;
 	font-weight: 600;
-	margin-top: 4rem;
+	margin-top: 5rem;
 	margin-bottom: 0;
-	line-height: 1.5;
+	line-height: 1.75;
 }
 
 ul, ol {
@@ -85,7 +95,7 @@ a:hover {
 }
 
 p {
-	margin: 1.5rem 0;
+	margin: 2rem 0;
 }
 textarea {
 	width: 100%;
@@ -96,6 +106,17 @@ input {
 }
 table {
 	width: 100%;
+	border-left: 1px solid rgb(var(--gray-light));
+	border-right: 1px solid rgb(var(--gray-light));
+
+	td, th {
+		vertical-align: baseline;
+		padding: 0.5rem 1rem;
+
+		&:first-child {
+			border-right: 1px solid rgb(var(--gray-light));
+		}
+	}
 }
 img {
 	max-width: 100%;
