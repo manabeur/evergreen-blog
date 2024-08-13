@@ -18,7 +18,6 @@ html2canvas(el, {
 
 <!-- ![](html2canvas%20fails%20to%20render%20images/yourtrack.webp){"width":296} -->
 
----
 
 ## Reference
 - [html2canvas not rendering image \(externally hosted images\)](https://stackoverflow.com/questions/30372417/html2canvas-not-rendering-image-externally-hosted-images)
