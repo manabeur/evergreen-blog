@@ -23,9 +23,6 @@ importers:
       '@fontsource/hina-mincho':
         specifier: ^5.0.20
         version: 5.0.20
-      '@fontsource/nanum-gothic':
-        specifier: ^5.0.18
-        version: 5.0.18
       '@fontsource/source-serif-pro':
         specifier: ^5.0.8
         version: 5.0.8
@@ -315,9 +312,6 @@ packages:
 
   '@fontsource/hina-mincho@5.0.20':
     resolution: {integrity: sha512-FFTkgPvloob58YY6v+MUxT5CBRsUjcfqd3Hgzkm6GLHegti2JUiUL4pOTFXlUOnYie+ParXRNb7ehkqaoZtuKQ==}
-
-  '@fontsource/nanum-gothic@5.0.18':
-    resolution: {integrity: sha512-4ObrWOymBp9v9o3BIGFlS8K89tmXwOUJB12gOxwvAgHFJoKEtoMVnJt6pqUxu9He/df/JE8FxC+G2bImszoZFA==}
 
   '@fontsource/source-serif-pro@5.0.8':
     resolution: {integrity: sha512-bb8bza+aBp6Wpz1LOXaQ9YSwMc/wNpk3hniENCPoBMMwsn9LQaJU0kKnJSSIi+ld1t7aH4jbh+mHQHN1zLfZ3A==}
@@ -2397,8 +2391,6 @@ snapshots:
   '@fontsource/gowun-batang@5.0.13': {}
 
   '@fontsource/hina-mincho@5.0.20': {}
-
-  '@fontsource/nanum-gothic@5.0.18': {}
 
   '@fontsource/source-serif-pro@5.0.8': {}
 
