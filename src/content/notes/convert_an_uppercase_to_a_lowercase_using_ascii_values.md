@@ -1,7 +1,7 @@
 ---
 title: "Convert an uppercase to a lowercase using ASCII values"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:29'
 ---
 
 A computer cannot distinguish between a number and a character. In fact, everything is a number. It depends on the developer whether to treat `65` and `97` as numbers or characters, which are `A` and `a`, respectively. 

@@ -1,7 +1,7 @@
 ---
 title: "Configure aliases in the fish shell"
 description: ''
-pubDate: 'May 1 2024'
+pubDate: 'May 1 2024 03:17'
 ---
 
 

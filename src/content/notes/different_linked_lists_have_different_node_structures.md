@@ -1,10 +1,11 @@
 ---
 title: "Different linked lists have different node structures"
 description: ''
-pubDate: 'Jun 13 2024'
+pubDate: 'Jun 13 2024 10:12'
 ---
 
-Singly Linked List
+[[Singly Linked List]]
+
 ```cpp
 class Node {
 	int data;
@@ -14,7 +15,8 @@ class Node {
 };
 ```
 
-Doubly and Circular Linked List
+[[Doubly Linked List]] and [[Circular Linked List]]
+
 ```cpp
 class Node {
 	int data;
@@ -25,7 +27,7 @@ class Node {
 };
 ```
 
-XOR Linked List (memory efficient doubly linked list)
+[[XOR Linked List]] (memory efficient doubly linked list)
 ```cpp
 class Node {
 	int data;

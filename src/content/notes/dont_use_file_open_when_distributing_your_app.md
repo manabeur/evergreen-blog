@@ -1,7 +1,7 @@
 ---
-title: "don't use Fileopen when distributing your app"
+title: "Don't use File::open when distributing your app"
 description: ''
-pubDate: 'Apr 06 2024'
+pubDate: 'Apr 06 2024 16:05'
 ---
 
 
@@ -29,5 +29,5 @@ fn play_audio() {
 }
 ```
 
-## Reference
+## References
 - [include_bytes in std - Rust](https://doc.rust-lang.org/std/macro.include_bytes.html)

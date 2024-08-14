@@ -1,7 +1,7 @@
 ---
 title: "6k ± 1 Optimization"
 description: ''
-pubDate: 'May 18 2024'
+pubDate: 'May 18 2024 12:58'
 ---
 
 We can optimize the [Primality Test](/notes/primality_test) algorithm by using 6k ± 1. This expression comes from the fact that all [Prime numbers](/notes/prime_numbers), except for 2 and 3, can be expressed in the form of `6K - 1` or `6K + 1`.

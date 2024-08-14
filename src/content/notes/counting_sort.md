@@ -1,7 +1,7 @@
 ---
 title: "Counting sort"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:21'
 ---
 
 만약 입력으로 주어지는 수의 크기가 제한되어 있다면, counting 정렬을 사용하여 빠르게 정렬할 수 있다.
@@ -37,10 +37,10 @@ fn counting_sort(arr: &mut Vec<i32>) {
 입력을 받을 때 마다, 해당 숫자와 동일한 원소의 값을 1만큼 증가시킨다. 이 과정을 입력이 없을때까지 반복한다. 
 마지막에 `[1]`번 부터 마지막까지 반복하면서 원소의 값이 0이 아닐때만 출력하면 된다.
 
-각 원소의 `숫자`가 실제 입력된 값에 해당하고, 그 원소가 가지고 있는 값 `[숫자]`가 갯수를 의미한다.
+각 원소의 `숫자`가 실제 입력된 값에 해당하고, 그 원소가 가지고 있는 값 `[숫자]`가 개수를 의미한다.
 예를들어 `[3] = 2`라면, 이는 숫자 `3`이 두 개 있다는 뜻이된다.
 
-- Average-case time complexity: **O(M)**, `M = number of inputs`
+- Average-case time complexity: O(M), `M = number of inputs`
 
 ## Try to solve
 - https://www.acmicpc.net/problem/10989

@@ -1,7 +1,7 @@
 ---
 title: "Bubble sort"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:20'
 ---
 
 ```rust
@@ -28,5 +28,5 @@ fn bubble_sort(nums: &mut Vec<i32>) {
 }
 ```
 
-- Best-case time complexity: **O(N)**
-- Average / Worst-case time complexity: **O(N<sup>2</sup>)**
+- Best-case time complexity: O(N)
+- Average / Worst-case time complexity: O(N^2)

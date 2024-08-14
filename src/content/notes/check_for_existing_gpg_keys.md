@@ -1,7 +1,7 @@
 ---
 title: "Check for existing GPG keys"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 17:38'
 ---
 
 Use the following command to check for any existing GPG keys. This wont list key IDs.
@@ -27,5 +27,5 @@ uid                          Hubot <hubot@example.com>
 ssb   4096R/4BB6D45482678BE3 2016-03-10
 ```
 
-## Reference
+## References
 - [Github Documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys)

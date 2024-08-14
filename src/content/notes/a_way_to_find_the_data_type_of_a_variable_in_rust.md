@@ -1,7 +1,7 @@
 ---
 title: 'A way to find the data type of a variable in rust'
 description: ''
-pubDate: 'Apr 02 2024'
+pubDate: 'May 18 2024 15:49'
 ---
 
 

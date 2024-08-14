@@ -1,10 +1,10 @@
 ---
 title: "Command Pattern"
 description: ''
-pubDate: 'Feb 03 2024'
+pubDate: 'Feb 03 2024 15:26'
 ---
 
-A Command Pattern is a behavioral design pattern which focuses on how objects interact and communicate with other objects. 
+A Command Pattern is a [[behavioral design pattern]] which focuses on how objects interact and communicate with other objects. 
 
 The Command Pattern separates all the methods from the object that is calling them to remove any dependent relationship. This allows the separation of concerns and provides ways to pass the request and all the necessary information to process it as an object into the function. With parameterized objects, we can easily track processed operations and even support undoing the request.
 
@@ -191,7 +191,7 @@ order = new OrderInvoker(cancelOrderCommand)
 order.execute()
 ```
 
-## Reference
-- [Refactoring Guru - Command Pattern](https://refactoring.guru/design-patterns/command)
-- [Patterns.dev - Command Pattern](https://www.patterns.dev/vanilla/command-pattern)
-- [Donghyeon Blog - Command Pattern](https://donghyeon.dev/design%20pattern/2020/05/20/%EC%BB%A4%EB%A7%A8%EB%93%9C-%ED%8C%A8%ED%84%B4/)
+## References
+- [Refactoring Guru](https://refactoring.guru/design-patterns/command)
+- [Patterns.dev](https://www.patterns.dev/vanilla/command-pattern)
+- [Donghyeon Blog](https://donghyeon.dev/design%20pattern/2020/05/20/%EC%BB%A4%EB%A7%A8%EB%93%9C-%ED%8C%A8%ED%84%B4/)

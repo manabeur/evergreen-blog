@@ -1,19 +1,19 @@
 ---
 title: "Clone all repositories using GitHub CLI"
 description: ''
-pubDate: 'Apr 30 2024'
+pubDate: 'Apr 30 2024 16:15'
 ---
 
-## tl;dr
+
 ```shell
 $ gh repo list --json=sshUrl --limit=1000 -q ".[].sshUrl" | xargs -n1 git clone
 ```
 
----
+//
 
-We can utilize GitHub command-line tool, `gh`, to clone all repositories.
+We can utilize GitHub command-line tool (`gh`) to clone all repositories.
 
-Install `gh` using Homebrew or check their [installation guide](https://github.com/cli/cli#installation) for other methods. 
+Install `gh` using [Homebrew](/notes/homebrew) or check their [installation guide](https://github.com/cli/cli#installation) for other methods. 
 ```shell
 $ brew install gh
 $ gh --version # check if it installed successfully

@@ -1,7 +1,7 @@
 ---
 title: "Common ANSI codes"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:28'
 ---
 
 Here are some common ANSI codes and their functions:

@@ -1,7 +1,7 @@
 ---
 title: "Difference between function.call and function.apply"
 description: ''
-pubDate: 'Mar 02 2024'
+pubDate: 'Mar 02 2024 16:12'
 ---
 
 
@@ -44,3 +44,6 @@ var cancellable = function(fn, args, t) {
     return cancelFn
 };
 ```
+
+## References
+- [What is the difference between call and apply?](https://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply)

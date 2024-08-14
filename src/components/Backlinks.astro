@@ -26,7 +26,9 @@ const inoutBounds = {
     "chat_gpt_ruined_my_confidence_in_english": [],
     "check_for_existing_gpg_keys": [],
     "class_in_ruby": [],
-    "clone_all_repositories_using_github_cli": [],
+    "clone_all_repositories_using_github_cli": [
+        "homebrew"
+    ],
     "command_pattern": [],
     "common_ansi_codes": [],
     "configure_aliases_in_the_fish_shell": [
@@ -49,7 +51,6 @@ const inoutBounds = {
     "data_structure": [
         "arrays",
         "linked_lists",
-        "hash_table"
     ],
     "difference_between_functioncall_and_functionapply": [],
     "differences_between_arrayfilter_and_arraymap": [],
@@ -62,7 +63,7 @@ const inoutBounds = {
     "dont_be_afraid_of_asking_for_help": [
         "help_is_not_an_obligation_its_just_an_act_of_kindness",
     ],
-    "dont_use_fileopen_when_distributing_your_app": [],
+    "dont_use_file_open_when_distributing_your_app": [],
     "dont_use_println_in_competitive_programming": [],
     "dynamically_generate_open_graph_images_using_cloudinary": [],
     "evergreen_notes": [
@@ -263,7 +264,7 @@ const capitalizeFirstChar = (str) => {
         </ul>
     )} -->
     {backlinks.length > 0 && (
-        <div>This note was referenced in...</div>
+        <div>This note was mentioned in...</div>
         <ul>
             {backlinks.map(link => (
                 <li key={link}>

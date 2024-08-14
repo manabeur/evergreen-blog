@@ -1,7 +1,7 @@
 ---
-title: "don't use println in competitive programming"
+title: "Don't use println in competitive programming"
 description: ''
-pubDate: 'Apr 02 2024'
+pubDate: 'Apr 02 2024 20:29'
 ---
 
 
@@ -50,5 +50,5 @@ fn main() {
 So at least for competitive programming, don't use `println!()`. Keep a habit of utilizing the buffer.
 
 
-## Reference
+## References
 - I encountered this issue while solving [BOJ 11659](https://www.acmicpc.net/problem/11659)

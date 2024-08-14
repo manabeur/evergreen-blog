@@ -1,14 +1,14 @@
 ---
 title: "Convert roman numerals to integer"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:24'
 ---
 
 [Roman numerals](/notes/roman_numerals) are numbers represented by series of designated symbols like `I`, `V`, `X`, etc...
 
 We can implement a function to convert roman numerals to an integer. There are many different ways to implement it. One simple method is to use `if` and `switch` statements.
 
-We can also use a _hash map_ to implement it.
+We can also use a [[hash map]] to implement it.
 
 ```cpp
 int romanToInt(string s) {

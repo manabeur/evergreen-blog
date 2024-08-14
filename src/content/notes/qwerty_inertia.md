@@ -29,7 +29,7 @@ _드보락(Dvorak)을 사용하는 글 주인의 주관적인 내용이 아주 �
 
 한 가지 잘못된 정보가 있는데 쿼티 자판은 일부러 타자 속도를 늦추기 위해 만들어진 것이 아니다.
 
-> When a key was pressed, the corresponding typebar would swing upwards, causing the print head to strike at the center of the ring. Gravity would then return the typebar to its initial position. The implication of this design, however, was that pressing adjoining keys in quick succession would cause their typebars to collide and jam the machine. (Utterback 1999, p5)[^a]
+> "When a key was pressed, the corresponding typebar would swing upwards, causing the print head to strike at the center of the ring. Gravity would then return the typebar to its initial position. The implication of this design, however, was that pressing adjoining keys in quick succession would cause their typebars to collide and jam the machine." (Utterback 1999, p5)[^a]
 
 당시 Christopher Sholes의 타자기는 중력에 의해 글쇠가 제자리에 돌아오도록 설계되어 있었다. 글쇠가 돌아오는 걸 기다릴 필요가 없도록 같이 쓰이는 문자들을 멀리 떨어뜨려 놓은 것이다. 그렇기 때문에 더 이상 글쇠가 엉켜버릴 걱정을 하지 않아도 되었고, 왼쪽 오른쪽 번갈아 가면서 타자를 할 수가 있기 때문에 오히려 빠르게 칠 수 있었다. 애초에 [드보락 자판](/notes/why_the_dvorak_keyboard_was_created)도 타자기를 기반으로 만들어졌다.
 

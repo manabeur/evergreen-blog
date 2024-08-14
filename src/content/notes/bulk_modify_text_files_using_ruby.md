@@ -1,7 +1,7 @@
 ---
 title: "Bulk modify text files using Ruby"
 description: ""
-pubDate: "Aug 8 2024"
+pubDate: "Aug 1 2024 18:03"
 ---
 
 Rules:

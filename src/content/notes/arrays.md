@@ -1,7 +1,7 @@
 ---
 title: "Arrays"
 description: ""
-pubDate: "Jun 10 2024"
+pubDate: "Jun 10 2024 15:22"
 ---
 
 An array is a type of linear [Data Structure](/notes/data_structure) where elements are stored contiguously in the memory. This means a chunk or a block of memory is allocated when the array is first initialized ー there are [Different types of an array](/notes/different_types_of_an_array).

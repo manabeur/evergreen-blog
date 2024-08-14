@@ -5,8 +5,12 @@ import Backlinks from '../components/Backlinks.astro';
 import Footer from '../components/Footer.astro';
 import Giscus from '../components/Giscus.astro';
 import FormattedDate from '../components/FormattedDate.astro';
-import '@fontsource/nanum-gothic/400.css';
-import '@fontsource/nanum-gothic/700.css';
+import '@fontsource/source-serif-pro/400.css';
+import '@fontsource/source-serif-pro/600.css';
+import '@fontsource/source-serif-pro/700.css';
+import '@fontsource/gowun-batang/400.css';
+import '@fontsource/gowun-batang/700.css';
+import '@fontsource/hina-mincho';
 
 type Props = CollectionEntry<'notes'>['data'];
 
@@ -18,7 +22,7 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 		<BaseHead title={title} />
 		<style>
 			main {
-				font-family: 'Nanum Gothic', sans-serif;
+				font-family: 'Source Serif Pro', 'Gowun Batang', 'Hina Mincho', serif;
 			}
 			.title {
 				margin-bottom: 2rem;
@@ -48,7 +52,7 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 				color: var(--text);
 
 				a > span {
-					font-size: 0.9rem;
+					font-size: 0.85rem;
 				}
 			}
 
@@ -60,10 +64,6 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 					color: inherit;
 					font-weight: 400;
 					font-size: var(--sm);
-				}
-
-				.separator {
-					margin: 0 0.25rem;
 				}
 			}
 		</style>
@@ -93,7 +93,7 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 								<span>by</span>
 								<a href="/">유지이</a>
 							</div>
-							<span class="separator">・</span>
+							<span>・</span>
 							<div class="navi_item">
 								<a href="/notes">기록</a>
 							</div>

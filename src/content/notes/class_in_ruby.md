@@ -1,7 +1,7 @@
 ---
 title: "Class in Ruby"
 description: ''
-pubDate: 'Jun 6 2024'
+pubDate: 'Jun 6 2024 08:30'
 ---
 
 ```rb

@@ -1,7 +1,7 @@
 ---
 title: "Chat GPT ruined my confidence in English"
 description: ''
-pubDate: 'May 18 2024'
+pubDate: 'May 18 2024 16:30'
 ---
 
 I started relying too much on ChatGPT to check my English and re-phrase it ever since it came out. There was no more "me" in those words. I need to stop relying on the machine and expose more of me in "my" words.
