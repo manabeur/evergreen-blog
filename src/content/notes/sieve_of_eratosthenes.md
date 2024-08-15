@@ -8,7 +8,7 @@ The Sieve of Eratosthenes is an algorithm used to find all [prime numbers](/note
 
 The algorithm begins by creating a list of numbers from `2` to `N`. It then iteratively marks the multiples of each prime number as composite (not prime). At the conclusion of the algorithm, the numbers that remain unmarked are the prime numbers within the range.
 
-<!-- ![](Sieve%20of%20Eratosthenes/Sieve_of_Eratosthenes_animation.gif){"width":445} -->
+![](https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif)
 
 The algorithm follows a set of specific steps:
 - List all natural numbers from `2` to `N`.
