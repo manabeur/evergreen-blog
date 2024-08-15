@@ -1,7 +1,7 @@
 ---
 title: "Linked List is better if lots of insertions and deletions are required"
 description: ''
-pubDate: 'Jun 2 2024'
+pubDate: 'Jun 2 2024 06:14'
 ---
 
 [Linked list](/notes/linked_lists) is a linear data structure where nodes are connected via pointers. A node is an element used in a linked list ([Different linked lists have different node structures](/notes/different_linked_lists_have_different_node_structures)).

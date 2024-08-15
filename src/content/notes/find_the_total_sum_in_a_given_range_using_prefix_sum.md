@@ -1,7 +1,7 @@
 ---
 title: "Find the total sum in a given range using prefix sum"
 description: ''
-pubDate: 'Mar 15 2024'
+pubDate: 'Mar 15 2024 18:27'
 ---
 
 A `prefix sum` or `cumulative sum` is an algorithm used to find the total sum in a given range.

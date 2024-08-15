@@ -1,7 +1,7 @@
 ---
 title: "Permanent note is not permanent"
 description: ''
-pubDate: 'Apr 02 2024'
+pubDate: 'Apr 02 2024 13:06'
 ---
 
 Permanent note is permanent in a sense that it _permanently resides in your system_ rather than the content being immutable.

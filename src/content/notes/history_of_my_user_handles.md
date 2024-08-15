@@ -1,8 +1,8 @@
 ---
 title: "내가 사용한 닉네임의 기록"
 description: ''
-pubDate: 'Apr 29 2024'
-updatedDate: 'Jun 10 2024'
+pubDate: 'Apr 29 2024 16:20'
+updatedDate: 'Aug 14 2024 05:41'
 ---
 
 ## Jun 09, 2024

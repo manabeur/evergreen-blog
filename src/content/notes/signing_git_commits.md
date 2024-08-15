@@ -1,7 +1,7 @@
 ---
 title: "Signing git commits"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:11'
 ---
 
 List your GPG keys ([Check for existing GPG keys](/notes/check_for_existing_gpg_keys)) and choose one to use for signing git commits. In this example, we will use `3AA5C34371567BD2` as the GPG key ID.
@@ -50,6 +50,6 @@ $ git config --global commit.gpgsign true
 $ git commit -m "commit message"
 ```
 
-## Reference
-- [Signing commits — Hyperledger Indy SDK documentation](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/contributors/signing-commits.html#:~:text=If%20you%20need%20to%20re%2Dsign%20a%20bunch%20of%20previous,s'%20%2Di%20HASH%60)
-- [Telling Git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
+## References
+- Signing commits — Hyperledger Indy SDK  documentation. (n.d.). https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/contributors/signing-commits.html
+- Telling Git about your signing key - GitHub Docs. (n.d.). GitHub Docs. https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key

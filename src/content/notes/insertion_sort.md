@@ -1,7 +1,7 @@
 ---
 title: "Insertion sort"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:23'
 ---
 
 ```rust
@@ -20,5 +20,5 @@ fn insertion_sort(nums: &mut Vec<i32>) {
 }
 ```
 
-- Best-case time complexity: **O(N)**
-- Average / Worst-case time complexity: **O(N^2)**
+- Best-case time complexity: O(N)
+- Average / Worst-case time complexity: O(N^2)

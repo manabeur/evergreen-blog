@@ -1,7 +1,7 @@
 ---
 title: "Evergreen notes"
 description: ''
-pubDate: 'Apr 29 2024'
+pubDate: 'Apr 29 2024 10:30'
 ---
 
 The evergreen note is a note-writing system that is not about _writing_ notes, but about _expanding_ your knowledge through creating, organizing, developing, and accumulating everlasting notes.

@@ -1,7 +1,7 @@
 ---
 title: "Rename the master branch to main"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:13'
 ---
 
 Rename the local `master` branch to `main`.
@@ -72,6 +72,5 @@ $ git branch -u origin/main
 ```
 
 
-## Reference
-- [How to rename the "master" branch to "main" in Git](https://www.git-tower.com/learn/git/faq/git-rename-master-to-main)
-
+## References
+- How to rename the “master” branch to “main” in Git. (n.d.). Learn Version Control With Git. https://www.git-tower.com/learn/git/faq/git-rename-master-to-main

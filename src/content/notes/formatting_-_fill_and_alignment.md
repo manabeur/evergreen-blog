@@ -1,7 +1,7 @@
 ---
 title: "Formatting - fill and alignment"
 description: ''
-pubDate: 'Apr 11 2024'
+pubDate: 'Apr 11 2024 10:14'
 ---
 
 left-aligned in 20 columns, including the text.
@@ -32,5 +32,5 @@ println!("{:~<20}", "Hello");
 ```
 
 
-## Reference
-- [std::fmt - Rust](https://doc.rust-lang.org/std/fmt/#fillalignment)
+## References
+- std::fmt - Rust. (n.d.). https://doc.rust-lang.org/std/fmt/#fillalignment

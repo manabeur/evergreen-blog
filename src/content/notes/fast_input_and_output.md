@@ -1,7 +1,7 @@
 ---
 title: "Fast Input and Output"
 description: ''
-pubDate: 'Mar 19 2024'
+pubDate: 'Mar 19 2024 05:38'
 ---
 
 When solving a P.S. problem, the following simple code can produce TLE (time limit exceeded) error. This is due to rust I/O flushing the buffer every time a value is printed using `println` macro.

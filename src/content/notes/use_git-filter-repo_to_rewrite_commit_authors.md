@@ -1,7 +1,7 @@
 ---
 title: "Use git-filter-repo to rewrite commit authors"
 description: ''
-pubDate: 'Apr 30 2024'
+pubDate: 'Apr 30 2024 14:43'
 ---
 
 [git-filter-repo](/notes/git_filter_repo) is a tool to rewrite github repository commit history. It can be used to rewrite authors information on a commit.
@@ -53,7 +53,7 @@ $ repo/$ git remote add origin REPO-URL
 $ gh repo view --web && gh repo unarchive && git-filter-repo --message-callback 'return re.sub(b"Signed-off-by: Jii Yoo <img9417@tuta.io>\n",b"",message)' && git filter-repo --mailmap ../mailmap && git rebase --exec 'git commit --amend --no-edit -n -n --allow-empty' -i --root
 ```
 
-Then
+Then,
 - add remote origin
 - git force push -> `gpf`
 - if needed, archive the repo again

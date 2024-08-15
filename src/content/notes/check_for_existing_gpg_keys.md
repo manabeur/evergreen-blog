@@ -28,4 +28,4 @@ ssb   4096R/4BB6D45482678BE3 2016-03-10
 ```
 
 ## References
-- [Github Documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys)
+- Checking for existing GPG keys - GitHub Docs. (n.d.). GitHub Docs. https://docs.github.com/en/authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys

@@ -1,7 +1,7 @@
 ---
 title: "Reverse a linked list"
 description: ''
-pubDate: 'Jun 13 2024'
+pubDate: 'Jun 13 2024 08:48'
 ---
 
 

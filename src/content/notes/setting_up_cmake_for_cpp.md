@@ -1,7 +1,7 @@
 ---
 title: "Setting up cmake for C++"
 description: ''
-pubDate: 'Jun 10 2024'
+pubDate: 'Jun 10 2024 06:09'
 ---
 
 Install `cmake` using [Homebrew](/notes/homebrew).

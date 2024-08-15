@@ -1,7 +1,7 @@
 ---
 title: "sort string numbers using sort_by"
 description: ''
-pubDate: 'Mar 17 2024'
+pubDate: 'Mar 17 2024 20:00'
 ---
 
 
@@ -26,6 +26,3 @@ fn main() {
 Both converting the input to a vector of characters and turning the sorted characters back to the string takes `O(n)` time.
 
 The overall time complexity is `O(nlogn)` which is from the sorting algorithm Rust is using internally, _pattern-defeating quick sort_.
-
-## Reference
-- from this problem, [소트인사이드](https://www.acmicpc.net/problem/1427)

@@ -1,7 +1,7 @@
 ---
 title: "Parse command line arguments using clap"
 description: ''
-pubDate: 'Mar 30 2024'
+pubDate: 'Mar 30 2024 06:30'
 ---
 
 For _pomosh_, I wanted to add a command line functionality to be able to do something like the following:

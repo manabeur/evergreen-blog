@@ -1,7 +1,7 @@
 ---
 title: "Homebrew"
 description: ''
-pubDate: 'May 1 2024'
+pubDate: 'May 1 2024 08:18'
 ---
 
 [Homebrew](https://formulae.brew.sh/) is a package manager for macOS. You can use it to easily install either GUI or CLI applications.

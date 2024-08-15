@@ -1,7 +1,7 @@
 ---
 title: "git-filter-repo"
 description: ''
-pubDate: 'Apr 30 2024'
+pubDate: 'Apr 30 2024 02:45'
 ---
 
 Previously, people used [git-filter-branch](https://git-scm.com/docs/git-filter-branch) to rewrite commit history but it is no longer used or used less as it's [somewhat deprecated as of Git 2.24, Q4 2019](https://stackoverflow.com/questions/25720268/git-commands-that-could-break-rewrite-the-history/58251653#58251653). Instead, I can now use [git-filter-repo](https://github.com/newren/git-filter-repo?tab=readme-ov-file).

@@ -1,7 +1,7 @@
 ---
 title: "Generate a new SSH key"
 description: ''
-pubDate: 'Mar 15 2024'
+pubDate: 'Mar 15 2024 17:41'
 ---
 
 Create a new SSH key in the `~/.ssh` directory.

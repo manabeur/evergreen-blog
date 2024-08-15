@@ -1,7 +1,7 @@
 ---
 title: "The key to improve the language is the confidence"
 description: ''
-pubDate: 'Apr 28 2024'
+pubDate: 'Apr 28 2024 08:24'
 ---
 
 When you start learning a new language, the best way to improve is by using it. Ignore the syntax, the grammar, vocabs, just let it out. But this isn't so easy because we're afraid of making mistakes; this is especially true if you're either an introvert or a perfectionist. 

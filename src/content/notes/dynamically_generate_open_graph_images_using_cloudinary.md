@@ -1,7 +1,7 @@
 ---
 title: "Dynamically generate Open Graph Images using Cloudinary"
 description: ''
-pubDate: 'May 18 2024'
+pubDate: 'May 18 2024 23:59'
 ---
 
 We can use Cloudinary, an image hosting service and CDN, to dynamically generate open graph images for each blog posts.
@@ -12,7 +12,7 @@ For example, below link will generate the following open graph image:
 https://res.cloudinary.com/dtxawyaxa/image/upload/w_1600,h_836,q_100/l_text:Roboto_48:%253E%2524%2520PENSIEVE,co_rgb:ffe4e699,c_fit,w_1300/fl_layer_apply,g_north_west,x_100,y_100/l_text:Roboto_72_bold:Transitioning%2520from%2520Monitors%2520to%2520a%2520VR%2520Workspace,co_rgb:ffe4e6,c_fit,w_1300,h_240/fl_layer_apply,g_south_west,x_100,y_190/l_text:Roboto_48:jiiyoo.me%25E3%2583%25BBDec%252028%252C%25202022%25E3%2583%25BB%253Epublished,co_rgb:ffe4e680,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_100/base-layer.png
 ```
 
-<!-- ![](Dynamically%20generate%20Open%20Graph%20Images%20using%20Cloudinary/og-image-sample.webp) -->
+![](/images/dynamically_generate_open_graph_images_using_cloudinary/img1.webp)
 
 ## Prep
 
@@ -22,7 +22,8 @@ First, we need to create an account on [Cloudinary](https://cloudinary.com/). Yo
 
 Next, we need a base layer which we'll use to generate our Open graph (OG) Images. We'll use this image, `base-layer.png`. 
 
-<!-- ![](Dynamically%20generate%20Open%20Graph%20Images%20using%20Cloudinary/base-layer.webp) -->
+![](/images/dynamically_generate_open_graph_images_using_cloudinary/img2.webp)
+
 Log in to the cloudinary account and upload your base image. Ensure to modify the public ID of the image since its name will be utilized in the code.
 
 ## Creating Layers
@@ -90,7 +91,7 @@ For positioning the text:
 - `g_south_west` - Positions the text to the south (bottom) and west (left).
 - `x_100,y_190` - Offsets the layer (x, y) from the point of gravity.
 
-<!-- ![](Dynamically%20generate%20Open%20Graph%20Images%20using%20Cloudinary/text-layer.webp) -->
+![](/images/dynamically_generate_open_graph_images_using_cloudinary/img3.webp)
 
 ### Multiple Texts
 
@@ -120,7 +121,7 @@ export const createOGImage = ({title, meta}) => {
 const e = (str: string) => encodeURIComponent(encodeURIComponent(str))
 ```
 
-<!-- ![](Dynamically%20generate%20Open%20Graph%20Images%20using%20Cloudinary/multiple-layer.webp) -->
+![](/images/dynamically_generate_open_graph_images_using_cloudinary/img4.webp)
 ## Example
 
 Here is an example of how to call the `createOGImage` function.
@@ -151,5 +152,5 @@ const Post = (post) => {
 ```
 
 
-## Reference
-- [Open Graph Images: Automatically Generate OG Images From Post Content](https://delba.dev/blog/next-blog-generate-og-image#what-is-cloudinary)
+## References
+- DELBA | Open Graph Images: Automatically generate OG images from post content. (n.d.). https://delba.dev/blog/next-blog-generate-og-image#what-is-cloudinary

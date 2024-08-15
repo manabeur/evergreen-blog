@@ -1,7 +1,7 @@
 ---
 title: "playing audio file in rust"
 description: ''
-pubDate: 'Mar 20 2024'
+pubDate: 'Mar 20 2024 17:00'
 ---
 
 You can use `rodio` crate, an audio playback library, to stream an audio.
@@ -47,5 +47,5 @@ rodio="0.13"
 
 If you're distributing your rust application with an audio file, [don't use File::open when distributing your app](/notes/dont_use_fileopen_when_distributing_your_app). Use `include_bytes` to embed the audio binary data directly into the compiled binary which makes the audio file accessible regardless of the platform.
 
-## Reference
-- [rodio - Rust](https://docs.rs/rodio/latest/rodio/)
+## References
+- rodio - Rust. (n.d.). https://docs.rs/rodio/latest/rodio/

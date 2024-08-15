@@ -1,7 +1,7 @@
 ---
 title: "You can add properties in JavaScript arrays"
 description: ''
-pubDate: 'Jun 10 2024'
+pubDate: 'Jun 10 2024 16:37'
 ---
 
 [Arrays](/notes/arrays) in JavaScript are quite far from the traditional array. In JavaScript, arrays are more like objects. Integer indexes become keys and you can even add properties to it.

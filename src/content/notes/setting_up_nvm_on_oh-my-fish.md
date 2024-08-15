@@ -1,30 +1,30 @@
 ---
 title: "Setting up NVM on oh-my-fish"
 description: ''
-pubDate: 'May 2 2024'
+pubDate: 'May 2 2024 03:24'
 ---
 
 
-setting up node in [oh-my-fish](/notes/oh_my_fish) requires a bit of configuration than simply installing it.
+Setting up node in [oh-my-fish](/notes/oh_my_fish) requires a bit of configuration than simply installing it.
 
-### install NVM package
+## Install NVM package
 ```bash
 omf install nvm
 ```
 
-### Set the NVM directory:
+## Set the NVM directory:
 ```bash
 set -gx NVM_DIR (brew --prefix nvm)
 ```
 
-### Install the NVM plugin for Fisher. 
+## Install the NVM plugin for Fisher. 
 ```bash
 fisher install jorgebucaran/nvm.fish
 ```
 
 If you don't have `fisher`, you can install it using `brew install fisher`:
 
-### Install and use Node
+## Install and use Node
 ```bash
 nvm install latest
 nvm use latest

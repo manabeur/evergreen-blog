@@ -64,8 +64,8 @@ Dvorak 자판을 익히려면 상당한 시간 투자가 필요하며, 학습 �
 > "I’m tired of trying to do something worthwhile for the human race. They simply don’t want to change!" - Agust Dvorak
 
 ## References
-- <https://hackaday.com/2020/03/31/perhaps-august-dvorak-is-more-your-type/>
-- <https://www.historylink.org/File/20997>
+- Panos, K. (2020, March 31). Perhaps August Dvorak is more your type. Hackaday. https://hackaday.com/2020/03/31/perhaps-august-dvorak-is-more-your-type/
+- Dvorak, August (1894-1975). (n.d.). HistoryLink. https://www.historylink.org/File/20997
 
 [^b]: [@patrickwied](https://twitter.com/patrickwied)가 만든 [웹사이트](https://www.patrick-wied.at/projects/heatmap-keyboard/)를 사용했다.
 [^c]: 드보락 자판의 초기 모습 From Typewriting Behavior via [Kristina Panos](https://hackaday.com/author/cornbreadninja/)

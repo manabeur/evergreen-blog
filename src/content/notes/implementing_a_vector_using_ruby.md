@@ -1,7 +1,7 @@
 ---
 title: "Implementing a Vector using Ruby"
 description: ''
-pubDate: 'Jun 10 2024'
+pubDate: 'Jun 10 2024 06:22'
 ---
 
 ```ruby

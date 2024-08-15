@@ -1,7 +1,7 @@
 ---
 title: "Mapping 2D array indices onto 1D array"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:30'
 ---
 
 The general formula for mapping 2D array indices onto 1D array is: `width * row + col`.
@@ -35,5 +35,5 @@ for(int i=0; i<ROW; ++i) {
 ```
 
 
-## Reference
-- [Map a 2D array onto a 1D array](https://stackoverflow.com/questions/2151084/map-a-2d-array-onto-a-1d-array)
+## References
+- Map a 2D array onto a 1D array. (n.d.). Stack Overflow. https://stackoverflow.com/questions/2151084/map-a-2d-array-onto-a-1d-array

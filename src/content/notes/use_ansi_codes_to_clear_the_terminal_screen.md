@@ -1,7 +1,7 @@
 ---
 title: "Use ANSI codes to clear the terminal screen"
 description: ''
-pubDate: 'Mar 21 2024'
+pubDate: 'Mar 21 2024 21:00'
 ---
 
 There's no rust specific code to clear the terminal screen; however, we can use ANSI code or ANSI escape sequences. The most of the recent terminal emulators should support ANSI codes, which means we can use it in Windows, Linux, and macOS.

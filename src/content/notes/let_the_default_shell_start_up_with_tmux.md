@@ -1,15 +1,14 @@
 ---
 title: "Let the default shell start up with tmux"
 description: ''
-pubDate: 'May 1 2024'
+pubDate: 'May 1 2024 02:54'
 ---
 
-## Kitty
+## Kitty Shell
 Open the configuration file: `Settings` or `⌘ + ,` on macOS.
 
 Find `# shell .` and replace it with `shell tmux`.
 
----
 ## Mac Terminal
 Navigate to the Terminal `Settings..` -> `Profiles`.
 

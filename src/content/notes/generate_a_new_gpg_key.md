@@ -1,7 +1,7 @@
 ---
 title: "Generate a new GPG key"
 description: ''
-pubDate: 'Mar 15 2024'
+pubDate: 'Mar 15 2024 17:30'
 ---
 
 Visit [GnuPG's Download Page](https://www.gnupg.org/download/) to install the GPG command line tools. Once installed, check its version using `gpg --version`.
@@ -15,8 +15,6 @@ $ gpg --full-generate-key
 ```sh
 $ gpg --default-new-key-algo rsa4096 --gen-key
 ```
-
----
 
 You will be prompted multiple times by the program. Choose the desired option each time and proceed, or simply press `Enter` to accept the default selection.
 
@@ -41,5 +39,5 @@ $ gpg --armor --export 3AA5C34371567BD2
 You can then use the exported key for various purposes, including adding it to your accounts on platforms like GitHub.
 
 
-## Reference
-- [Generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+## References
+- Generating a new GPG key - GitHub Docs. (n.d.). GitHub Docs. https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key

@@ -1,7 +1,7 @@
 ---
 title: "Square Root Optimization"
 description: ''
-pubDate: 'May 18 2024'
+pubDate: 'May 18 2024 13:01'
 ---
 
 To achieve a more efficient [primality test](/notes/primality_test) algorithm, we can limit our checks to numbers up to the square root of `n`.

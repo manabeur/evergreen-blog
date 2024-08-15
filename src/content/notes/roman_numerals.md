@@ -1,7 +1,7 @@
 ---
 title: "Roman numerals"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:25'
 ---
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.

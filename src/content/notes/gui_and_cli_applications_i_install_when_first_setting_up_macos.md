@@ -1,7 +1,7 @@
 ---
 title: "GUI and CLI applications I install when first setting up macOS"
 description: ''
-pubDate: 'May 2 2024'
+pubDate: 'May 2 2024 03:36'
 ---
 
 These are applications I first install when I set up a fresh mac. I'm use [Homebrew](/notes/homebrew) to make installation quick and easy.

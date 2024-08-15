@@ -1,7 +1,7 @@
 ---
-title: "Oh-My-Fish"
+title: "oh-my-fish"
 description: ''
-pubDate: 'May 02 2024'
+pubDate: 'May 02 2024 03:18'
 ---
 
 [Oh-My-Fish](https://github.com/oh-my-fish/oh-my-fish) or `omf` is a fish shell framework. It requires a [fish shell](/notes/fish_shell) to be installed first.

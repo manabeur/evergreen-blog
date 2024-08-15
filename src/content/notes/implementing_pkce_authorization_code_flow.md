@@ -1,7 +1,7 @@
 ---
 title: "Implementing PKCE Authorization Code Flow"
 description: ''
-pubDate: 'Feb 17 2024'
+pubDate: 'Feb 17 2024 21:23'
 ---
 
 Authorization is a process of granting a user or an app access permissions to certain data and/or features.
@@ -131,7 +131,6 @@ async function fetchProfile(token) {
 }
 ```
 
-## Reference
-- [Spotify Developer Documentation](https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow)
-- [OAUTH2 Documentation](https://www.oauth.com/oauth2-servers/pkce/)
-
+## References
+- Authorization Code with PKCE Flow | Spotify for Developers. (n.d.). https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow
+- Protecting Apps with PKCE - OAuth 2.0 Simplified. (2021, December 16). OAuth 2.0 Simplified. https://www.oauth.com/oauth2-servers/pkce/

@@ -1,12 +1,12 @@
 ---
 title: "How I Learned to Speak Japanese"
 description: ''
-pubDate: 'May 18 2024'
+pubDate: 'May 18 2024 12:05'
 ---
 
 I've been working as a developer in Japan for two years now. You'd think that since I came to Japan and got a job, I would have studied and prepared for Japanese to some extent, but that's not the case at all. I've never taken a single JLPT exam.
 
-> How did this guy get a job in Japan?
+> "How did this guy get a job in Japan?"
 
 Putting aside my job search tale, which isn't all that exciting, let me share how I came to be able to speak Japanese.
 

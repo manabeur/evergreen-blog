@@ -1,7 +1,7 @@
 ---
 title: "Mac Setup for Web Development"
 description: ''
-pubDate: 'Apr 29 2024'
+pubDate: 'Apr 29 2024 15:29'
 ---
 
 ## MacBook Pro Specification

@@ -43,4 +43,4 @@ Now it shouldn't ask for the password.
 
 
 ## References
-- [Using multiple GitHub accounts with SSH keys](https://gist.github.com/oanhnn/80a89405ab9023894df7)
+- Using multiple github accounts with ssh keys. (n.d.). Gist. https://gist.github.com/oanhnn/80a89405ab9023894df7

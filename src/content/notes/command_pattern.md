@@ -192,6 +192,6 @@ order.execute()
 ```
 
 ## References
-- [Refactoring Guru](https://refactoring.guru/design-patterns/command)
-- [Patterns.dev](https://www.patterns.dev/vanilla/command-pattern)
-- [Donghyeon Blog](https://donghyeon.dev/design%20pattern/2020/05/20/%EC%BB%A4%EB%A7%A8%EB%93%9C-%ED%8C%A8%ED%84%B4/)
+- Command pattern. (n.d.). https://www.patterns.dev/vanilla/command-pattern
+- Refactoring.Guru. (2024, January 1). Command. https://refactoring.guru/design-patterns/command
+- 민동현. (2020, May 20). Command 패턴. https://donghyeon.dev/design%20pattern/2020/05/20/%EC%BB%A4%EB%A7%A8%EB%93%9C-%ED%8C%A8%ED%84%B4/

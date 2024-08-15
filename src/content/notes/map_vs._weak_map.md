@@ -1,7 +1,7 @@
 ---
 title: "Map vs. Weak Map"
 description: ''
-pubDate: 'Jul 12 2023'
+pubDate: 'Jul 12 2023 11:21'
 ---
 
 JavaScript provides two different types of Map data structures: one that stores the key (_Map_) and the other that stores a reference to the key (_Weak Map_).

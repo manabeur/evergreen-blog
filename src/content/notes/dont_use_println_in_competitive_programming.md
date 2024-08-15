@@ -48,7 +48,3 @@ fn main() {
 ```
 
 So at least for competitive programming, don't use `println!()`. Keep a habit of utilizing the buffer.
-
-
-## References
-- I encountered this issue while solving [BOJ 11659](https://www.acmicpc.net/problem/11659)

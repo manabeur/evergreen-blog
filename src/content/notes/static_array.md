@@ -1,7 +1,7 @@
 ---
 title: "Static Array"
 description: ''
-pubDate: 'Jun 11 2024'
+pubDate: 'Jun 11 2024 10:35'
 ---
 
 There are [Different types of an array](/notes/different_types_of_an_array) and _static array_ is one of them.
@@ -30,4 +30,4 @@ int main() {
 }
 ```
 
-If you don't know the size beforehand or you need to be able to rescale the array, you might want to use a [Dynamic Array](/notes/dynamic_array).
+If you don't know the size beforehand or you need to be able to rescale the array, you might want to use a [[Dynamic Array]].

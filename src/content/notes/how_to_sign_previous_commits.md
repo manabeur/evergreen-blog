@@ -1,7 +1,7 @@
 ---
 title: "How to sign previous commits"
 description: ''
-pubDate: 'Mar 18 2024'
+pubDate: 'Mar 18 2024 12:47'
 ---
 
 Use `git log --show-signature` and find the oldest commit that hasn't been signed off. Let say that commit's hash is `222fd607`.
@@ -34,5 +34,5 @@ $ git push -f origin <BRANCH>
 ```
 
 
-## Reference
-- [Signing commits — Hyperledger Indy SDK documentation](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/contributors/signing-commits.html#:~:text=If%20you%20need%20to%20re%2Dsign%20a%20bunch%20of%20previous,s'%20%2Di%20HASH%60)
+## References
+- Signing commits — Hyperledger Indy SDK  documentation. (n.d.). https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/contributors/signing-commits.html

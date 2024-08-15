@@ -1,7 +1,7 @@
 ---
 title: "Factory Pattern"
 description: ''
-pubDate: 'Feb 13 2024'
+pubDate: 'Feb 13 2024 16:23'
 ---
 
 
@@ -136,8 +136,6 @@ mini_computer.boot()
 mini_computer.openBrowser()
 ```
 
----
-
 Let's consider a scenario where we don't have the `MiniComputer` class, and we're not creating a PC based on the client's OS. In this case, we can directly call the `PCFactory` like this.
 
 ```js
@@ -152,5 +150,5 @@ mac.openBrowser() // 'Opening Safari'
 ```
 
 
-## Reference
-- [Refactoring Guru](https://refactoring.guru/design-patterns/factory-method)
+## References
+- Refactoring.Guru. (2024, January 1). Factory method. https://refactoring.guru/design-patterns/factory-method

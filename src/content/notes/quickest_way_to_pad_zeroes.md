@@ -1,7 +1,7 @@
 ---
 title: "Quickest way to pad zeroes"
 description: ''
-pubDate: 'May 18 2024'
+pubDate: 'May 18 2024 14:53'
 ---
 
 Let's say you want to ensure that numbers are always represented in two digits, padding zeroes if the number is a single digit.
@@ -54,5 +54,5 @@ console.log(currentTime.print())
 ```
 
 
-## Reference
-- [Simplest way to add a leading zero to a number in Javascript](https://hardiquedasore.medium.com/simplest-way-to-add-a-leading-zero-to-a-number-in-javascript-b8724749486f)
+## References
+- Dasore, H. (2022, January 5). Simplest way to add a leading zero to a number in Javascript. Medium. https://hardiquedasore.medium.com/simplest-way-to-add-a-leading-zero-to-a-number-in-javascript-b8724749486f

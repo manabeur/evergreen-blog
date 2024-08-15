@@ -1,7 +1,7 @@
 ---
 title: "Selection sort"
 description: ''
-pubDate: 'May 15 2024'
+pubDate: 'May 15 2024 18:21'
 ---
 
 
@@ -26,4 +26,4 @@ fn selection_sort(nums: &mut Vec<i32>) {
 }
 ```
 
-- Best / Average / Worst time complexity: **O(N^2)**
+- Best / Average / Worst time complexity: O(N^2)

@@ -1,7 +1,7 @@
 ---
 title: "Group by data types"
 description: ''
-pubDate: 'Apr 02 2024'
+pubDate: 'Apr 02 2024 16:37'
 ---
 
 I came across an interesting problem today. Given an array with various values, the task is to extract the data based on their types, regroup them, and return those groups in an array. You can assume that the given array will never be empty. So here's an example. Let say the input is `[1, true, 2, false]`, the expected output should be `[[1, 2], [true, false]]`.
@@ -52,8 +52,4 @@ console.log(y)
 
 The operations used with `map` (`map.get`, `map.has`, `map.set`) are generally O(1). I used two loops using `forEach` and `for..of` which is linear.
 
-The overall time complexity of this algorithm is **O(N)**. 
-
-
-## Reference
-- an interview question; I don't remember from which company
+The overall time complexity of this algorithm is O(N). 

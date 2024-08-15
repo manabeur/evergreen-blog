@@ -1,8 +1,8 @@
 ---
-title: "Now"
+title: "now page"
 description: ''
 pubDate: 'Mar 18 2024'
-updatedDate: 'Jun 12 2024'
+updatedDate: 'Jun 12 2024 17:23'
 ---
 
 <style lang="scss">
@@ -15,7 +15,7 @@ updatedDate: 'Jun 12 2024'
 </style>
 
 ## what am i
-ー network engineer - telematics validation (2024\~) <br />
+ー IVI Validation Engineer (2024\~) <br />
 <span class="xout">ー frontend engineer (2021\~2023)</span> <br />
 <span class="xout">ー foreign language teacher (2020\~2021)</span> <br />
 
@@ -42,12 +42,12 @@ updatedDate: 'Jun 12 2024'
 ー doing stupid things; there are some stupid things that i'm doing, that i know are stupid and wrong, that i could stop doing, and that i would stop doing
 
 ## highlights
-ー 2024: 💍🤵🏻👰🏻‍♀️　・　✈️ KY → CA　・　💼<br />
-ー 2023: 🧑🏻‍💻👋🏼　・　✈️ Japan → KY <br />
+ー 2024: 💍🤵🏻👰🏻‍♀️・✈️ KY → CA・💼<br />
+ー 2023: 🧑🏻‍💻👋🏼・✈️ Japan → KY <br />
 ー 2021: 🧑🏻‍💻🏥 <br />
 ー 2020: 🧑🏻‍🏫🏫 <br />
-ー 2019: 🎓　・　✈️ CA → Japan <br />
-ー 2017: 朝🥁
+ー 2019: 🎓・✈️ CA → Japan <br />
+ー 2017: 🥁朝
 
 ---
 

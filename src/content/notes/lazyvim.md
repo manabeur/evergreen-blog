@@ -1,7 +1,7 @@
 ---
 title: "LazyVim"
 description: ''
-pubDate: 'May 01 2024'
+pubDate: 'May 01 2024 03:10'
 ---
 
 [LazyVim](https://www.lazyvim.org/) lets you customize your terminal super easy. It also comes with vast number of plugins pre-configured.

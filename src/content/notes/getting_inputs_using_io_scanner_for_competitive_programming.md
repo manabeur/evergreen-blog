@@ -1,7 +1,7 @@
 ---
 title: "Getting inputs using IO Scanner for competitive programming"
 description: ''
-pubDate: 'Apr 03 2024'
+pubDate: 'Apr 03 2024 02:20'
 ---
 
 
@@ -81,5 +81,5 @@ Replace `TYPE` with any of the following:
 - usize
 
 
-## Reference
-- [Rust IO Scanner](https://gist.github.com/tivrfoa/9d8fc68d36221dff8943032f93333023)
+## References
+- Rust IO Scanner. (n.d.). Gist. https://gist.github.com/tivrfoa/9d8fc68d36221dff8943032f93333023

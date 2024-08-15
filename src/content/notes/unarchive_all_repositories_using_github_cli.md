@@ -1,15 +1,14 @@
 ---
 title: "Unarchive all repositories using GitHub CLI"
 description: ''
-pubDate: 'May 2 2024'
+pubDate: 'May 2 2024 08:49'
 ---
 
-## tl;dr
 ```sh
 $ gh repo list --json=nameWithOwner --limit 1000  -q ".[].nameWithOwner" | xargs -n1 gh repo unarchive -y
 ```
 
----
+//
 
 You can unarchive a GitHub repository from the command line using the following format:
 

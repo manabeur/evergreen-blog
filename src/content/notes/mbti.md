@@ -1,7 +1,7 @@
 ---
 title: "MBTI"
 description: ""
-pubDate: "Aug 06 2024"
+pubDate: "Aug 06 2024 20:18"
 ---
 
 ## 2024-08

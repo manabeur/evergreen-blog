@@ -1,7 +1,7 @@
 ---
 title: "Publish your Rust Project on Homebrew using GitHub Releases"
 description: ''
-pubDate: 'Mar 25 2024'
+pubDate: 'Mar 25 2024 05:50'
 ---
 
 
@@ -119,5 +119,5 @@ $ brew tap rolemadelen/pomosh
 $ brew install pomosh
 ```
 
-## Reference
-- [How to Publish your Rust project on Homebrew](https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew/)
+## References
+- How to Publish your Rust project on Homebrew. (n.d.). Federico Terzi - a Software Engineering Journey. https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew/

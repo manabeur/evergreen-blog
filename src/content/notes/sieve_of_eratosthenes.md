@@ -1,7 +1,7 @@
 ---
 title: "Sieve of Eratosthenes"
 description: ''
-pubDate: 'May 18 2024'
+pubDate: 'May 18 2024 12:54'
 ---
 
 The Sieve of Eratosthenes is an algorithm used to find all [prime numbers](/notes/prime_numbers) up to a given value `N`.
