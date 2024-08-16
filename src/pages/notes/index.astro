@@ -50,7 +50,7 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 					}
 					
 					& span {
-						font-size: 1rem;
+						padding: 0.2rem;
 						transition: all 0.2s ease-in-out;
 					}
 				}
@@ -67,27 +67,12 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 					&:hover{
 						a span {
 							background-color: rgb(var(--gray-light));
-							padding: 0.2rem 0.15rem;
 							border-radius: 3px;
 						}
 					}
 				}
 			}
 		</style>
-		<script>
-			const listItems = document.querySelectorAll('li');
-
-			listItems.forEach(li => {
-				li.addEventListener('mouseenter', (e) => {
-					const elem = e.currentTarget;
-					elem.classList.add('--hover');
-				})
-				li.addEventListener('mouseleave', (e) => {
-					const elem = e.currentTarget;
-					elem.classList.remove('--hover');
-				})
-			})
-		</script>
 	</head>
 	<body>
 		<main>
