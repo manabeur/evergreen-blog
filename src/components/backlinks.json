@@ -1,4 +1,10 @@
 {
+  "project_yourtrack": [
+    "implementing_pkce_authorization_code_flow"
+  ],
+  "변화를_싫어하는_사람들_-_QWERTY_관성": [
+    "why_the_dvorak_keyboard_was_created"
+  ],
   "signing_git_commits": [
     "check_for_existing_gpg_keys"
   ],
@@ -18,7 +24,7 @@
     "git_aliases"
   ],
   "oh_my_fish": [
-    "oh-my-fish",
+    "fish_shell",
     "setting_up_nvm_on_oh-my-fish"
   ],
   "configure_fish_shells_greeting_message": [
@@ -77,18 +83,8 @@
   "내가_사용한_닉네임의_기록": [
     "rolemadelen_닉네임의_유래"
   ],
-  "내_일에_대한_원동력_찾기": [
-    "img1.webp"
-  ],
-  "mbti": [
-    "img1.webp"
-  ],
   "git_aliases": [
     "fish_shell"
-  ],
-  "변화를_싫어하는_사람들_-_QWERTY_관성": [
-    "why_the_dvorak_keyboard_was_created",
-    "img1.webp"
   ],
   "clone_all_repositories_using_github_cli": [
     "homebrew"
@@ -122,9 +118,6 @@
     "square_root_optimization",
     "6k_plus_minus_1_optimization",
     "sieve_of_eratosthenes"
-  ],
-  "side_project_-_yourtrack": [
-    "implementing_pkce_authorization_code_flow"
   ],
   "mac_setup_for_web_development": [
     "homebrew",

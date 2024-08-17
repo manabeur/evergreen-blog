@@ -17,15 +17,9 @@ importers:
       '@astrojs/sitemap':
         specifier: ^3.1.6
         version: 3.1.6
-      '@fontsource/gowun-batang':
-        specifier: ^5.0.13
-        version: 5.0.13
-      '@fontsource/hina-mincho':
-        specifier: ^5.0.20
-        version: 5.0.20
-      '@fontsource/source-serif-pro':
-        specifier: ^5.0.8
-        version: 5.0.8
+      '@fontsource-variable/noto-serif-kr':
+        specifier: ^5.0.1
+        version: 5.0.1
       astro:
         specifier: ^4.13.1
         version: 4.13.1(sass@1.77.8)
@@ -307,14 +301,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/gowun-batang@5.0.13':
-    resolution: {integrity: sha512-piZnnxYZ9dWW8fWlbLVs4ikmAx1NVJQfOX6vfbMxJumamwhhSLkwUVA1Qbs433jSezuKrcNbV8TS3vsbwkJeiQ==}
-
-  '@fontsource/hina-mincho@5.0.20':
-    resolution: {integrity: sha512-FFTkgPvloob58YY6v+MUxT5CBRsUjcfqd3Hgzkm6GLHegti2JUiUL4pOTFXlUOnYie+ParXRNb7ehkqaoZtuKQ==}
-
-  '@fontsource/source-serif-pro@5.0.8':
-    resolution: {integrity: sha512-bb8bza+aBp6Wpz1LOXaQ9YSwMc/wNpk3hniENCPoBMMwsn9LQaJU0kKnJSSIi+ld1t7aH4jbh+mHQHN1zLfZ3A==}
+  '@fontsource-variable/noto-serif-kr@5.0.1':
+    resolution: {integrity: sha512-2wiTe32W9U9BQKXyVHv94WqGojpZlA3ML6A6wefhggTZN/kHR3GGGcJRd/s37UTxoCct5b80lf9wzoGL8t0NHQ==}
 
   '@img/sharp-darwin-arm64@0.33.4':
     resolution: {integrity: sha512-p0suNqXufJs9t3RqLBO6vvrgr5OhgbWp76s5gTRvdmxmuv9E1rcaqGUsl3l4mKVmXPkTkTErXediAui4x+8PSA==}
@@ -2388,11 +2376,7 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@fontsource/gowun-batang@5.0.13': {}
-
-  '@fontsource/hina-mincho@5.0.20': {}
-
-  '@fontsource/source-serif-pro@5.0.8': {}
+  '@fontsource-variable/noto-serif-kr@5.0.1': {}
 
   '@img/sharp-darwin-arm64@0.33.4':
     optionalDependencies:

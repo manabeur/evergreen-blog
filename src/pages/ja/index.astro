@@ -40,6 +40,11 @@ const t = useTranslations(lang);
 				list-style: none;
 				padding-left: 0;
 			}
+
+			.explanation {
+				font-size: 0.8rem;
+				margin-left: 1rem;
+			}
 		</style>
 	</head>
 	<body>
@@ -54,15 +59,21 @@ const t = useTranslations(lang);
 			</div>
 			<div class="content">
 				<p>{t('home.text')}</p>
-				<blockquote>{t('home.quote')}</blockquote>
 
 				<div class="menu">
 					<ul role="navigation">
-						<li><a href="/notes">{t('home.menu1')}</a></li>
+						<li>
+							<a href="/notes">{t('home.menu2')['title']}</a>
+							<span class="explanation">{t('home.menu2')['exp']}</span>
+						</li>
+						<li>
+							<a href="/writing">{t('home.menu1')['title']}</a>
+							<span class="explanation">{t('home.menu1')['exp']}</span>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</main>
-		<Footer />
+		<Footer lang="ja"/>
 	</body>
 </html>

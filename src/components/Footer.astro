@@ -1,17 +1,36 @@
 ---
+import { useTranslations } from '../i18n/utils';
+
 const today = new Date();
+const {lang} = Astro.props;
+const t = useTranslations(lang || "ko");
 ---
 
+{console.log("lang: ", lang)}
 <footer>
 	<hr />
-	&copy; {today.getFullYear()} by <a href="/">Jii Yoo</a>. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a>.
+	<div class="footer__group">
+		<div class="quote">
+			{t('home.quote')}
+		</div>
+		<div>
+			&copy; {today.getFullYear()} <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a>.
+		</div>
+	</div>
 </footer>
-<style>
+<style lang="scss">
 	footer {
 		color: var(--text);
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		text-align:right;
 		margin: 2rem auto;
 		padding: 0.5rem;
+	}
+
+	.footer {
+		&__group {
+			display: flex;
+			justify-content: space-between;
+		}
 	}
 </style>

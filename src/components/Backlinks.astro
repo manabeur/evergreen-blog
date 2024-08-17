@@ -1,9 +1,9 @@
 ---
-import noteLinks from "./backlinks.json"
+import backlinks from "./backlinks.json"
+import categories from "./categories.json"
 
 const currentPath = decodeURIComponent(Astro.url.pathname.split('/')[2]);
-const backlinks = Object.keys(noteLinks).filter(key => noteLinks[key].includes(currentPath));
-
+const refs = Object.keys(backlinks).filter(key => backlinks[key].includes(currentPath));
 ---
 
 <style lang="scss">
@@ -13,12 +13,12 @@ const backlinks = Object.keys(noteLinks).filter(key => noteLinks[key].includes(c
 
 </style>
 <div class="bounds">
-    {backlinks.length > 0 && (
+    {refs.length > 0 && (
         <div>This note was mentioned in...</div>
         <ul>
-            {backlinks.map(link => (
-                <li key={link}>
-                    <a href={`/notes/${link}`}>{link.split('_').join(' ')}</a>
+            {refs.map(ref => (
+                <li key={ref}>
+                    <a href={`/${categories[ref]}/${ref}`}>{ref.split('_').join(' ')}</a>
                 </li>
             ))}
         </ul>

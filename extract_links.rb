@@ -1,34 +1,47 @@
 require 'json'
 require 'uri'
 
-Dir.chdir('src/content/notes/')
+categories = ["writing", "notes"]
 
 # Function to extract links in the format [name](link)
 def extract_links(content)
-    # Regex to capture links, ignoring images and external links
-    links = content.scan(/\[(?!\]).*?\]\((?!https?:\/\/).*?\)/).map { |link| link.match(/\[(.*?)\]\((.*?)\)/)[2] }
+  # Regex to capture links, ignoring images and external links
+  links = content.scan(/\[.*?\]\(\/.*?\)/).map do |link|
+    link.match(/\[(.*?)\]\((\/.*?)\)/)[2]
+  end
   
-    links.map { |link| link.gsub(%r{^/notes/}, '').split('/').last }
+  # Filter out .webp files and process the links
+  links
+    .reject { |link| link.end_with?('.webp') }
+    .reject { |link| link.end_with?('.gif') }
+    .reject { |link| link.end_with?('.jpg') }
+    .reject { |link| link.end_with?('.png') }
+    .reject { |link| link.start_with?('.https') }
+    .map { |link| link.gsub(%r{^}, '').split('/').last }
 end
 
 # Initialize a hash to store links
 links_hash = {}
 
-# Read all files in the current directory
-Dir.glob("*.*").each do |current_file_name|
-  # Skip if it's the backlinks.json file
-  next if current_file_name == 'backlinks.json'
+categories.each do |category|
+  Dir.chdir("src/content/#{category}/") do
+  # Read all files in the current directory
+    Dir.glob("*.*").each do |current_file_name|
+      # Skip if it's the backlinks.json file
+      next if current_file_name == 'backlinks.json'
 
-  # Read the content of the current file
-  content = File.read(current_file_name)
+      # Read the content of the current file
+      content = File.read(current_file_name)
 
-  # Extract links from the content
-  links = extract_links(content)
+      # Extract links from the content
+      links = extract_links(content)
 
-  # remove the extension
-  current_file_name = current_file_name.split('.')[0]
-  # Add the links to the hash if any found
-  links_hash[current_file_name] = links unless links.empty?
+      # remove the extension
+      current_file_name = current_file_name.split('.')[0]
+      # Add the links to the hash if any found
+      links_hash[current_file_name] = links unless links.empty?
+    end
+  end
 end
 
 # Write the links hash to backlinks.json

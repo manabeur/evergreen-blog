@@ -4,10 +4,10 @@ import Footer from '../../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 
-// const posts = (await getCollection('notes')).sort(
+// const posts = (await getCollection('writing')).sort(
 // 	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 // );
-const posts = (await getCollection('notes')).sort((a, b) => {
+const posts = (await getCollection('writing')).sort((a, b) => {
     const titleA = a.data.title.toUpperCase();
     const titleB = b.data.title.toUpperCase();
     if (titleA < titleB) {
@@ -93,7 +93,7 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 		<main>
 			<section>
 				<div class="header">
-					<h1>기록</h1>
+					<h1>이야기</h1>
 					<div class="navi">
 						<div class="author">
 							<span class="by">by</span>
@@ -101,7 +101,7 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 						</div>
 						<span>・</span>
 						<div class="navi_item">
-							<a href="/writing">이야기</a>
+							<a href="/notes">기록</a>
 						</div>
 					</div>
 				</div>
@@ -110,7 +110,7 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 						{
 							posts.map((post) => (
 								<li>
-									<a href={`/notes/${post.slug}/`}><span>{post.data.title}</span></a>
+									<a href={`/writing/${post.slug}/`}><span>{post.data.title}</span></a>
 								</li>
 							))
 						}

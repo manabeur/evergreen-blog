@@ -3,18 +3,12 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
-
-@import '@fontsource/source-serif-pro/400.css';
-@import '@fontsource/source-serif-pro/600.css';
-@import '@fontsource/source-serif-pro/700.css';
-@import '@fontsource/gowun-batang/400.css';
-@import '@fontsource/gowun-batang/700.css';
-@import '@fontsource/hina-mincho';
+@import '@fontsource-variable/noto-serif-kr';
 
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
-	--link: #5387c0;
+	--link: #3474bb;
 	--sm: 0.875rem;
 	--max-width: 600px;
 
@@ -29,7 +23,7 @@
 }
 
 body {
-	font-family: 'Source Serif Pro', 'Gowun Batang', 'Hina Mincho', serif;
+	font-family: 'Noto Serif KR Variable', serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
