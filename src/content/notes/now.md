@@ -42,11 +42,11 @@ updatedDate: 'Jun 12 2024 17:23'
 ー doing stupid things; there are some stupid things that i'm doing, that i know are stupid and wrong, that i could stop doing, and that i would stop doing
 
 ## highlights
-ー 2024: 💍🤵🏻👰🏻‍♀️・✈️ KY → CA・💼<br />
-ー 2023: 🧑🏻‍💻👋🏼・✈️ Japan → KY <br />
+ー 2024: 💍🤵🏻👰🏻‍♀️ · ✈️ KY → CA · 💼<br />
+ー 2023: 🧑🏻‍💻👋🏼 · ✈️ Japan → KY <br />
 ー 2021: 🧑🏻‍💻🏥 <br />
 ー 2020: 🧑🏻‍🏫🏫 <br />
-ー 2019: 🎓・✈️ CA → Japan <br />
+ー 2019: 🎓 · ✈️ CA → Japan <br />
 ー 2017: 🥁朝
 
 ---
