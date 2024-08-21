@@ -1,6 +1,6 @@
 ---
 title: "Bulk modify text files using Ruby"
-description: ""
+category: "Ruby"
 pubDate: "Aug 1 2024 18:03"
 ---
 

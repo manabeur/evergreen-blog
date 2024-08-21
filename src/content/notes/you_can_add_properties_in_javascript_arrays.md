@@ -1,6 +1,6 @@
 ---
-title: "[JS] You can add properties in JavaScript arrays"
-description: ''
+title: "You can add properties in JavaScript arrays"
+category: 'JS'
 pubDate: 'Jun 10 2024 16:37'
 ---
 

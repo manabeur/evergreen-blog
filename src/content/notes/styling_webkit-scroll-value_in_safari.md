@@ -1,6 +1,6 @@
 ---
 title: "styling webkit-scroll-value in safari"
-description: ''
+category: 'CSS'
 pubDate: 'Mar 02 2024 16:25'
 ---
 

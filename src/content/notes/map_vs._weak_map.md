@@ -1,6 +1,6 @@
 ---
-title: "[DS] Map vs. Weak Map"
-description: ''
+title: "Map vs. Weak Map"
+category: 'Data Structure'
 pubDate: 'Jul 12 2023 11:21'
 ---
 

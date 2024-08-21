@@ -1,6 +1,6 @@
 ---
 title: "How to update the email associated with existing GPG key"
-description: ''
+category: 'Security'
 pubDate: 'May 18 2024 12:49'
 ---
 

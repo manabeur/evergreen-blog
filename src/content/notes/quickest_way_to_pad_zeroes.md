@@ -1,6 +1,6 @@
 ---
-title: "[JS] Quickest way to pad zeroes"
-description: ''
+title: "Quickest way to pad zeroes"
+category: 'JS'
 pubDate: 'May 18 2024 14:53'
 ---
 

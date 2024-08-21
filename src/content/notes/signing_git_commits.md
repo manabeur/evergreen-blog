@@ -1,6 +1,6 @@
 ---
 title: "Signing git commits"
-description: ''
+category: 'Git'
 pubDate: 'May 15 2024 18:11'
 ---
 

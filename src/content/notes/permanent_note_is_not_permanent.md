@@ -1,6 +1,6 @@
 ---
 title: "Permanent note is not permanent"
-description: ''
+category: ''
 pubDate: 'Apr 02 2024 13:06'
 ---
 

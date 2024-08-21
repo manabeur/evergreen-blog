@@ -1,6 +1,6 @@
 ---
-title: "fish shell"
-description: ''
+title: "Fish Shell"
+category: ''
 pubDate: 'May 2 2024 3:19'
 ---
 

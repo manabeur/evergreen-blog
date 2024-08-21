@@ -1,6 +1,6 @@
 ---
 title: "Dynamically generate Open Graph Images using Cloudinary"
-description: ''
+category: ''
 pubDate: 'May 18 2024 23:59'
 ---
 

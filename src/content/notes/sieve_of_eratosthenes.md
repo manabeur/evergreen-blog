@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] Sieve of Eratosthenes"
-description: ''
+title: "Sieve of Eratosthenes"
+category: 'Primality Test'
 pubDate: 'May 18 2024 12:54'
 ---
 

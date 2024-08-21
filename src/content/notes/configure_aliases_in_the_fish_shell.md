@@ -1,6 +1,6 @@
 ---
 title: "Configure aliases in the fish shell"
-description: ''
+category: 'Fish'
 pubDate: 'May 1 2024 03:17'
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "[Side Project] Pomodoro Timer"
-description: ''
+title: "Pomodoro Timer"
+category: 'Side Project'
 pubDate: 'Mar 22 2024 22:30'
 ---
 

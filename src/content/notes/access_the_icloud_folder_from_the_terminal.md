@@ -1,6 +1,6 @@
 ---
 title: "Access the iCloud folder from the terminal"
-description: ''
+category: 'Terminal'
 pubDate: 'Apr 29 2024 09:55'
 ---
 

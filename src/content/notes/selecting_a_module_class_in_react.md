@@ -1,6 +1,6 @@
 ---
 title: "Selecting a module class in React"
-description: ''
+category: 'React'
 pubDate: 'Mar 02 2024 16:39'
 ---
 

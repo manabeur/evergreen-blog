@@ -1,6 +1,6 @@
 ---
 title: "Clone all repositories using GitHub CLI"
-description: ''
+category: 'GitHub'
 pubDate: 'Apr 30 2024 16:15'
 ---
 

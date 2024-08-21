@@ -1,6 +1,6 @@
 ---
 title: "Resolving 404 error on Vercel"
-description: ''
+category: ''
 pubDate: 'May 18 2024 15:00'
 ---
 

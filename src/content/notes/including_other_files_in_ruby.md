@@ -1,6 +1,6 @@
 ---
 title: "Including Other Files in Ruby"
-description: ''
+category: 'Ruby'
 pubDate: 'Jun 07 2024 13:44'
 ---
 

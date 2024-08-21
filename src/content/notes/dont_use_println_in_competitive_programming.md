@@ -1,6 +1,6 @@
 ---
-title: "[Rust] Don't use println in competitive programming"
-description: ''
+title: "Don't use println in competitive programming"
+category: 'Rust'
 pubDate: 'Apr 02 2024 20:29'
 ---
 

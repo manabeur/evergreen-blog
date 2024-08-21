@@ -1,6 +1,6 @@
 ---
 title: "Command Pattern"
-description: ''
+category: 'Design Pattern'
 pubDate: 'Feb 03 2024 15:26'
 ---
 

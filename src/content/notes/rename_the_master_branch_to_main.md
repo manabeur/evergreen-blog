@@ -1,6 +1,6 @@
 ---
 title: "Rename the master branch to main"
-description: ''
+category: 'Git'
 pubDate: 'May 15 2024 18:13'
 ---
 

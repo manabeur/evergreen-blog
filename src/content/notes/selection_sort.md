@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] Selection sort"
-description: ''
+title: "Selection sort"
+category: 'Sort'
 pubDate: 'May 15 2024 18:21'
 ---
 

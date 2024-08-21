@@ -1,6 +1,6 @@
 ---
 title: "Linked List is better if lots of insertions and deletions are required"
-description: ''
+category: ''
 pubDate: 'Jun 2 2024 06:14'
 ---
 

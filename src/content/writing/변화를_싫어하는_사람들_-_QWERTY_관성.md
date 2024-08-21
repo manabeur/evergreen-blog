@@ -1,6 +1,6 @@
 ---
 title: "변화를 싫어하는 사람들 - QWERTY 관성"
-description: ''
+category: 'KBD'
 pubDate: 'Feb 25 2023 22:00:00'
 ---
 

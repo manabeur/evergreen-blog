@@ -99,6 +99,18 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 			.separator {
 				margin: 0 0.25rem;
 			}
+
+			.category {
+				font-size: 0.8rem;
+				text-transform: lowercase;
+				color: #aaa;
+				margin-right: 0.25rem;
+			}
+			@media all and (min-width: 598px) {
+				.category {
+					display: inline-block;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -123,7 +135,12 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 						{
 							posts.map((post) => (
 								<li>
-									<a href={`/writing/${post.slug}/`}><span>{post.data.title}</span></a>
+									<a href={`/writing/${post.slug}/`}>
+										<div>
+											<div class="category">{post.data.category ? post.data.category : "…"}</div>
+											<span>{post.data.title}</span>
+										</div>
+									</a>
 								</li>
 							))
 						}

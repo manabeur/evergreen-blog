@@ -1,6 +1,6 @@
 ---
 title: "Prime numbers"
-description: ''
+category: ''
 pubDate: 'May 18 2024 12:55'
 ---
 

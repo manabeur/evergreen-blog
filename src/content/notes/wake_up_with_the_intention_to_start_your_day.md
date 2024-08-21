@@ -1,6 +1,6 @@
 ---
 title: "Wake up with the intention to start your day"
-description: ''
+category: ''
 pubDate: 'Mar 02 2024 16:54'
 ---
 

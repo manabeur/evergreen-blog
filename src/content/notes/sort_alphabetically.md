@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] Sort Alpabetically"
-description: ''
+title: "Sort Alpabetically"
+category: ''
 pubDate: 'Aug 7 2024 05:04'
 ---
 

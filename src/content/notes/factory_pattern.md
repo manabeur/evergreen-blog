@@ -1,6 +1,6 @@
 ---
 title: "Factory Pattern"
-description: ''
+category: 'Design Pattern'
 pubDate: 'Feb 13 2024 16:23'
 ---
 

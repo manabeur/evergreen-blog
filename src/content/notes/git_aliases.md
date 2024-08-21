@@ -1,6 +1,6 @@
 ---
 title: "git aliases"
-description: ''
+category: 'Git'
 pubDate: 'May 1 2024 03:15'
 ---
 

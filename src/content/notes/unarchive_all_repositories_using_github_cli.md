@@ -1,6 +1,6 @@
 ---
 title: "Unarchive all repositories using GitHub CLI"
-description: ''
+category: 'GitHub'
 pubDate: 'May 2 2024 08:49'
 ---
 

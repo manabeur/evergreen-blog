@@ -1,6 +1,6 @@
 ---
-title: '[Rust] A way to find the data type of a variable'
-description: ''
+title: 'A way to find the data type of a variable'
+category: 'Rust'
 pubDate: 'May 18 2024 15:49'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Find the total sum in a given range using prefix sum"
-description: ''
+category: ''
 pubDate: 'Mar 15 2024 18:27'
 ---
 

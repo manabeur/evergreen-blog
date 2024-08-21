@@ -1,6 +1,6 @@
 ---
 title: "Class in Ruby"
-description: ''
+category: 'Ruby'
 pubDate: 'Jun 6 2024 08:30'
 ---
 

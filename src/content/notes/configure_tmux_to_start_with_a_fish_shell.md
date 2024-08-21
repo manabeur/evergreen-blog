@@ -1,6 +1,6 @@
 ---
 title: "Configure tmux to start with a fish shell"
-description: ''
+category: 'tmux'
 pubDate: 'May 1 2024 02:56'
 ---
 

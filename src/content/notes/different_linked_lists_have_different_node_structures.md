@@ -1,6 +1,6 @@
 ---
 title: "Different linked lists have different node structures"
-description: ''
+category: 'Linked List'
 pubDate: 'Jun 13 2024 10:12'
 ---
 

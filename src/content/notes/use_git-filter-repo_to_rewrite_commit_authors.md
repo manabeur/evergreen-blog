@@ -1,6 +1,6 @@
 ---
 title: "Use git-filter-repo to rewrite commit authors"
-description: ''
+category: 'Git'
 pubDate: 'Apr 30 2024 14:43'
 ---
 

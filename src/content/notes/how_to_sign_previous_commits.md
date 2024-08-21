@@ -1,6 +1,6 @@
 ---
 title: "How to sign previous commits"
-description: ''
+category: 'Git'
 pubDate: 'Mar 18 2024 12:47'
 ---
 

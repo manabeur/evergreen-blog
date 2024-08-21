@@ -1,12 +1,9 @@
 ---
 title: "rolemadelen 닉네임의 유래"
-description: ''
+category: ''
 pubDate: "Sept 23 2023"
 ---
 
-> "사람들의 닉네임 유래가 궁금해. 실존하는 사물에서 따온게 아닌 이상.. 그냥 귀여운 어감으로 지은건가? 저는 캐릭터 생성한 날 먹은 저녁메뉴에요"
-
-## Note
 
 내 닉네임 롤마들렌(`rolemadelen`)은 롤모델(`role model`)에서 파생되었다. 
 

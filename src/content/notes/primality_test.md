@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] Primality Test"
-description: ''
+title: "Primality Test"
+category: ''
 pubDate: 'May 18 2024 12:52'
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Linked Lists"
-description: ''
+title: "Linked List"
+category: ''
 pubDate: 'Jun 13 2024 09:51'
 ---
 

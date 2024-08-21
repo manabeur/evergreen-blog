@@ -1,6 +1,6 @@
 ---
 title: "html2canvas generates blurry images"
-description: ''
+category: ''
 pubDate: 'Apr 03 2024 16:59'
 ---
 

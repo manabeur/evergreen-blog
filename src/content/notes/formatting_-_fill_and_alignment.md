@@ -1,6 +1,6 @@
 ---
-title: "[Rust] Formatting - fill and alignment"
-description: ''
+title: "Rust | Formatting - fill and alignment"
+category: 'Rust'
 pubDate: 'Apr 11 2024 10:14'
 ---
 

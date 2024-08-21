@@ -1,6 +1,6 @@
 ---
 title: "How to batch sign previous commits"
-description: ''
+category: 'Git'
 pubDate: 'May 18 2024 12:07'
 ---
 

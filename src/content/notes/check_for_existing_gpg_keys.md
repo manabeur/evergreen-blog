@@ -1,6 +1,6 @@
 ---
 title: "Check for existing GPG keys"
-description: ''
+category: 'Security'
 pubDate: 'May 15 2024 17:38'
 ---
 

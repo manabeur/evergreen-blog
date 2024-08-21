@@ -1,6 +1,6 @@
 ---
-title: "[DS] Arrays"
-description: ""
+title: "Arrays"
+category: "Data Structure"
 pubDate: "Jun 10 2024 15:22"
 ---
 

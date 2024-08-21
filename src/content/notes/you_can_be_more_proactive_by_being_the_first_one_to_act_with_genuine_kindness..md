@@ -1,6 +1,6 @@
 ---
 title: "You can be more proactive by being the first one to act with genuine kindness."
-description: ''
+category: ''
 pubDate: 'Feb 11 2024 10:31'
 ---
 

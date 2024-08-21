@@ -1,6 +1,6 @@
 ---
 title: "Linked list is slow in look up"
-description: ''
+category: ''
 pubDate: 'Jun 2 2024 12:39'
 ---
 

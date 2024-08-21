@@ -1,6 +1,6 @@
 ---
 title: "Bypass entering a password for cloning SSH repositories in GitHub"
-description: ''
+category: 'Security'
 pubDate: 'Apr 30 2024, 16:03'
 ---
 

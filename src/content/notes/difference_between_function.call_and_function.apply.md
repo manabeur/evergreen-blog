@@ -1,6 +1,6 @@
 ---
-title: "[JS] Difference between function.call and function.apply"
-description: ''
+title: "Difference between function.call and function.apply"
+category: 'JS'
 pubDate: 'Mar 02 2024 16:12'
 ---
 

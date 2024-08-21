@@ -1,12 +1,12 @@
 ---
 title: "Chat GPT ruined my confidence in English"
-description: ''
+category: ''
 pubDate: 'May 18 2024 16:30'
 ---
 
 I started relying too much on ChatGPT to check my English and re-phrase it ever since it came out. There was no more "me" in those words. I need to stop relying on the machine and expose more of me in "my" words.
 
-//
+// tl;dr.
 
 I was born in Korean and immigrated to the States when I was around 10 or something; English is not my first language.
 

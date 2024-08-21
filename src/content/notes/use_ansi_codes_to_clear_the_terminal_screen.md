@@ -1,6 +1,6 @@
 ---
 title: "Use ANSI codes to clear the terminal screen"
-description: ''
+category: ''
 pubDate: 'Mar 21 2024 21:00'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Configure fish shell's greeting message"
-description: ''
+category: 'Fish'
 pubDate: 'May 1 2024 02:51'
 ---
 

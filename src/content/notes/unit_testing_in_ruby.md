@@ -1,6 +1,6 @@
 ---
 title: "Unit Testing in Ruby"
-description: ''
+category: 'Ruby'
 pubDate: 'Jun 7 2024 11:36'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Different types of an array"
-description: ''
+category: 'Arrays'
 pubDate: 'Jun 11 2024 10:03'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Implementing PKCE Authorization Code Flow"
-description: ''
+category: ''
 pubDate: 'Feb 17 2024 21:23'
 ---
 

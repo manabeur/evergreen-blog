@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] Insertion sort"
-description: ''
+title: "Insertion sort"
+category: 'Sort'
 pubDate: 'May 15 2024 18:23'
 ---
 

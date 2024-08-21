@@ -1,6 +1,6 @@
 ---
 title: "Generate a new GPG key"
-description: ''
+category: 'Security'
 pubDate: 'Mar 15 2024 17:30'
 ---
 

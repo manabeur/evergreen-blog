@@ -1,6 +1,6 @@
 ---
 title: "Publish your Rust Project on Homebrew using GitHub Releases"
-description: ''
+category: 'Rust'
 pubDate: 'Mar 25 2024 05:50'
 ---
 

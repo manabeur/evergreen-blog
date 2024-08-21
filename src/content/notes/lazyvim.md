@@ -1,6 +1,6 @@
 ---
 title: "LazyVim"
-description: ''
+category: ''
 pubDate: 'May 01 2024 03:10'
 ---
 

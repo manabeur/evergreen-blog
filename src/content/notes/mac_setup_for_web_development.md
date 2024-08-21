@@ -1,6 +1,6 @@
 ---
 title: "Mac Setup for Web Development"
-description: ''
+category: ''
 pubDate: 'Apr 29 2024 15:29'
 ---
 

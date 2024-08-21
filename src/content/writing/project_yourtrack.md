@@ -1,6 +1,6 @@
 ---
-title: "[Side Project] YourTrack"
-description: ''
+title: "YourTrack"
+category: 'Side Project'
 pubDate: 'Feb 18 2024 12:58'
 ---
 

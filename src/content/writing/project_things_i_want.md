@@ -1,6 +1,6 @@
 ---
-title: "[Side Project] Things I Want"
-description: ''
+title: "Things I Want"
+category: 'Side Project'
 pubDate: 'Jul 09 2023 11:08'
 ---
 

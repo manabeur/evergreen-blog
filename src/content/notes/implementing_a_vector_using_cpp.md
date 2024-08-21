@@ -1,6 +1,6 @@
 ---
 title: "Implementing a Vector using C++"
-description: ''
+category: 'Data Structure'
 pubDate: 'Jun 10 2024 06:21'
 ---
 

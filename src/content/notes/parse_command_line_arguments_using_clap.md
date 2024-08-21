@@ -1,6 +1,6 @@
 ---
 title: "Parse command line arguments using clap"
-description: ''
+category: 'Rust'
 pubDate: 'Mar 30 2024 06:30'
 ---
 

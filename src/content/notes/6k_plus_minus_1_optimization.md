@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] 6k ± 1 Optimization"
-description: ''
+title: "6k ± 1 Optimization"
+category: 'Primality Test'
 pubDate: 'May 18 2024 12:58'
 ---
 

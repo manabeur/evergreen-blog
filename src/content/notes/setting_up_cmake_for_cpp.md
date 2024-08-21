@@ -1,6 +1,6 @@
 ---
 title: "Setting up cmake for C++"
-description: ''
+category: ''
 pubDate: 'Jun 10 2024 06:09'
 ---
 

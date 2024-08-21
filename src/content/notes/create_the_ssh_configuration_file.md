@@ -1,6 +1,6 @@
 ---
 title: "Create the SSH configuration file"
-description: ''
+category: 'Security'
 pubDate: 'May 15 2024 18:01'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Setting up NVM on oh-my-fish"
-description: ''
+category: 'Fish'
 pubDate: 'May 2 2024 03:24'
 ---
 

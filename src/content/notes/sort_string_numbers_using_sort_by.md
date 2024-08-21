@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] sort string numbers using sort_by"
-description: ''
+title: "Sort string numbers using sort_by"
+category: ''
 pubDate: 'Mar 17 2024 20:00'
 ---
 

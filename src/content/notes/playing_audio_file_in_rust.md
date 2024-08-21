@@ -1,6 +1,6 @@
 ---
 title: "playing audio file in rust"
-description: ''
+category: 'Rust'
 pubDate: 'Mar 20 2024 17:00'
 ---
 

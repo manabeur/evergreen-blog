@@ -1,6 +1,6 @@
 ---
 title: "MBTI"
-description: ""
+category: ""
 pubDate: "Aug 06 2024 20:18"
 ---
 

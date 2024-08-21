@@ -151,6 +151,13 @@ declare module 'astro:content' {
   collection: "writing";
   data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
+"chat_gpt_ruined_my_confidence_in_english.md": {
+	id: "chat_gpt_ruined_my_confidence_in_english.md";
+  slug: "chat_gpt_ruined_my_confidence_in_english";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
 "project_pomosh.md": {
 	id: "project_pomosh.md";
   slug: "project_pomosh";

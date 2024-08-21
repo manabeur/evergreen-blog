@@ -1,6 +1,6 @@
 ---
 title: "Dvorak 자판이 만들어진 이유"
-description: ''
+category: 'KBD'
 pubDate: 'Feb 24 2023 10:00:00'
 ---
 

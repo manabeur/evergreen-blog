@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] Group by data types"
-description: ''
+title: "Group by data types"
+category: ''
 pubDate: 'Apr 02 2024 16:37'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Static Array"
-description: ''
+category: 'Data Structure'
 pubDate: 'Jun 11 2024 10:35'
 ---
 

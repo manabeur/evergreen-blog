@@ -1,6 +1,6 @@
 ---
-title: "[Algorithm] Bubble sort"
-description: ''
+title: "Bubble sort"
+category: 'Sort'
 pubDate: 'May 15 2024 18:20'
 ---
 

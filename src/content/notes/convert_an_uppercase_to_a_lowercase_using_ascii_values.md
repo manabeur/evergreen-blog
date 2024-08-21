@@ -1,6 +1,6 @@
 ---
 title: "Convert an uppercase to a lowercase using ASCII values"
-description: ''
+category: ''
 pubDate: 'May 15 2024 18:29'
 ---
 

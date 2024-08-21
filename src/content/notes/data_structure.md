@@ -1,6 +1,6 @@
 ---
 title: "Data Structure"
-description: ''
+category: ''
 pubDate: 'Jun 10 2024 16:45'
 ---
 

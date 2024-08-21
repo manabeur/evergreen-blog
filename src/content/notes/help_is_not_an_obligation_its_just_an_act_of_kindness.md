@@ -1,6 +1,6 @@
 ---
 title: "Help is not an obligation; it's just an act of kindness"
-description: ''
+category: ''
 pubDate: 'Jan 30 2024 05:49'
 ---
 

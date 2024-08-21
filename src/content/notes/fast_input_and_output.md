@@ -1,6 +1,6 @@
 ---
-title: "[Rust] Fast Input and Output"
-description: ''
+title: "Fast Input and Output"
+category: 'Rust'
 pubDate: 'Mar 19 2024 05:38'
 ---
 

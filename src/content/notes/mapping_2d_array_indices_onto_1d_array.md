@@ -1,6 +1,6 @@
 ---
 title: "Mapping 2D array indices onto 1D array"
-description: ''
+category: 'CS'
 pubDate: 'May 15 2024 18:30'
 ---
 

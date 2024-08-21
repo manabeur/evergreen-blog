@@ -1,6 +1,6 @@
 ---
 title: "writing notes in your native language can help you retain information better"
-description: ''
+category: ''
 pubDate: 'Apr 02 2024 11:16'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Common ANSI codes"
-description: ''
+category: ''
 pubDate: 'May 15 2024 18:28'
 ---
 

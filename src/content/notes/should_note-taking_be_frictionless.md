@@ -1,6 +1,6 @@
 ---
 title: "should note-taking be frictionless"
-description: ''
+category: ''
 pubDate: 'Apr 02 2024 11:38'
 ---
 

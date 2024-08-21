@@ -1,6 +1,6 @@
 ---
 title: "GUI and CLI applications I install when first setting up macOS"
-description: ''
+category: ''
 pubDate: 'May 2 2024 03:36'
 ---
 

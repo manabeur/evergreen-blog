@@ -1,6 +1,6 @@
 ---
 title: "html2canvas fails to render images"
-description: ''
+category: ''
 pubDate: 'May 18 2024 16:10'
 ---
 
