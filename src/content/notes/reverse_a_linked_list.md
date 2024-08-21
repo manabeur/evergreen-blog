@@ -1,5 +1,5 @@
 ---
-title: "Reverse a linked list"
+title: "[Algorithm] Reverse a linked list"
 description: ''
 pubDate: 'Jun 13 2024 08:48'
 ---

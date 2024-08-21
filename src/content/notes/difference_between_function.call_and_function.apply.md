@@ -1,5 +1,5 @@
 ---
-title: "Difference between function.call and function.apply"
+title: "[JS] Difference between function.call and function.apply"
 description: ''
 pubDate: 'Mar 02 2024 16:12'
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Bubble sort"
+title: "[Algorithm] Bubble sort"
 description: ''
 pubDate: 'May 15 2024 18:20'
 ---

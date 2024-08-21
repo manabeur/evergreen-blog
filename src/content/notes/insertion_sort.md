@@ -1,5 +1,5 @@
 ---
-title: "Insertion sort"
+title: "[Algorithm] Insertion sort"
 description: ''
 pubDate: 'May 15 2024 18:23'
 ---

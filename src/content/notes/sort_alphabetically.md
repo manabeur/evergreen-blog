@@ -1,5 +1,5 @@
 ---
-title: "Sort Alpabetically"
+title: "[Algorithm] Sort Alpabetically"
 description: ''
 pubDate: 'Aug 7 2024 05:04'
 ---

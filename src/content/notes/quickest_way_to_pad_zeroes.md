@@ -1,5 +1,5 @@
 ---
-title: "Quickest way to pad zeroes"
+title: "[JS] Quickest way to pad zeroes"
 description: ''
 pubDate: 'May 18 2024 14:53'
 ---

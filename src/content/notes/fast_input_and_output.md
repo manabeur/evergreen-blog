@@ -1,5 +1,5 @@
 ---
-title: "Fast Input and Output"
+title: "[Rust] Fast Input and Output"
 description: ''
 pubDate: 'Mar 19 2024 05:38'
 ---

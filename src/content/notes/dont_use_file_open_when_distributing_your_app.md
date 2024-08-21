@@ -1,5 +1,5 @@
 ---
-title: "Don't use File::open when distributing your app"
+title: "[Rust] Don't use File::open when distributing your app"
 description: ''
 pubDate: 'Apr 06 2024 16:05'
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Counting sort"
+title: "[Algorithm] Counting sort"
 description: ''
 pubDate: 'May 15 2024 18:21'
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Primality Test"
+title: "[Algorithm] Primality Test"
 description: ''
 pubDate: 'May 18 2024 12:52'
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Differences between array.filter and array.map"
+title: "[JS] Differences between array.filter and array.map"
 description: ''
 pubDate: 'Feb 13 2023 11:45'
 ---

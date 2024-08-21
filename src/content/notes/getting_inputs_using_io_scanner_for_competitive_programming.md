@@ -1,5 +1,5 @@
 ---
-title: "Getting inputs using IO Scanner for competitive programming"
+title: "[Rust] Getting inputs using IO Scanner for competitive programming"
 description: ''
 pubDate: 'Apr 03 2024 02:20'
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Sieve of Eratosthenes"
+title: "[Algorithm] Sieve of Eratosthenes"
 description: ''
 pubDate: 'May 18 2024 12:54'
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Side Project - Things I Want"
+title: "[Side Project] Things I Want"
 description: ''
 pubDate: 'Jul 09 2023 11:08'
 ---

@@ -1,5 +1,5 @@
 ---
-title: "6k ± 1 Optimization"
+title: "[Algorithm] 6k ± 1 Optimization"
 description: ''
 pubDate: 'May 18 2024 12:58'
 ---

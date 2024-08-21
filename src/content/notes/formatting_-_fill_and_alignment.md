@@ -1,5 +1,5 @@
 ---
-title: "Formatting - fill and alignment"
+title: "[Rust] Formatting - fill and alignment"
 description: ''
 pubDate: 'Apr 11 2024 10:14'
 ---
