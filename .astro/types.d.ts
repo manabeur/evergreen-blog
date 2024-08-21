@@ -865,71 +865,14 @@ declare module 'astro:content' {
   data: InferEntrySchema<"notes">
 } & { render(): Render[".md"] };
 };
-"writing": {
-"Dvorak_자판이_만들어진_이유.md": {
-	id: "Dvorak_자판이_만들어진_이유.md";
-  slug: "dvorak_자판이_만들어진_이유";
+"writing": Record<string, {
+  id: string;
+  slug: string;
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-"project_pomosh.md": {
-	id: "project_pomosh.md";
-  slug: "project_pomosh";
-  body: string;
-  collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-"project_things_i_want.md": {
-	id: "project_things_i_want.md";
-  slug: "project_things_i_want";
-  body: string;
-  collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-"project_yourtrack.md": {
-	id: "project_yourtrack.md";
-  slug: "project_yourtrack";
-  body: string;
-  collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-"transitioning_from_monitors_to_a_vr_workspace.md": {
-	id: "transitioning_from_monitors_to_a_vr_workspace.md";
-  slug: "transitioning_from_monitors_to_a_vr_workspace";
-  body: string;
-  collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-"내_일에_대한_원동력_찾기.md": {
-	id: "내_일에_대한_원동력_찾기.md";
-  slug: "내_일에_대한_원동력_찾기";
-  body: string;
-  collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-"단골.md": {
-	id: "단골.md";
-  slug: "단골";
-  body: string;
-  collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-"변화를_싫어하는_사람들_-_QWERTY_관성.md": {
-	id: "변화를_싫어하는_사람들_-_QWERTY_관성.md";
-  slug: "변화를_싫어하는_사람들_-_qwerty_관성";
-  body: string;
-  collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-"우연히_일본어를_할_줄_알게_되었다.md": {
-	id: "우연히_일본어를_할_줄_알게_되었다.md";
-  slug: "우연히_일본어를_할_줄_알게_되었다";
-  body: string;
-  collection: "writing";
-  data: InferEntrySchema<"writing">
-} & { render(): Render[".md"] };
-};
+  data: InferEntrySchema<"writing">;
+  render(): Render[".md"];
+}>;
 
 	};
 

@@ -38,9 +38,13 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 			.title .date {
 				margin-bottom: 0.85rem;
 			}
+			.del {
+				display: inline-block;
+				text-decoration:line-through;
+				color: #ccc;
+			}
 			.last-updated-on {
-				font-style: italic;
-				margin: 0.85rem 0;
+				margin: 0 0.5rem;
 			}
 
 			.prose {
@@ -82,12 +86,19 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 					<div class="title">
 						<h1>{title}</h1>
 						<div class="date">
-							<FormattedDate date={pubDate} />
+							{
+								!updatedDate && (
+									<FormattedDate date={pubDate} />
+								)
+							}
 							{
 								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
+									<span class="del">
+										<FormattedDate date={pubDate} />
+									</span>
+									<span class="last-updated-on">
+										<FormattedDate date={updatedDate} />
+									</span>
 								)
 							}
 						</div>
