@@ -78,7 +78,15 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 							background-color: rgb(var(--gray-light));
 							border-radius: 3px;
 						}
+
+						a .category  {
+							color: var(--text);
+						}
 					}
+				}
+
+				.head {
+					margin-bottom: 0.5rem;
 				}
 			}
 
@@ -102,16 +110,12 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 			}
 
 			.category {
+				display: block;
 				font-size: 0.8rem;
 				text-transform: lowercase;
 				color: #aaa;
 				margin-right: 0.25rem;
-				display: none;
-			}
-			@media all and (min-width: 598px) {
-				.category {
-					display: inline-block;
-				}
+				transition: all 0.2s ease;
 			}
 		</style>
 	</head>
@@ -138,8 +142,8 @@ const posts = (await getCollection('notes')).sort((a, b) => {
 							posts.map((post) => (
 								<li>
 									<a href={`/notes/${post.slug}/`}>
-										<div>
-											<div class="category">{post.data.category ? post.data.category : "…"}</div>
+										<div class="head">
+											<div class="category">{post.data.category ? post.data.category : "note"}</div>
 											<span>{post.data.title}</span>
 										</div>
 									</a>

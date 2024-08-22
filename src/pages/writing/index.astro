@@ -79,6 +79,10 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 						}
 					}
 				}
+
+				.head {
+					margin-bottom: 0.5rem;
+				}
 			}
 
 			.navi {
@@ -101,16 +105,17 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 			}
 
 			.category {
+				display: block;
 				font-size: 0.8rem;
 				text-transform: lowercase;
 				color: #aaa;
 				margin-right: 0.25rem;
 			}
-			@media all and (min-width: 598px) {
-				.category {
-					display: inline-block;
-				}
-			}
+			// @media all and (min-width: 598px) {
+			// 	.category {
+			// 		display: inline-block;
+			// 	}
+			// }
 		</style>
 	</head>
 	<body>
@@ -136,8 +141,8 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 							posts.map((post) => (
 								<li>
 									<a href={`/writing/${post.slug}/`}>
-										<div>
-											<div class="category">{post.data.category ? post.data.category : "…"}</div>
+										<div class="head">
+											<div class="category">{post.data.category ? post.data.category : "journal"}</div>
 											<span>{post.data.title}</span>
 										</div>
 									</a>
