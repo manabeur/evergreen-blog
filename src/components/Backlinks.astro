@@ -8,13 +8,17 @@ const refs = Object.keys(backlinks).filter(key => backlinks[key].includes(curren
 
 <style lang="scss">
     .bounds {
-        margin-top: 8rem;
+        margin-top: 7rem;
+        padding-top: 2rem;
+        font-size: 0.85rem;
+        border-top: 1px solid #f9f9f9;
     }
 
 </style>
 <div class="bounds">
     {refs.length > 0 && (
-        <div>This note was mentioned in...</div>
+        // <div>This note was mentioned in...</div>
+        <div>이 노트는 다음에서 언급되었습니다...</div>
         <ul>
             {refs.map(ref => (
                 <li key={ref}>

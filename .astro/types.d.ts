@@ -135,15 +135,14 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"notes": {
-"유일하게_기록하는_동물은_인간이다.md": {
-	id: "유일하게_기록하는_동물은_인간이다.md";
-  slug: "유일하게_기록하는_동물은_인간이다";
+		"notes": Record<string, {
+  id: string;
+  slug: string;
   body: string;
   collection: "notes";
-  data: InferEntrySchema<"notes">
-} & { render(): Render[".md"] };
-};
+  data: InferEntrySchema<"notes">;
+  render(): Render[".md"];
+}>;
 "writing": {
 "내_일에_대한_원동력_찾기.md": {
 	id: "내_일에_대한_원동력_찾기.md";
