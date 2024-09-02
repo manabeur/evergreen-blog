@@ -81,6 +81,7 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 				align-items: center;
 				
 				a {
+					color: inherit;
 					font-size: var(--sm);
 				}
 
@@ -90,7 +91,7 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 			}
 
 			.separator {
-				margin: 0 0.25rem;
+				margin: 0 0.5rem;
 			}
 
 			.category {

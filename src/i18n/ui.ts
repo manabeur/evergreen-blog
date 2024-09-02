@@ -12,11 +12,11 @@ export const languages = {
       'home.quote': '기록하기를 좋아하는 인간에게 축복을.',
       'home.menu1': {
         'title':'Writing',
-        'exp': 'space for thoughts and imagination'
+        'exp': 'Space for thoughts and imagination'
       },
       'home.menu2': {
         'title':'Note',
-        'exp': 'space for scattered knowledge'
+        'exp': 'Space for scattered knowledge'
       },
       'home.lang': 'あ'
     },
