@@ -26,24 +26,27 @@ const t = useTranslations(lang);
 			}
 			.content {
 				color: var(--text);
-			}
+				font-size: 0.95rem;
 
-			.content > p,
-			.content > blockquote {
-				margin: 0.5rem 0;
+				& > p,
+				& > blockquote {
+					margin: 0.5rem 0;
+				}
+
 			}
 
 			.menu {
 				margin-top: 3rem;
-			}
-			.menu > ul {
-				list-style: none;
-				padding-left: 0;
+
+				& > ul {
+					list-style: none;
+					padding-left: 0;
+				}
 			}
 
 			.explanation {
-				font-size: 0.8rem;
-				margin-left: 1rem;
+				font-size: 0.825em;
+				margin-left: 1em;
 			}
 		</style>
 	</head>
@@ -51,11 +54,6 @@ const t = useTranslations(lang);
 		<main>
 			<div class="header">
 				<h1>{t('home.name')} <span class="handle">/ rolemadelen</span></h1>
-				<div class="i18n">
-					<a href="/ja">
-						<span>{t('home.lang')}</span>
-					</a>
-				</div>
 			</div>
 			<div class="content">
 				<p>{t('home.text')}</p>
@@ -63,7 +61,7 @@ const t = useTranslations(lang);
 				<div class="menu">
 					<ul role="navigation">
 						<li>
-							<a href="/notes">{t('home.menu2')['title']}</a>
+							<a href="/note">{t('home.menu2')['title']}</a>
 							<span class="explanation">{t('home.menu2')['exp']}</span>
 						</li>
 						<li>
@@ -74,6 +72,6 @@ const t = useTranslations(lang);
 				</div>
 			</div>
 		</main>
-		<Footer lang="ko"/>
+		<Footer />
 	</body>
 </html>

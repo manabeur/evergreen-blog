@@ -6,7 +6,10 @@ import Footer from '../components/Footer.astro';
 import Giscus from '../components/Giscus.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import '@fontsource-variable/noto-serif-kr';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 type Props = CollectionEntry<'writing'>['data'];
 
 const { title, pubDate, updatedDate, heroImage } = Astro.props;
@@ -51,7 +54,7 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 				color: var(--text);
 
 				a > span {
-					font-size: 0.85rem;
+					font-size: var(--sm);
 				}
 			}
 
@@ -66,12 +69,16 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 				}
 
 				.by {
-					font-size: 0.8rem;
+					font-size: var(--xs);
 				}
 			}
 
 			.separator {
-				margin: 0 0.25rem;
+				margin: 0 0.5rem;
+			}
+
+			.separator:nth-last-child(2) {
+				color: #eee;
 			}
 		</style>
 	</head>
@@ -105,15 +112,15 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 						<div class="navi">
 							<div class="author">
 								<span class="by">by</span>
-								<a href="/">유지이</a>
+								<a href="/">{t('home.name')}</a>
 							</div>
-							<span class="separator"> · </span>
+							<span class="separator"> … </span>
 							<div class="navi_item">
-								<a href="/notes">기록</a>
+								<a href="/note">{t('home.menu2')['title']}</a>
 							</div>
-							<span class="separator"> · </span>
+							<span class="separator">　|　</span>
 							<div class="navi_item">
-								<a href="/writing">이야기</a>
+								<a href="/writing">{t('home.menu1')['title']}</a>
 							</div>
 						</div>
 					</div>

@@ -1,7 +1,7 @@
 require 'json'
 require 'uri'
 
-categories = ["writing", "notes"]
+categories = ["writing", "note"]
 
 # Function to extract links in the format [name](link)
 def extract_links(content)

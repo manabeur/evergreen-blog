@@ -1,22 +1,22 @@
 export const languages = {
-    en: 'English',
+    ko: 'Korean',
     ja: 'Japanese',
   };
   
-  export const defaultLang = 'ko';
+  export const defaultLang = 'en';
   
   export const ui = {
-    ko: {
-      'home.name': '유지이',
-      'home.text': '머릿속 망상과 생각, 그리고 흩어진 지식의 조각들을 기록합니다.',
+    en: {
+      'home.name': 'Jii Yoo',
+      'home.text': 'Recording fragments of thoughts, imagination, and scattered knowledge.',
       'home.quote': '기록하기를 좋아하는 인간에게 축복을.',
       'home.menu1': {
-        'title':'이야기',
-        'exp': '망상과 생각의 공간'
+        'title':'Writing',
+        'exp': 'space for thoughts and imagination'
       },
       'home.menu2': {
-        'title':'기록',
-        'exp': '흩어진 지식의 공간'
+        'title':'Note',
+        'exp': 'space for scattered knowledge'
       },
       'home.lang': 'あ'
     },

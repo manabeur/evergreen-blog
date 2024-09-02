@@ -33,23 +33,14 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 			.header {
 				margin-bottom: 3rem;
 
-				& > span {
-					font-size: 0.875rem;
-				}
-				
+				& > span,
 				.menu {
-					font-size: 0.875rem;
-
-					a {
-						color: inherit;
-					}
+					font-size: var(--sm);
 				}
 			}
 			
 			.posts {
-				
 				a {
-					color: inherit;
 					text-decoration: none;
 					display: block;
 					
@@ -90,13 +81,11 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 				align-items: center;
 				
 				a {
-					color: inherit;
-					font-weight: 400;
 					font-size: var(--sm);
 				}
 
 				.by {
-					font-size: 0.8rem;
+					font-size: var(--xs);
 				}
 			}
 
@@ -106,7 +95,7 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 
 			.category {
 				display: block;
-				font-size: 0.8rem;
+				font-size: var(--xs);
 				text-transform: lowercase;
 				color: #aaa;
 				margin-right: 0.25rem;
@@ -117,16 +106,16 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 		<main>
 			<section>
 				<div class="header">
-					<h1>이야기</h1>
+					<h1>{t('home.menu1')['title']}</h1>
 					<span>{t('home.menu1')['exp']}</span>
 					<div class="navi">
 						<div class="author">
 							<span class="by">by</span>
-							<a href="/">유지이</a>
+							<a href="/">{t('home.name')}</a>
 						</div>
-						<span class="separator"> · </span>
+						<span class="separator"> … </span>
 						<div class="navi_item">
-							<a href="/notes">기록</a>
+							<a href="/note">{t('home.menu2')['title']}</a>
 						</div>
 					</div>
 				</div>
