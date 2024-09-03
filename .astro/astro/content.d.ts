@@ -150,29 +150,14 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"note": {
-"기록이_없으면_역사도_없다.md": {
-	id: "기록이_없으면_역사도_없다.md";
-  slug: "기록이_없으면_역사도_없다";
+		"note": Record<string, {
+  id: string;
+  slug: string;
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
-} & { render(): Render[".md"] };
-"발전하기_위해서는_과거를_알아야_한다.md": {
-	id: "발전하기_위해서는_과거를_알아야_한다.md";
-  slug: "발전하기_위해서는_과거를_알아야_한다";
-  body: string;
-  collection: "note";
-  data: InferEntrySchema<"note">
-} & { render(): Render[".md"] };
-"인간은_기록하는_종족이다.md": {
-	id: "인간은_기록하는_종족이다.md";
-  slug: "인간은_기록하는_종족이다";
-  body: string;
-  collection: "note";
-  data: InferEntrySchema<"note">
-} & { render(): Render[".md"] };
-};
+  data: InferEntrySchema<"note">;
+  render(): Render[".md"];
+}>;
 "writing": {
 "내_일에_대한_원동력_찾기.md": {
 	id: "내_일에_대한_원동력_찾기.md";

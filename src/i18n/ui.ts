@@ -18,20 +18,5 @@ export const languages = {
         'title':'Note',
         'exp': 'Space for scattered knowledge'
       },
-      'home.lang': 'あ'
-    },
-    ja: {
-      'home.name': '劉 ジー',
-      'home.text': '頭の中の妄想や思考、そして散らばった知識の断片を記録します。',
-      'home.quote': '記録をする人達へ祝福を。',
-      'home.menu1': {
-        'title':'物語',
-        'exp': '妄想と思考の空間'
-      },
-      'home.menu2': {
-        'title':'記録',
-        'exp': '散らばった知識の空間'
-      },
-      'home.lang': '가'
     },
   } as const;
