@@ -4,7 +4,7 @@ category: 'taiko'
 pubDate: 'Sep 02 2024 08:00:00'
 ---
 
-‘Omiyage’ means a gift or souvenir in Japanese ([The meaning can change depending on the context](/note/the-meaning-can-change-depending-on-the-context)). This song was written in 2004 by Shoji Kameda as a gift to the taiko community.
+‘Omiyage’ means a gift or souvenir in Japanese (it can also mean something negative depends on the situation. [The meaning can change depending on the context](/note/the-meaning-can-change-depending-on-the-context)). This song was written in 2004 by Shoji Kameda as a gift to the taiko community.
 
 When I think of the ‘wave’ section in Omiyage, it reminds me of a 4x100 relay.
 Not the relay itself but the scene where a runner passes the baton.
