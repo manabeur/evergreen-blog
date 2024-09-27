@@ -8,15 +8,15 @@ export const languages = {
   export const ui = {
     en: {
       'home.name': 'Jii Yoo',
-      'home.text': 'Recording fragments of thoughts, imagination, and scattered knowledge.',
+      'home.text': 'Recording fragments of thoughts and scattered knowledge.',
       'home.quote': '기록하기를 좋아하는 인간에게 축복을.',
       'home.menu1': {
         'title':'Writing',
-        'exp': 'Space for thoughts and imagination'
+        'exp': 'Space for sharing my story'
       },
       'home.menu2': {
         'title':'Note',
-        'exp': 'Space for scattered knowledge'
+        'exp': 'Space for fragments of thoughts'
       },
     },
   } as const;
