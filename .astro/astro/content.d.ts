@@ -159,6 +159,13 @@ declare module 'astro:content' {
   render(): Render[".md"];
 }>;
 "writing": {
+"2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까.md": {
+	id: "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까.md";
+  slug: "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
 "내_일에_대한_원동력_찾기.md": {
 	id: "내_일에_대한_원동력_찾기.md";
   slug: "내_일에_대한_원동력_찾기";
