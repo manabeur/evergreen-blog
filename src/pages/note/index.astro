@@ -7,17 +7,11 @@ import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-
 const posts = (await getCollection('note')).sort((a, b) => {
-    const titleA = a.data.title.toUpperCase();
-    const titleB = b.data.title.toUpperCase();
-    if (titleA < titleB) {
-        return -1; 
-    }
-    if (titleA > titleB) {
-        return 1;
-    }
-    return 0;
+	const dateA = a.data.updatedDate?.valueOf() || a.data.pubDate.valueOf();
+	const dateB = b.data.updatedDate?.valueOf() || b.data.pubDate.valueOf();
+
+	return dateB - dateA;
 });
 
 ---
