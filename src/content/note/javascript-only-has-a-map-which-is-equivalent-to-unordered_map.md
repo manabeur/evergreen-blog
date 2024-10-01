@@ -4,7 +4,7 @@ category: 'js / ds'
 pubDate: 'Oct 1 2024 4:15:00'
 ---
 
-C++ provides two different map data structures: `unordered_map` and `map`. 
+C++ provides two different map data structures: `unordered_map` and `map` ([Difference between unordered_map and map](/note/difference-between-unordered_map-and-map)). 
 
 `unordered_map` is typically faster than the `map` especially when accessing elements because it is implemented using a hash map internally. Also it remembers the original insertion order of the keys.
 
