@@ -16,8 +16,10 @@ const refs = Object.keys(backlinks).filter(key => backlinks[key].includes(curren
 
 </style>
 <div class="bounds">
+    {console.log(Object.keys(backlinks))}
+    {console.log('current path: ', currentPath)}
+    {console.log(refs)}
     {refs.length > 0 && (
-        // <div>This note was mentioned in...</div>
         <div>Backlinks:</div>
         <ul>
             {refs.map(ref => (

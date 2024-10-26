@@ -4,5 +4,8 @@
   ],
   "difference-between-unordered_map-and-map": [
     "javascript-only-has-a-map-which-is-equivalent-to-unordered_map"
+  ],
+  "what-is-a-linked-list": [
+    "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node"
   ]
 }

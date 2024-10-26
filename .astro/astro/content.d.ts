@@ -150,14 +150,36 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"note": Record<string, {
-  id: string;
-  slug: string;
+		"note": {
+"difference-between-unordered_map-and-map.md": {
+	id: "difference-between-unordered_map-and-map.md";
+  slug: "difference-between-unordered_map-and-map";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">;
-  render(): Render[".md"];
-}>;
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"javascript-only-has-a-map-which-is-equivalent-to-unordered_map.md": {
+	id: "javascript-only-has-a-map-which-is-equivalent-to-unordered_map.md";
+  slug: "javascript-only-has-a-map-which-is-equivalent-to-unordered_map";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md": {
+	id: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md";
+  slug: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"what-is-a-linked-list.md": {
+	id: "what-is-a-linked-list.md";
+  slug: "what-is-a-linked-list";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+};
 "writing": {
 "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까.md": {
 	id: "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까.md";
