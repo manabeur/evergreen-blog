@@ -165,6 +165,13 @@ declare module 'astro:content' {
   collection: "note";
   data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
+"my-macbook-setup.md": {
+	id: "my-macbook-setup.md";
+  slug: "my-macbook-setup";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
 "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md": {
 	id: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md";
   slug: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node";
@@ -184,6 +191,13 @@ declare module 'astro:content' {
 "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까.md": {
 	id: "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까.md";
   slug: "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"i-migrated-from-bear-app-to-obsidian.md": {
+	id: "i-migrated-from-bear-app-to-obsidian.md";
+  slug: "i-migrated-from-bear-app-to-obsidian";
   body: string;
   collection: "writing";
   data: InferEntrySchema<"writing">
