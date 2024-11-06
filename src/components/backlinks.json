@@ -1,12 +1,12 @@
 {
+  "my-macbook-setup": [
+    "i-migrated-from-bear-app-to-obsidian"
+  ],
   "difference-between-unordered_map-and-map": [
     "javascript-only-has-a-map-which-is-equivalent-to-unordered_map"
   ],
   "javascript-only-has-a-map-which-is-equivalent-to-unordered_map": [
     "difference-between-unordered_map-and-map"
-  ],
-  "my-macbook-setup": [
-    "i-migrated-from-bear-app-to-obsidian"
   ],
   "what-is-a-linked-list": [
     "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node"
