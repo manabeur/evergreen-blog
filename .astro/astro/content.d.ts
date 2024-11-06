@@ -156,35 +156,42 @@ declare module 'astro:content' {
   slug: "difference-between-unordered_map-and-map";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "javascript-only-has-a-map-which-is-equivalent-to-unordered_map.md": {
 	id: "javascript-only-has-a-map-which-is-equivalent-to-unordered_map.md";
   slug: "javascript-only-has-a-map-which-is-equivalent-to-unordered_map";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md": {
 	id: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md";
   slug: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-linked-list.md": {
 	id: "what-is-a-linked-list.md";
   slug: "what-is-a-linked-list";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "메모는_외부의_정보가_아닌_내부의_정보를_적는_것.md": {
 	id: "메모는_외부의_정보가_아닌_내부의_정보를_적는_것.md";
   slug: "메모는_외부의_정보가_아닌_내부의_정보를_적는_것";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"습관이_자리_잡는데_걸리는_시간_따위는_없다.md": {
+	id: "습관이_자리_잡는데_걸리는_시간_따위는_없다.md";
+  slug: "습관이_자리_잡는데_걸리는_시간_따위는_없다";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 };
 "writing": {
@@ -193,42 +200,42 @@ declare module 'astro:content' {
   slug: "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "i-migrated-from-bear-app-to-obsidian.md": {
 	id: "i-migrated-from-bear-app-to-obsidian.md";
   slug: "i-migrated-from-bear-app-to-obsidian";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "my-macbook-setup.md": {
 	id: "my-macbook-setup.md";
   slug: "my-macbook-setup";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "내_일에_대한_원동력_찾기.md": {
 	id: "내_일에_대한_원동력_찾기.md";
   slug: "내_일에_대한_원동력_찾기";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "모니터에서_가상현실로.md": {
 	id: "모니터에서_가상현실로.md";
   slug: "모니터에서_가상현실로";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "우연히_일본어를_할_줄_알게_되었다.md": {
 	id: "우연히_일본어를_할_줄_알게_되었다.md";
   slug: "우연히_일본어를_할_줄_알게_되었다";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 };
 
@@ -240,5 +247,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }
