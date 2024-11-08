@@ -156,86 +156,100 @@ declare module 'astro:content' {
   slug: "difference-between-unordered_map-and-map";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "javascript-only-has-a-map-which-is-equivalent-to-unordered_map.md": {
 	id: "javascript-only-has-a-map-which-is-equivalent-to-unordered_map.md";
   slug: "javascript-only-has-a-map-which-is-equivalent-to-unordered_map";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md": {
 	id: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md";
   slug: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "what-is-a-linked-list.md": {
 	id: "what-is-a-linked-list.md";
   slug: "what-is-a-linked-list";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
-"메모는_외부의_정보가_아닌_내부의_정보를_적는_것.md": {
-	id: "메모는_외부의_정보가_아닌_내부의_정보를_적는_것.md";
-  slug: "메모는_외부의_정보가_아닌_내부의_정보를_적는_것";
+"더-하고-싶을-때-멈춰야-한다.md": {
+	id: "더-하고-싶을-때-멈춰야-한다.md";
+  slug: "더-하고-싶을-때-멈춰야-한다";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
-"습관이_자리_잡는데_걸리는_시간_따위는_없다.md": {
-	id: "습관이_자리_잡는데_걸리는_시간_따위는_없다.md";
-  slug: "습관이_자리_잡는데_걸리는_시간_따위는_없다";
+"메모는-외부의-정보가-아닌-내부의-정보를-적는_것.md": {
+	id: "메모는-외부의-정보가-아닌-내부의-정보를-적는_것.md";
+  slug: "메모는-외부의-정보가-아닌-내부의-정보를-적는_것";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
+} & { render(): Render[".md"] };
+"습관이-되려면-며칠-걸리는지-아무도-모른다.md": {
+	id: "습관이-되려면-며칠-걸리는지-아무도-모른다.md";
+  slug: "습관이-되려면-며칠-걸리는지-아무도-모른다";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
+"한-번-멈춰버린-습관을-되돌리기란-쉽지-않다.md": {
+	id: "한-번-멈춰버린-습관을-되돌리기란-쉽지-않다.md";
+  slug: "한-번-멈춰버린-습관을-되돌리기란-쉽지-않다";
+  body: string;
+  collection: "note";
+  data: any
 } & { render(): Render[".md"] };
 };
 "writing": {
-"2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까.md": {
-	id: "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까.md";
-  slug: "2개월_차_신입은_할_줄_아는_게_없는_게_당연한_걸까";
+"2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까.md": {
+	id: "2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까.md";
+  slug: "2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "i-migrated-from-bear-app-to-obsidian.md": {
 	id: "i-migrated-from-bear-app-to-obsidian.md";
   slug: "i-migrated-from-bear-app-to-obsidian";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "my-macbook-setup.md": {
 	id: "my-macbook-setup.md";
   slug: "my-macbook-setup";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
-"내_일에_대한_원동력_찾기.md": {
-	id: "내_일에_대한_원동력_찾기.md";
-  slug: "내_일에_대한_원동력_찾기";
+"내-일에-대한-원동력-찾기.md": {
+	id: "내-일에-대한-원동력-찾기.md";
+  slug: "내-일에-대한-원동력-찾기";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
-"모니터에서_가상현실로.md": {
-	id: "모니터에서_가상현실로.md";
-  slug: "모니터에서_가상현실로";
+"모니터에서-가상현실로.md": {
+	id: "모니터에서-가상현실로.md";
+  slug: "모니터에서-가상현실로";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
-"우연히_일본어를_할_줄_알게_되었다.md": {
-	id: "우연히_일본어를_할_줄_알게_되었다.md";
-  slug: "우연히_일본어를_할_줄_알게_되었다";
+"우연히-일본어를-할-줄-알게-되었다.md": {
+	id: "우연히-일본어를-할-줄-알게-되었다.md";
+  slug: "우연히-일본어를-할-줄-알게-되었다";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -247,5 +261,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }
