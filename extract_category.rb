@@ -22,8 +22,8 @@ categories.each do |category|
 end
 
 # Write the category hash to categories.json
-File.open('categories.json', 'w') do |file|
-    file.write(JSON.pretty_generate(category_hash))
-  end
+File.open('src/components/categories.json', 'w') do |file|
+  file.write(JSON.pretty_generate(category_hash))
+end
   
   puts "Categories have been written to categories.json"

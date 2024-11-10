@@ -45,7 +45,7 @@ categories.each do |category|
 end
 
 # Write the links hash to backlinks.json
-File.open('backlinks.json', 'w') do |file|
+File.open('src/components/backlinks.json', 'w') do |file|
   file.write(JSON.pretty_generate(links_hash))
 end
 
