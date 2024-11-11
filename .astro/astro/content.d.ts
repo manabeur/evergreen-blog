@@ -151,20 +151,6 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"note": {
-"difference-between-unordered_map-and-map.md": {
-	id: "difference-between-unordered_map-and-map.md";
-  slug: "difference-between-unordered_map-and-map";
-  body: string;
-  collection: "note";
-  data: InferEntrySchema<"note">
-} & { render(): Render[".md"] };
-"javascript-only-has-a-map-which-is-equivalent-to-unordered_map.md": {
-	id: "javascript-only-has-a-map-which-is-equivalent-to-unordered_map.md";
-  slug: "javascript-only-has-a-map-which-is-equivalent-to-unordered_map";
-  body: string;
-  collection: "note";
-  data: InferEntrySchema<"note">
-} & { render(): Render[".md"] };
 "my-macbook-setup.md": {
 	id: "my-macbook-setup.md";
   slug: "my-macbook-setup";

@@ -1,6 +1,6 @@
 ---
 title: "My MacBook Setup"
-category: 'mac'
+category: 'dev'
 pubDate: 'Nov 4 2024 12:08:00'
 ---
 
