@@ -18,7 +18,7 @@ end
 ```
 
 There are different types of linked lists:
-- Singly Linked List
+- [Singly Linked List](/note/what-is-a-singly-linked-list)
 - Doubly Linked List
 - Circular Linked List
 - XOR Linked List

@@ -1,15 +1,15 @@
 {
-  "difference-between-unordered_map-and-map": [
-    "javascript-only-has-a-map-which-is-equivalent-to-unordered_map"
-  ],
-  "javascript-only-has-a-map-which-is-equivalent-to-unordered_map": [
-    "difference-between-unordered_map-and-map"
-  ],
   "my-macbook-setup": [
     "i-migrated-from-bear-app-to-obsidian"
   ],
   "what-is-a-linked-list": [
+    "what-is-a-singly-linked-list",
     "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node"
+  ],
+  "what-is-a-singly-linked-list": [
+    "what-is-a-linked-list",
+    "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node",
+    "passing-a-block-as-an-argument"
   ],
   "더-하고-싶을-때-멈춰야-한다": [
     "습관이-되려면-며칠-걸리는지-아무도-모른다",

@@ -158,6 +158,13 @@ declare module 'astro:content' {
   collection: "note";
   data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
+"passing-a-block-as-an-argument.md": {
+	id: "passing-a-block-as-an-argument.md";
+  slug: "passing-a-block-as-an-argument";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
 "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md": {
 	id: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md";
   slug: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node";
@@ -168,6 +175,13 @@ declare module 'astro:content' {
 "what-is-a-linked-list.md": {
 	id: "what-is-a-linked-list.md";
   slug: "what-is-a-linked-list";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"what-is-a-singly-linked-list.md": {
+	id: "what-is-a-singly-linked-list.md";
+  slug: "what-is-a-singly-linked-list";
   body: string;
   collection: "note";
   data: InferEntrySchema<"note">
