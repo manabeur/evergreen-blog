@@ -1,12 +1,19 @@
 ---
 title: "What is a Singly Linked List?"
-category: "linked list"
+category: "ruby | linked list"
 pubDate: "Nov 13 2024 12:32:00"
 ---
 
 Singly linked list is a [linked list](/note/what-is-a-linked-list) data structure that enables you to manage variable-sized collections of elements. Unlike C-style arrays, linked list can grow or shrink dynamically which is good for cases where number of elements are unknown beforehand.
 
-Elements in the linked list are called nodes. A node contains two information: _the value_ and _a pointer_ to the next node. The node structure can change based on the type of a linked list ([The type of a linked list is determined by the structure of a node](/note/the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node)).
+Elements in the linked list are called nodes. A node contains two information: _the value_ and _a pointer_ to the next node. 
+
+```text
+    head                              tail
+[node|value] --> [node|value] --> [node|value] --> nil
+```
+
+The node structure can change based on the type of a linked list ([The type of a linked list is determined by the structure of a node](/note/the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node)).
 
 Singly linked list can be a good fit if sequences are important; also good to use if you can sacrifice lookup performance for the optimal writes (inserts).
 

@@ -8,7 +8,18 @@ import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const posts = (await getCollection('note')).sort((a, b) => {
-	return a.data.category.localeCompare(b.data.category);
+	const category_compare = a.data.category.localeCompare(b.data.category);
+
+	if (category_compare === 0) {
+		const dateA = new Date(a.data.pubDate).getTime()
+		const dateB = new Date(b.data.pubDate).getTime()
+
+		if (dateA < dateB) return 1
+		if (dateA > dateB) return -1
+		if (dateA == dateB) return 0
+	}
+
+	return category_compare
 });
 
 ---

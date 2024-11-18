@@ -172,6 +172,13 @@ declare module 'astro:content' {
   collection: "note";
   data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
+"what-is-a-doubly-linked-list.md": {
+	id: "what-is-a-doubly-linked-list.md";
+  slug: "what-is-a-doubly-linked-list";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
 "what-is-a-linked-list.md": {
 	id: "what-is-a-linked-list.md";
   slug: "what-is-a-linked-list";

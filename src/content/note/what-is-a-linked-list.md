@@ -1,6 +1,6 @@
 ---
 title: "What is a Linked List?"
-category: 'linked list'
+category: 'ruby | linked list'
 pubDate: 'Oct 26 2024 9:10:00'
 ---
 
@@ -19,7 +19,7 @@ end
 
 There are different types of linked lists:
 - [Singly Linked List](/note/what-is-a-singly-linked-list)
-- Doubly Linked List
+- [Doubly Linked List](/note/what-is-a-doubly-linked-list)
 - Circular Linked List
 - XOR Linked List
 
