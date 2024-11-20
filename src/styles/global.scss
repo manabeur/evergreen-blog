@@ -12,6 +12,7 @@
 	--xs: 0.8rem;
 	--sm: 0.875rem;
 	--max-width: 600px;
+	--system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 	--black: #444;
 	--text: #555;
@@ -24,7 +25,7 @@
 }
 
 body {
-	font-family: 'Noto Serif KR Variable', serif;
+	font-family:  var(--system-ui);
 	margin: 0;
 	padding: 0;
 	text-align: left;
