@@ -15,6 +15,8 @@ Since the basic structure are the same between single and doubly linked list, th
 
 Although they share same methods, the implementation will change slightly since doubly linked list can link to the preceding node as well. Here are couple methods where implementation will change:
 - `insert(item)`
+- `pop_back`
+- `pop_front`
 - `remove(item)`
 - `cat(list)` - catenate two lists together
 
