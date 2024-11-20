@@ -38,9 +38,9 @@ class SinglyLinkedList
     class Node
         attr_accessor :data, :next
 
-        def initialize(item, ptr=nil)
+        def initialize(item)
             @data = item
-            @next = ptr
+            @next = nil
         end
     end
 
