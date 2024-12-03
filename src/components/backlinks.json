@@ -2,12 +2,17 @@
   "my-macbook-setup": [
     "i-migrated-from-bear-app-to-obsidian"
   ],
+  "what-is-a-circular-linked-list": [
+    "what-is-a-singly-linked-list",
+    "what-is-a-doubly-linked-list"
+  ],
   "what-is-a-doubly-linked-list": [
     "what-is-a-singly-linked-list"
   ],
   "what-is-a-linked-list": [
     "what-is-a-singly-linked-list",
     "what-is-a-doubly-linked-list",
+    "what-is-a-circular-linked-list",
     "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node"
   ],
   "what-is-a-singly-linked-list": [

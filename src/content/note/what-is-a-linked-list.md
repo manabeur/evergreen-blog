@@ -20,7 +20,7 @@ end
 There are different types of linked lists:
 - [Singly Linked List](/note/what-is-a-singly-linked-list)
 - [Doubly Linked List](/note/what-is-a-doubly-linked-list)
-- Circular Linked List
+- [Circular Linked List](/note/what-is-a-circular-linked-list)
 - XOR Linked List
 
 These are essentially the same linked list but with just different node structure. [The type of a linked list is determined by the structure of a node](/note/the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node/).
