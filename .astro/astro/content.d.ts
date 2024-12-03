@@ -286,6 +286,13 @@ declare module 'astro:content' {
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
+"집중력-도둑이-내-손목에-있었구나.md": {
+	id: "집중력-도둑이-내-손목에-있었구나.md";
+  slug: "집중력-도둑이-내-손목에-있었구나";
+  body: string;
+  collection: "writing";
+  data: any
+} & { render(): Render[".md"] };
 };
 
 	};
