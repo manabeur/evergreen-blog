@@ -1,6 +1,6 @@
 ---
 title: "Passing a block as an argument"
-category: "ruby/methods"
+category: "ruby | methods"
 pubDate: "Nov 13 2024 12:50:00"
 ---
 

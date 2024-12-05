@@ -1,6 +1,6 @@
 ---
 title: "The type of a linked list is determined by the structure of a node"
-category: 'ruby/ds/linked list'
+category: 'ruby | ds | linked list'
 pubDate: 'Oct 26 2024 9:35:00'
 ---
 

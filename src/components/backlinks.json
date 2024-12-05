@@ -15,10 +15,17 @@
     "what-is-a-circular-linked-list",
     "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node"
   ],
+  "what-is-a-queue": [
+    "what-is-a-stack"
+  ],
   "what-is-a-singly-linked-list": [
     "what-is-a-linked-list",
     "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node",
     "passing-a-block-as-an-argument"
+  ],
+  "what-is-a-stack": [
+    "what-is-a-queue",
+    "what-is-a-queue"
   ],
   "더-하고-싶을-때-멈춰야-한다": [
     "습관이-되려면-며칠-걸리는지-아무도-모른다",
