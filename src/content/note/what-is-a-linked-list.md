@@ -1,6 +1,6 @@
 ---
 title: "What is a Linked List?"
-category: 'ruby | linked list'
+category: 'ruby/ds/linked list'
 pubDate: 'Oct 26 2024 9:10:00'
 ---
 

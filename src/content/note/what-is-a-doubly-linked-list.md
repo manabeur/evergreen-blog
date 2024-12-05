@@ -1,6 +1,6 @@
 ---
 title: "What is a Doubly Linked List?"
-category: "ruby | linked list"
+category: "ruby/ds/linked list"
 pubDate: "Nov 18 2024 07:15:00"
 updatedDate: "Nov 19 2024 18:00"
 ---

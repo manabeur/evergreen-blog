@@ -200,6 +200,13 @@ declare module 'astro:content' {
   collection: "note";
   data: any
 } & { render(): Render[".md"] };
+"what-is-a-queue.md": {
+	id: "what-is-a-queue.md";
+  slug: "what-is-a-queue";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
 "what-is-a-singly-linked-list.md": {
 	id: "what-is-a-singly-linked-list.md";
   slug: "what-is-a-singly-linked-list";
