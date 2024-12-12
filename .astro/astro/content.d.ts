@@ -151,6 +151,27 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"note": {
+"a-key-could-be-of-any-type-in-a-hash-table.md": {
+	id: "a-key-could-be-of-any-type-in-a-hash-table.md";
+  slug: "a-key-could-be-of-any-type-in-a-hash-table";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
+"hash-code-is-always-an-integer.md": {
+	id: "hash-code-is-always-an-integer.md";
+  slug: "hash-code-is-always-an-integer";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
+"how-do-you-avoid-collision-in-a-hash-table.md": {
+	id: "how-do-you-avoid-collision-in-a-hash-table.md";
+  slug: "how-do-you-avoid-collision-in-a-hash-table";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
 "my-macbook-setup.md": {
 	id: "my-macbook-setup.md";
   slug: "my-macbook-setup";
@@ -189,6 +210,13 @@ declare module 'astro:content' {
 "what-is-a-doubly-linked-list.md": {
 	id: "what-is-a-doubly-linked-list.md";
   slug: "what-is-a-doubly-linked-list";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
+"what-is-a-hash-table.md": {
+	id: "what-is-a-hash-table.md";
+  slug: "what-is-a-hash-table";
   body: string;
   collection: "note";
   data: any

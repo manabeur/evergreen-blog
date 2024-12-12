@@ -1,4 +1,7 @@
 {
+  "hash-code-is-always-an-integer": [
+    "how-do-you-avoid-collision-in-a-hash-table"
+  ],
   "my-macbook-setup": [
     "i-migrated-from-bear-app-to-obsidian"
   ],
@@ -8,6 +11,10 @@
   ],
   "what-is-a-doubly-linked-list": [
     "what-is-a-singly-linked-list"
+  ],
+  "what-is-a-hash-table": [
+    "hash-code-is-always-an-integer",
+    "a-key-could-be-of-any-type-in-a-hash-table"
   ],
   "what-is-a-linked-list": [
     "what-is-a-singly-linked-list",
