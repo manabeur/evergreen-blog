@@ -14,8 +14,8 @@ const posts = (await getCollection('note')).sort((a, b) => {
 		const dateA = new Date(a.data.updatedDate ? a.data.updatedDate : a.data.pubDate).getTime()
 		const dateB = new Date(b.data.updatedDate ? b.data.updatedDate : b.data.pubDate).getTime()
 
-		if (dateA < dateB) return 1
-		if (dateA > dateB) return -1
+		if (dateA > dateB) return 1
+		if (dateA < dateB) return -1
 		if (dateA == dateB) return 0
 	}
 
