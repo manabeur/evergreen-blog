@@ -1,6 +1,6 @@
 ---
 title: "A key could be of any type in a hash table"
-category: 'f2'
+category: 'ee2'
 pubDate: 'Dec 09 2024 18:40:00'
 ---
 

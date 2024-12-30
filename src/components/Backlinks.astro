@@ -4,6 +4,7 @@ import categories from "./categories.json"
 
 const currentPath = decodeURIComponent(Astro.url.pathname.split('/')[2]);
 const refs = Object.keys(backlinks).filter(key => backlinks[key].includes(currentPath));
+const capitalizeFirstLetter = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 ---
 
 <style lang="scss">
@@ -21,7 +22,7 @@ const refs = Object.keys(backlinks).filter(key => backlinks[key].includes(curren
         <ul>
             {refs.map(ref => (
                 <li key={ref}>
-                    <a href={`/${categories[ref]}/${ref}`}>{ref.split('-').join(' ')}</a>
+                    <a href={`/${categories[ref]}/${ref}`}>{capitalizeFirstLetter(ref.split('-').join(' '))}</a>
                 </li>
             ))}
         </ul>

@@ -1,6 +1,6 @@
 ---
 title: "how do you avoid collisions in a hash table"
-category: 'f3'
+category: 'ee3'
 pubDate: 'Dec 12 2024 05:25:00'
 ---
 

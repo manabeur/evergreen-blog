@@ -1,6 +1,6 @@
 ---
 title: "What is a Binary Tree?"
-category: "g"
+category: "eg"
 pubDate: "Dec 27 2024 07:30:00"
 ---
 
