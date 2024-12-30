@@ -2,11 +2,24 @@
   "일찍-출근해야-하는-이유를-찾았다": [
     "나는-왜-한-시간-일찍-출근을-하는걸까"
   ],
+  "data-structure": [
+    "what-is-an-array",
+    "what-is-a-linked-list",
+    "what-is-a-hash-table"
+  ],
   "hash-code-is-always-an-integer": [
     "how-do-you-avoid-collision-in-a-hash-table"
   ],
   "my-macbook-setup": [
     "i-migrated-from-bear-app-to-obsidian"
+  ],
+  "what-is-a-binary-tree": [
+    "what-is-a-linked-list",
+    "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node",
+    "what-is-an-array",
+    "what-is-a-linked-list",
+    "what-is-a-stack",
+    "what-is-a-queue"
   ],
   "what-is-a-circular-linked-list": [
     "what-is-a-singly-linked-list",
@@ -36,6 +49,14 @@
   "what-is-a-stack": [
     "what-is-a-queue",
     "what-is-a-queue"
+  ],
+  "what-is-an-array": [
+    "data-structure",
+    "different-types-of-an-array",
+    "you-can-add-properties-in-array-in-javascript"
+  ],
+  "you-can-add-properties-in-array-in-javascript": [
+    "what-is-an-array"
   ],
   "더-하고-싶을-때-멈춰야-한다": [
     "습관이-되려면-며칠-걸리는지-아무도-모른다",

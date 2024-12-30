@@ -86,12 +86,12 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 				margin: 0 0.5rem;
 			}
 
-			.category {
+			.date {
 				display: block;
 				font-size: var(--xs);
-				text-transform: lowercase;
+				// text-transform: lowercase;
 				color: #aaa;
-				margin-right: 0.25rem;
+				margin-left: 0.25rem;
 			}
 		</style>
 	</head>
@@ -119,7 +119,11 @@ const posts = (await getCollection('writing')).sort((a, b) => {
 								<li>
 									<a href={`/writing/${post.slug}/`}>
 										<div class="head">
-											<div class="category">{post.data.category ? post.data.category : "journal"}</div>
+											<div class="date">{post.data.pubDate.toLocaleDateString('en-us', {
+												year: 'numeric',
+												month: 'short',
+												day: 'numeric',
+											})}</div>
 											<span>{post.data.title}</span>
 										</div>
 									</a>

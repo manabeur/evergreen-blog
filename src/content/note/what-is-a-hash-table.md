@@ -1,6 +1,6 @@
 ---
 title: "What is a Hash Table?"
-category: 'ruby | ds | hash table'
+category: 'f'
 pubDate: 'Dec 09 2024 18:20:00'
 ---
 

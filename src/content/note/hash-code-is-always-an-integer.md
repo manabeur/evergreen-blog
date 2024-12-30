@@ -1,6 +1,6 @@
 ---
 title: "Hash code is always an integer"
-category: 'ruby | ds | hash table'
+category: 'f1'
 pubDate: 'Dec 09 2024 18:30:00'
 ---
 

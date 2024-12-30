@@ -1,6 +1,6 @@
 ---
 title: "What is a Queue?"
-category: 'ruby | ds | queue'
+category: 'ec'
 pubDate: 'Dec 04 2024 12:40:00'
 updatedDate: 'Dec 05 2024 05:25:00'
 ---

@@ -121,7 +121,9 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
 							</div>
 						</div>
 					</div>
-					<slot />
+					<div class="contents">
+						<slot />
+					</div>
 				</div>
 			</article>
 			<Backlinks />

@@ -1,6 +1,6 @@
 ---
 title: "What is a Circular Linked List?"
-category: "ruby | ds | linked list"
+category: "edc"
 pubDate: "Dec 02 2024 18:30:00"
 ---
 

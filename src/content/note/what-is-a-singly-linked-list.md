@@ -1,6 +1,6 @@
 ---
 title: "What is a Singly Linked List?"
-category: "ruby | ds | linked list"
+category: "eda"
 pubDate: "Nov 13 2024 12:32:00"
 updatedDate: "Nov 19 2024 17:30:00"
 ---

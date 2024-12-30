@@ -1,6 +1,6 @@
 ---
 title: "What is a Stack?"
-category: 'ruby | ds | stack'
+category: 'eb'
 pubDate: 'Dec 05 2024 05:00:00'
 ---
 

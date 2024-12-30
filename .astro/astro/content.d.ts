@@ -158,6 +158,20 @@ declare module 'astro:content' {
   collection: "note";
   data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
+"data-structure.md": {
+	id: "data-structure.md";
+  slug: "data-structure";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"different-types-of-an-array.md": {
+	id: "different-types-of-an-array.md";
+  slug: "different-types-of-an-array";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
 "hash-code-is-always-an-integer.md": {
 	id: "hash-code-is-always-an-integer.md";
   slug: "hash-code-is-always-an-integer";
@@ -196,6 +210,13 @@ declare module 'astro:content' {
 "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md": {
 	id: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md";
   slug: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"what-is-a-binary-tree.md": {
+	id: "what-is-a-binary-tree.md";
+  slug: "what-is-a-binary-tree";
   body: string;
   collection: "note";
   data: InferEntrySchema<"note">
@@ -245,6 +266,20 @@ declare module 'astro:content' {
 "what-is-a-stack.md": {
 	id: "what-is-a-stack.md";
   slug: "what-is-a-stack";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"what-is-an-array.md": {
+	id: "what-is-an-array.md";
+  slug: "what-is-an-array";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"you-can-add-properties-in-array-in-javascript.md": {
+	id: "you-can-add-properties-in-array-in-javascript.md";
+  slug: "you-can-add-properties-in-array-in-javascript";
   body: string;
   collection: "note";
   data: InferEntrySchema<"note">

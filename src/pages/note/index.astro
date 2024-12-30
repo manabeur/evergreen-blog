@@ -8,18 +8,20 @@ import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const posts = (await getCollection('note')).sort((a, b) => {
-	const category_compare = a.data.category.localeCompare(b.data.category);
+	const category_compare = (id_1: string, id_2: string) => {
+        const len = Math.min(id_1.length, id_2.length);
 
-	if (category_compare === 0) {
-		const dateA = new Date(a.data.updatedDate ? a.data.updatedDate : a.data.pubDate).getTime()
-		const dateB = new Date(b.data.updatedDate ? b.data.updatedDate : b.data.pubDate).getTime()
+        // Compare each character's ASCII value
+        for (let i = 0; i < len; i++) {
+            const diff = id_1.charCodeAt(i) - id_2.charCodeAt(i);
+            if (diff !== 0) return diff; // Return the first difference
+        }
 
-		if (dateA > dateB) return 1
-		if (dateA < dateB) return -1
-		if (dateA == dateB) return 0
-	}
+        // If one is a prefix of the other, shorter one should come first
+        return id_1.length - id_2.length;
+    };
 
-	return category_compare
+    return category_compare(a.data.category, b.data.category);
 });
 
 ---
@@ -97,7 +99,7 @@ const posts = (await getCollection('note')).sort((a, b) => {
 			.category {
 				display: block;
 				font-size: var(--xs);
-				text-transform: lowercase;
+				// text-transform: lowercase;
 				color: #aaa;
 				margin-left: 0.25rem;
 				transition: all 0.2s ease;

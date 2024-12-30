@@ -1,6 +1,6 @@
 ---
 title: "What I'm up to at the moment"
-category: "now"
+category: "a"
 pubDate: "Mar 18 2024 07:00:00"
 updatedDate: "Nov 20 2024 04:50:00"
 ---
