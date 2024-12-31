@@ -158,6 +158,13 @@ declare module 'astro:content' {
   collection: "note";
   data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
+"confidence-is-the-key-in-improving-the-language-skill.md": {
+	id: "confidence-is-the-key-in-improving-the-language-skill.md";
+  slug: "confidence-is-the-key-in-improving-the-language-skill";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
 "data-structure.md": {
 	id: "data-structure.md";
   slug: "data-structure";
@@ -203,6 +210,13 @@ declare module 'astro:content' {
 "passing-a-block-as-an-argument.md": {
 	id: "passing-a-block-as-an-argument.md";
   slug: "passing-a-block-as-an-argument";
+  body: string;
+  collection: "note";
+  data: InferEntrySchema<"note">
+} & { render(): Render[".md"] };
+"static-array.md": {
+	id: "static-array.md";
+  slug: "static-array";
   body: string;
   collection: "note";
   data: InferEntrySchema<"note">
@@ -359,6 +373,13 @@ declare module 'astro:content' {
 "모니터에서-가상현실로.md": {
 	id: "모니터에서-가상현실로.md";
   slug: "모니터에서-가상현실로";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"미용실.md": {
+	id: "미용실.md";
+  slug: "미용실";
   body: string;
   collection: "writing";
   data: InferEntrySchema<"writing">

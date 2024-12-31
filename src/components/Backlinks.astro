@@ -21,7 +21,7 @@ const capitalizeFirstLetter = (s: string) => s.charAt(0).toUpperCase() + s.slice
         <div>Backlinks:</div>
         <ul>
             {refs.map(ref => (
-                <li key={ref}>
+                <li>
                     <a href={`/${categories[ref]}/${ref}`}>{capitalizeFirstLetter(ref.split('-').join(' '))}</a>
                 </li>
             ))}

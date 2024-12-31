@@ -1,6 +1,6 @@
 ---
 title: "Passing a block as an argument"
-category: "h"
+category: "g"
 pubDate: "Nov 13 2024 12:50:00"
 ---
 

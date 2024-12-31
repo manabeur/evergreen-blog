@@ -7,11 +7,17 @@
     "what-is-a-linked-list",
     "what-is-a-hash-table"
   ],
+  "different-types-of-an-array": [
+    "static-array"
+  ],
   "hash-code-is-always-an-integer": [
     "how-do-you-avoid-collision-in-a-hash-table"
   ],
   "my-macbook-setup": [
     "i-migrated-from-bear-app-to-obsidian"
+  ],
+  "static-array": [
+    "different-types-of-an-array"
   ],
   "what-is-a-binary-tree": [
     "what-is-a-linked-list",
