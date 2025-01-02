@@ -5,7 +5,7 @@ pubDate: 'Dec 04 2024 12:40:00'
 updatedDate: 'Dec 05 2024 05:25:00'
 ---
 
-Queue is a data structure that allows you to handle collection of elements in FIFO (First-In, First-Out) fashion. The opposite would be FILO (First-In, Last-Out; or LIFO) which is used in another data structure called [Stacks](/note/what-is-a-stack).
+Queue is a [data structure](/note/data-structure) that allows you to handle collection of elements in FIFO (First-In, First-Out) fashion. The opposite would be FILO (First-In, Last-Out; or LIFO) which is used in another data structure called [Stacks](/note/what-is-a-stack).
 
 Let's say you have two elements in the queue like the following. When you add the third item, it will be placed at the end of the queue.
 

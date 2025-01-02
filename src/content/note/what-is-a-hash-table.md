@@ -4,7 +4,7 @@ category: 'ee'
 pubDate: 'Dec 09 2024 18:20:00'
 ---
 
-Hash table is a data structure specialized for reading random elements, fast.
+Hash table is a [data structure](/note/data-structure) specialized for reading random elements, fast.
 
 Each element in a table is called an entry which is a pair of key and value.
 ```text

@@ -4,7 +4,7 @@ category: "ef"
 pubDate: "Dec 27 2024 07:30:00"
 ---
 
-Tree is a data structure specialized for storing hierarchical data such as a DOM tree.
+Tree is a [data structure](/note/data-structure) specialized for storing hierarchical data such as a DOM tree.
 
 We normally classify a tree by their branching factor. And for binary trees, the branching factor is two. This means for every new level, the total number of elements a binary tree can hold increases by <i>2<sup> h-1</sup></i>.
 

@@ -4,7 +4,7 @@ category: 'eb'
 pubDate: 'Dec 05 2024 05:00:00'
 ---
 
-Stack is a data structure that allows you to handle collection of elements in LIFO (Last-In, First-Out) fashion. Just like the [queue](/note/what-is-a-queue), you cannot insert or remove elements at a random position.
+Stack is a [data structure](/note/data-structure) that allows you to handle collection of elements in LIFO (Last-In, First-Out) fashion. Just like the [queue](/note/what-is-a-queue), you cannot insert or remove elements at a random position.
 
 Here's what a stack looks like when we insert (push) an element.
 
