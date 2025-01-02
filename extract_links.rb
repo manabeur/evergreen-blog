@@ -18,6 +18,7 @@ def extract_links(content)
     .reject { |link| link.end_with?('.png') }
     .reject { |link| link.start_with?('.https') }
     .map { |link| link.gsub(%r{^}, '').split('/').last }
+    .uniq
 end
 
 # Initialize a hash to store links
@@ -39,6 +40,7 @@ categories.each do |category|
       # remove the extension
       current_file_name = current_file_name.split('.')[0]
       # Add the links to the hash if any found
+
       links_hash[current_file_name] = links unless links.empty?
     end
   end

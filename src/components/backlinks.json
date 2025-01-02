@@ -5,13 +5,26 @@
   "data-structure": [
     "what-is-an-array",
     "what-is-a-linked-list",
-    "what-is-a-hash-table"
+    "what-is-a-hash-table",
+    "what-is-a-stack",
+    "what-is-a-queue",
+    "what-is-a-binary-tree"
   ],
   "different-types-of-an-array": [
+    "static-array",
+    "dynamic-array",
+    "jagged-array"
+  ],
+  "dynamic-array": [
+    "what-is-an-array",
     "static-array"
   ],
   "hash-code-is-always-an-integer": [
     "how-do-you-avoid-collision-in-a-hash-table"
+  ],
+  "jagged-array": [
+    "dynamic-array",
+    "what-is-a-linked-list"
   ],
   "my-macbook-setup": [
     "i-migrated-from-bear-app-to-obsidian"
@@ -20,10 +33,10 @@
     "different-types-of-an-array"
   ],
   "what-is-a-binary-tree": [
+    "data-structure",
     "what-is-a-linked-list",
     "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node",
     "what-is-an-array",
-    "what-is-a-linked-list",
     "what-is-a-stack",
     "what-is-a-queue"
   ],
@@ -35,16 +48,19 @@
     "what-is-a-singly-linked-list"
   ],
   "what-is-a-hash-table": [
+    "data-structure",
     "hash-code-is-always-an-integer",
     "a-key-could-be-of-any-type-in-a-hash-table"
   ],
   "what-is-a-linked-list": [
+    "data-structure",
     "what-is-a-singly-linked-list",
     "what-is-a-doubly-linked-list",
     "what-is-a-circular-linked-list",
     "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node"
   ],
   "what-is-a-queue": [
+    "data-structure",
     "what-is-a-stack"
   ],
   "what-is-a-singly-linked-list": [
@@ -53,7 +69,7 @@
     "passing-a-block-as-an-argument"
   ],
   "what-is-a-stack": [
-    "what-is-a-queue",
+    "data-structure",
     "what-is-a-queue"
   ],
   "what-is-an-array": [
