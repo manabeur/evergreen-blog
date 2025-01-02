@@ -384,6 +384,13 @@ declare module 'astro:content' {
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
+"라식.md": {
+	id: "라식.md";
+  slug: "라식";
+  body: string;
+  collection: "writing";
+  data: any
+} & { render(): Render[".md"] };
 "모니터에서-가상현실로.md": {
 	id: "모니터에서-가상현실로.md";
   slug: "모니터에서-가상현실로";
