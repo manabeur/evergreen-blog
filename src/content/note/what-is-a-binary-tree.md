@@ -30,8 +30,8 @@ In a tree, each node contains these four attributes:
 
 Every node has a parent and up to two nodes except for the _root_ (no parent).
 
-Unlike linear data structures ([Arrays](/note/what-is-an-array), [Linked Lists](/note/what-is-a-linked-list), [Stacks](/note/what-is-a-stack), [Queues](/note/what-is-a-queue), etc) which have only one logical way to traverse them, trees can be traversed in many different ways. Largely, there are two different ways to traverse a tree:
-- [[Depth-First Search]] (DFS)
+Unlike linear data structures ([Arrays](/note/what-is-an-array), [Linked Lists](/note/what-is-a-linked-list), [Stacks](/note/what-is-a-stack), [Queues](/note/what-is-a-queue), etc) which have only one logical way to traverse them, trees can be traversed in different ways. Largely, there are two different types of tree traversals:
+- [Depth-First Search](/note/depth-first-search) (DFS)
 - [[Breadth-First Search]] (BFS)
 
 ```rb

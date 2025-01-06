@@ -5,10 +5,7 @@
   "data-structure": [
     "what-is-an-array",
     "what-is-a-linked-list",
-    "what-is-a-hash-table",
-    "what-is-a-stack",
-    "what-is-a-queue",
-    "what-is-a-binary-tree"
+    "what-is-a-hash-table"
   ],
   "different-types-of-an-array": [
     "static-array",
@@ -38,7 +35,8 @@
     "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node",
     "what-is-an-array",
     "what-is-a-stack",
-    "what-is-a-queue"
+    "what-is-a-queue",
+    "depth-first-search"
   ],
   "what-is-a-circular-linked-list": [
     "what-is-a-singly-linked-list",

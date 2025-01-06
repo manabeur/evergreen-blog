@@ -172,6 +172,13 @@ declare module 'astro:content' {
   collection: "note";
   data: any
 } & { render(): Render[".md"] };
+"depth-first-search.md": {
+	id: "depth-first-search.md";
+  slug: "depth-first-search";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
 "different-types-of-an-array.md": {
 	id: "different-types-of-an-array.md";
   slug: "different-types-of-an-array";
