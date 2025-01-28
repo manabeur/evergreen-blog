@@ -7,6 +7,9 @@
     "what-is-a-linked-list",
     "what-is-a-hash-table"
   ],
+  "depth-first-search": [
+    "what-is-a-stack"
+  ],
   "different-types-of-an-array": [
     "static-array",
     "dynamic-array",

@@ -156,203 +156,203 @@ declare module 'astro:content' {
   slug: "a-key-could-be-of-any-type-in-a-hash-table";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "confidence-is-the-key-in-improving-the-language-skill.md": {
 	id: "confidence-is-the-key-in-improving-the-language-skill.md";
   slug: "confidence-is-the-key-in-improving-the-language-skill";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "data-structure.md": {
 	id: "data-structure.md";
   slug: "data-structure";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "depth-first-search.md": {
 	id: "depth-first-search.md";
   slug: "depth-first-search";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "different-types-of-an-array.md": {
 	id: "different-types-of-an-array.md";
   slug: "different-types-of-an-array";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "dynamic-array.md": {
 	id: "dynamic-array.md";
   slug: "dynamic-array";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "hash-code-is-always-an-integer.md": {
 	id: "hash-code-is-always-an-integer.md";
   slug: "hash-code-is-always-an-integer";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "how-do-you-avoid-collision-in-a-hash-table.md": {
 	id: "how-do-you-avoid-collision-in-a-hash-table.md";
   slug: "how-do-you-avoid-collision-in-a-hash-table";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "jagged-array.md": {
 	id: "jagged-array.md";
   slug: "jagged-array";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "my-macbook-setup.md": {
 	id: "my-macbook-setup.md";
   slug: "my-macbook-setup";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "now.md": {
 	id: "now.md";
   slug: "now";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "passing-a-block-as-an-argument.md": {
 	id: "passing-a-block-as-an-argument.md";
   slug: "passing-a-block-as-an-argument";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "static-array.md": {
 	id: "static-array.md";
   slug: "static-array";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md": {
 	id: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node.md";
   slug: "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-binary-tree.md": {
 	id: "what-is-a-binary-tree.md";
   slug: "what-is-a-binary-tree";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-circular-linked-list.md": {
 	id: "what-is-a-circular-linked-list.md";
   slug: "what-is-a-circular-linked-list";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-doubly-linked-list.md": {
 	id: "what-is-a-doubly-linked-list.md";
   slug: "what-is-a-doubly-linked-list";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-hash-table.md": {
 	id: "what-is-a-hash-table.md";
   slug: "what-is-a-hash-table";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-linked-list.md": {
 	id: "what-is-a-linked-list.md";
   slug: "what-is-a-linked-list";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-queue.md": {
 	id: "what-is-a-queue.md";
   slug: "what-is-a-queue";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-singly-linked-list.md": {
 	id: "what-is-a-singly-linked-list.md";
   slug: "what-is-a-singly-linked-list";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-a-stack.md": {
 	id: "what-is-a-stack.md";
   slug: "what-is-a-stack";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "what-is-an-array.md": {
 	id: "what-is-an-array.md";
   slug: "what-is-an-array";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "you-can-add-properties-in-array-in-javascript.md": {
 	id: "you-can-add-properties-in-array-in-javascript.md";
   slug: "you-can-add-properties-in-array-in-javascript";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "더-하고-싶을-때-멈춰야-한다.md": {
 	id: "더-하고-싶을-때-멈춰야-한다.md";
   slug: "더-하고-싶을-때-멈춰야-한다";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "메모는-외부의-정보가-아닌-내부의-정보를-적는_것.md": {
 	id: "메모는-외부의-정보가-아닌-내부의-정보를-적는_것.md";
   slug: "메모는-외부의-정보가-아닌-내부의-정보를-적는_것";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "습관이-되려면-며칠-걸리는지-아무도-모른다.md": {
 	id: "습관이-되려면-며칠-걸리는지-아무도-모른다.md";
   slug: "습관이-되려면-며칠-걸리는지-아무도-모른다";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "의식하지-않고-하는-행동에-습관이-완성되는-것.md": {
 	id: "의식하지-않고-하는-행동에-습관이-완성되는-것.md";
   slug: "의식하지-않고-하는-행동에-습관이-완성되는-것";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 "한-번-멈춰버린-습관을-되돌리기란-쉽지-않다.md": {
 	id: "한-번-멈춰버린-습관을-되돌리기란-쉽지-않다.md";
   slug: "한-번-멈춰버린-습관을-되돌리기란-쉽지-않다";
   body: string;
   collection: "note";
-  data: any
+  data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 };
 "writing": {
@@ -361,77 +361,77 @@ declare module 'astro:content' {
   slug: "2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "chat-gpt-ruined-my-confidence-in-english.md": {
 	id: "chat-gpt-ruined-my-confidence-in-english.md";
   slug: "chat-gpt-ruined-my-confidence-in-english";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "i-migrated-from-bear-app-to-obsidian.md": {
 	id: "i-migrated-from-bear-app-to-obsidian.md";
   slug: "i-migrated-from-bear-app-to-obsidian";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "나는-왜-한-시간-일찍-출근을-하는걸까.md": {
 	id: "나는-왜-한-시간-일찍-출근을-하는걸까.md";
   slug: "나는-왜-한-시간-일찍-출근을-하는걸까";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "내-일에-대한-원동력-찾기.md": {
 	id: "내-일에-대한-원동력-찾기.md";
   slug: "내-일에-대한-원동력-찾기";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "라식.md": {
 	id: "라식.md";
   slug: "라식";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "모니터에서-가상현실로.md": {
 	id: "모니터에서-가상현실로.md";
   slug: "모니터에서-가상현실로";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "미용실.md": {
 	id: "미용실.md";
   slug: "미용실";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "우연히-일본어를-할-줄-알게-되었다.md": {
 	id: "우연히-일본어를-할-줄-알게-되었다.md";
   slug: "우연히-일본어를-할-줄-알게-되었다";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "일찍-출근해야-하는-이유를-찾았다.md": {
 	id: "일찍-출근해야-하는-이유를-찾았다.md";
   slug: "일찍-출근해야-하는-이유를-찾았다";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 "집중력-도둑이-내-손목에-있었구나.md": {
 	id: "집중력-도둑이-내-손목에-있었구나.md";
   slug: "집중력-도둑이-내-손목에-있었구나";
   body: string;
   collection: "writing";
-  data: any
+  data: InferEntrySchema<"writing">
 } & { render(): Render[".md"] };
 };
 
@@ -443,5 +443,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }

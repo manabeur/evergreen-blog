@@ -61,7 +61,7 @@ DFS starting from 0 -> 0 2 4 3 1 (iterative)
 DFS starting from 0 -> 0 1 2 3 4 (recursion)
 ```
 
-Normally, when you implement DFS recursively, it processes neighbors in ascending order (if the adjacency list is sorted). In contrast, iterative DFS may produce different orders due to the [[What is a Stack|stack]]'s LIFO behavior. You can mimic recursive DFS in iterative implementations by reversing the neighbor order before pushing them onto the stack.
+Normally, when you implement DFS recursively, it processes neighbors in ascending order (if the adjacency list is sorted). In contrast, iterative DFS may produce different orders due to the [stack](/note/what-is-a-stack)'s LIFO behavior. You can mimic recursive DFS in iterative implementations by reversing the neighbor order before pushing them onto the stack.
 
 Here's a iterative version of DFS.
 ```rb
