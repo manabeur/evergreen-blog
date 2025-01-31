@@ -2,97 +2,14 @@
   "일찍-출근해야-하는-이유를-찾았다": [
     "나는-왜-한-시간-일찍-출근을-하는걸까"
   ],
-  "data-structure": [
-    "what-is-an-array",
-    "what-is-a-linked-list",
-    "what-is-a-hash-table"
+  "240611100301": [
+    "240611103553",
+    "250130073757"
   ],
-  "depth-first-search": [
-    "what-is-a-stack"
+  "240611103553": [
+    "240611100301"
   ],
-  "different-types-of-an-array": [
-    "static-array",
-    "dynamic-array",
-    "jagged-array"
-  ],
-  "dynamic-array": [
-    "what-is-an-array",
-    "static-array"
-  ],
-  "hash-code-is-always-an-integer": [
-    "how-do-you-avoid-collision-in-a-hash-table"
-  ],
-  "jagged-array": [
-    "dynamic-array",
-    "what-is-a-linked-list"
-  ],
-  "my-macbook-setup": [
-    "i-migrated-from-bear-app-to-obsidian"
-  ],
-  "static-array": [
-    "different-types-of-an-array"
-  ],
-  "what-is-a-binary-tree": [
-    "data-structure",
-    "what-is-a-linked-list",
-    "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node",
-    "what-is-an-array",
-    "what-is-a-stack",
-    "what-is-a-queue",
-    "depth-first-search"
-  ],
-  "what-is-a-circular-linked-list": [
-    "what-is-a-singly-linked-list",
-    "what-is-a-doubly-linked-list"
-  ],
-  "what-is-a-doubly-linked-list": [
-    "what-is-a-singly-linked-list"
-  ],
-  "what-is-a-hash-table": [
-    "data-structure",
-    "hash-code-is-always-an-integer",
-    "a-key-could-be-of-any-type-in-a-hash-table"
-  ],
-  "what-is-a-linked-list": [
-    "data-structure",
-    "what-is-a-singly-linked-list",
-    "what-is-a-doubly-linked-list",
-    "what-is-a-circular-linked-list",
-    "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node"
-  ],
-  "what-is-a-queue": [
-    "data-structure",
-    "what-is-a-stack"
-  ],
-  "what-is-a-singly-linked-list": [
-    "what-is-a-linked-list",
-    "the-type-of-a-linked-list-is-determined-by-the-structure-of-a-node",
-    "passing-a-block-as-an-argument"
-  ],
-  "what-is-a-stack": [
-    "data-structure",
-    "what-is-a-queue"
-  ],
-  "what-is-an-array": [
-    "data-structure",
-    "different-types-of-an-array",
-    "you-can-add-properties-in-array-in-javascript"
-  ],
-  "you-can-add-properties-in-array-in-javascript": [
-    "what-is-an-array"
-  ],
-  "더-하고-싶을-때-멈춰야-한다": [
-    "습관이-되려면-며칠-걸리는지-아무도-모른다",
-    "한-번-멈춰버린-습관을-되돌리기란-쉽지-않다"
-  ],
-  "습관이-되려면-며칠-걸리는지-아무도-모른다": [
-    "의식하지-않고-하는-행동에-습관이-완성되는-것"
-  ],
-  "의식하지-않고-하는-행동에-습관이-완성되는-것": [
-    "습관이-되려면-며칠-걸리는지-아무도-모른다"
-  ],
-  "한-번-멈춰버린-습관을-되돌리기란-쉽지-않다": [
-    "습관이-되려면-며칠-걸리는지-아무도-모른다",
-    "더-하고-싶을-때-멈춰야-한다"
+  "250130073757": [
+    "250130081822"
   ]
 }

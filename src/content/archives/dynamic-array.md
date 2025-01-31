@@ -4,7 +4,7 @@ category: "ea1b"
 pubDate: "Jan 01 2025 17:20:00"
 ---
 
-The size must be known beforehand to declare an [array](/note/what-is-an-array) and use it ([Static Array](/note/static-array)), however, in real life, the size is often unknown; we don't exactly know how many data we'll be handling it.
+The size must be known beforehand to declare an [array](/note/what-is-an-array) and use it ([Static Array](/note/240611103553)), however, in real life, the size is often unknown; we don't exactly know how many data we'll be handling it.
 
 Dynamic arrays exist for that reason. It allows you to declare an array with a specified size at a runtime and you can even re-scale the size or capacity of the array. But generally, [[it's better to use a vector or a linked list than a dynamic array]].
 

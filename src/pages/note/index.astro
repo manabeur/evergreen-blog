@@ -21,7 +21,9 @@ const posts = (await getCollection('note')).sort((a, b) => {
         return id_1.length - id_2.length;
     };
 
-    return category_compare(a.data.category, b.data.category);
+	const folgeA = a.data.folge ?? "note"
+	const folgeB = b.data.folge ?? "note"
+    return category_compare(folgeA , folgeB);
 });
 
 ---
@@ -130,7 +132,7 @@ const posts = (await getCollection('note')).sort((a, b) => {
 								<li>
 									<a href={`/note/${post.slug}/`}>
 										<div class="head">
-											<div class="category">{post.data.category ? post.data.category : "note"}</div>
+											<div class="category">{`{${post.data.folge}} ${post.data.uid}`}</div>
 											<span>{post.data.title}</span>
 										</div>
 									</a>

@@ -10,7 +10,8 @@ const note = defineCollection({
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
-		category: z.string(),
+		folge: z.string().optional(),
+		uid: z.string().optional(),
 	}),
 });
 
@@ -24,7 +25,6 @@ const writing = defineCollection({
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
-		category: z.string(),
 	}),
 });
 
