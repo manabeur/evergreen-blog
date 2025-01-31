@@ -347,35 +347,42 @@ declare module 'astro:content' {
   slug: "240611100301";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "240611103553.md": {
 	id: "240611103553.md";
   slug: "240611103553";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250101052312.md": {
 	id: "250101052312.md";
   slug: "250101052312";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
+} & { render(): Render[".md"] };
+"250101173519.md": {
+	id: "250101173519.md";
+  slug: "250101173519";
+  body: string;
+  collection: "note";
+  data: any
 } & { render(): Render[".md"] };
 "250130073757.md": {
 	id: "250130073757.md";
   slug: "250130073757";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250130081822.md": {
 	id: "250130081822.md";
   slug: "250130081822";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 };
 "writing": {
@@ -384,77 +391,77 @@ declare module 'astro:content' {
   slug: "2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "chat-gpt-ruined-my-confidence-in-english.md": {
 	id: "chat-gpt-ruined-my-confidence-in-english.md";
   slug: "chat-gpt-ruined-my-confidence-in-english";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "i-migrated-from-bear-app-to-obsidian.md": {
 	id: "i-migrated-from-bear-app-to-obsidian.md";
   slug: "i-migrated-from-bear-app-to-obsidian";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "나는-왜-한-시간-일찍-출근을-하는걸까.md": {
 	id: "나는-왜-한-시간-일찍-출근을-하는걸까.md";
   slug: "나는-왜-한-시간-일찍-출근을-하는걸까";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "내-일에-대한-원동력-찾기.md": {
 	id: "내-일에-대한-원동력-찾기.md";
   slug: "내-일에-대한-원동력-찾기";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "라식.md": {
 	id: "라식.md";
   slug: "라식";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "모니터에서-가상현실로.md": {
 	id: "모니터에서-가상현실로.md";
   slug: "모니터에서-가상현실로";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "미용실.md": {
 	id: "미용실.md";
   slug: "미용실";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "우연히-일본어를-할-줄-알게-되었다.md": {
 	id: "우연히-일본어를-할-줄-알게-되었다.md";
   slug: "우연히-일본어를-할-줄-알게-되었다";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "일찍-출근해야-하는-이유를-찾았다.md": {
 	id: "일찍-출근해야-하는-이유를-찾았다.md";
   slug: "일찍-출근해야-하는-이유를-찾았다";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "집중력-도둑이-내-손목에-있었구나.md": {
 	id: "집중력-도둑이-내-손목에-있었구나.md";
   slug: "집중력-도둑이-내-손목에-있었구나";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -466,5 +473,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }
