@@ -398,6 +398,20 @@ declare module 'astro:content' {
   collection: "note";
   data: any
 } & { render(): Render[".md"] };
+"250201111442.md": {
+	id: "250201111442.md";
+  slug: "250201111442";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
+"250201115105.md": {
+	id: "250201115105.md";
+  slug: "250201115105";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
 };
 "writing": {
 "2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까.md": {
