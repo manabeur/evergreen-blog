@@ -12,11 +12,11 @@ export const languages = {
       'home.quote': '기록하기를 좋아하는 인간에게 축복을.',
       'home.menu1': {
         'title':'Writing',
-        'exp': 'Space for sharing my story'
+        'exp': 'space for sharing my story'
       },
       'home.menu2': {
         'title':'Note',
-        'exp': 'Space for fragments of thoughts'
+        'exp': 'space for my second brain'
       },
     },
   } as const;
