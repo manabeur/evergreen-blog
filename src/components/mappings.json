@@ -9,5 +9,6 @@
   "250131121405": "Ruby automatically reclaims unused memory",
   "250201111442": "Ruby arrays can hold multiple data types",
   "250201115105": "Use void* to simulate Ruby-like arrays in C",
-  "240610164501": "There is no one perfect data structure that fits all the use cases"
+  "240610164501": "There is no one perfect data structure that fits all the use cases",
+  "250203120334": "When to use an array?"
 }

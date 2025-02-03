@@ -419,81 +419,95 @@ declare module 'astro:content' {
   collection: "note";
   data: any
 } & { render(): Render[".md"] };
+"250203120334.md": {
+	id: "250203120334.md";
+  slug: "250203120334";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
 };
 "writing": {
-"2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까.md": {
-	id: "2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까.md";
-  slug: "2개월-차-신입은-할-줄-아는-게-없는-게-당연한-걸까";
+"1.md": {
+	id: "1.md";
+  slug: "1";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"chat-gpt-ruined-my-confidence-in-english.md": {
-	id: "chat-gpt-ruined-my-confidence-in-english.md";
-  slug: "chat-gpt-ruined-my-confidence-in-english";
+"10.md": {
+	id: "10.md";
+  slug: "10";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"i-migrated-from-bear-app-to-obsidian.md": {
-	id: "i-migrated-from-bear-app-to-obsidian.md";
-  slug: "i-migrated-from-bear-app-to-obsidian";
+"11.md": {
+	id: "11.md";
+  slug: "11";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"나는-왜-한-시간-일찍-출근을-하는걸까.md": {
-	id: "나는-왜-한-시간-일찍-출근을-하는걸까.md";
-  slug: "나는-왜-한-시간-일찍-출근을-하는걸까";
+"12.md": {
+	id: "12.md";
+  slug: "12";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"내-일에-대한-원동력-찾기.md": {
-	id: "내-일에-대한-원동력-찾기.md";
-  slug: "내-일에-대한-원동력-찾기";
+"2.md": {
+	id: "2.md";
+  slug: "2";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"라식.md": {
-	id: "라식.md";
-  slug: "라식";
+"3.md": {
+	id: "3.md";
+  slug: "3";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"모니터에서-가상현실로.md": {
-	id: "모니터에서-가상현실로.md";
-  slug: "모니터에서-가상현실로";
+"4.md": {
+	id: "4.md";
+  slug: "4";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"미용실.md": {
-	id: "미용실.md";
-  slug: "미용실";
+"5.md": {
+	id: "5.md";
+  slug: "5";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"우연히-일본어를-할-줄-알게-되었다.md": {
-	id: "우연히-일본어를-할-줄-알게-되었다.md";
-  slug: "우연히-일본어를-할-줄-알게-되었다";
+"6.md": {
+	id: "6.md";
+  slug: "6";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"일찍-출근해야-하는-이유를-찾았다.md": {
-	id: "일찍-출근해야-하는-이유를-찾았다.md";
-  slug: "일찍-출근해야-하는-이유를-찾았다";
+"7.md": {
+	id: "7.md";
+  slug: "7";
   body: string;
   collection: "writing";
   data: any
 } & { render(): Render[".md"] };
-"집중력-도둑이-내-손목에-있었구나.md": {
-	id: "집중력-도둑이-내-손목에-있었구나.md";
-  slug: "집중력-도둑이-내-손목에-있었구나";
+"8.md": {
+	id: "8.md";
+  slug: "8";
+  body: string;
+  collection: "writing";
+  data: any
+} & { render(): Render[".md"] };
+"9.md": {
+	id: "9.md";
+  slug: "9";
   body: string;
   collection: "writing";
   data: any
