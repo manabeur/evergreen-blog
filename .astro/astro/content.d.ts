@@ -349,6 +349,13 @@ declare module 'astro:content' {
   collection: "note";
   data: any
 } & { render(): Render[".md"] };
+"240610164501.md": {
+	id: "240610164501.md";
+  slug: "240610164501";
+  body: string;
+  collection: "note";
+  data: any
+} & { render(): Render[".md"] };
 "240611100301.md": {
 	id: "240611100301.md";
   slug: "240611100301";

@@ -1,12 +1,13 @@
 {
   "240610152201": "Arrays store data of the same type",
   "240611100301": "Different types of arrays",
-  "240611103553": "Static Arrays",
-  "250101052312": "Dynamic Arrays",
+  "240611103553": "Static arrays are created at compile-time",
+  "250101052312": "Dynamic arrays are created at runtime",
   "250101173519": "Jagged Arrays",
   "250130073757": "Difference between static and dynamic arrays",
   "250130081822": "Dynamically allocated memory must be freed manually",
   "250131121405": "Ruby automatically reclaims unused memory",
   "250201111442": "Ruby arrays can hold multiple data types",
-  "250201115105": "Use void* to simulate Ruby-like arrays in C"
+  "250201115105": "Use void* to simulate Ruby-like arrays in C",
+  "240610164501": "There is no one perfect data structure that fits all the use cases"
 }
