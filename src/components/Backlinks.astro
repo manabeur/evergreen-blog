@@ -1,10 +1,10 @@
 ---
 import backlinks from "./backlinks.json"
 import categories from "./categories.json"
+import mappings from "./mappings.json"
 
 const currentPath = decodeURIComponent(Astro.url.pathname.split('/')[2]);
 const refs = Object.keys(backlinks).filter(key => backlinks[key].includes(currentPath));
-const capitalizeFirstLetter = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 ---
 
 <style lang="scss">
@@ -22,7 +22,7 @@ const capitalizeFirstLetter = (s: string) => s.charAt(0).toUpperCase() + s.slice
         <ul>
             {refs.toReversed().map(ref => (
                 <li>
-                    <a href={`/${categories[ref]}/${ref}`}>{capitalizeFirstLetter(ref.split('-').join(' '))}</a>
+                    <a href={`/${categories[ref]}/${ref}`}>{`${ref} - ${mappings[ref] ?? 0}`}</a>
                 </li>
             ))}
         </ul>
