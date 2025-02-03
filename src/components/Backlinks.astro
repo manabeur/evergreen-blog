@@ -20,7 +20,7 @@ const refs = Object.keys(backlinks).filter(key => backlinks[key].includes(curren
     {refs.length > 0 && (
         <div>Backlinks:</div>
         <ul>
-            {refs.toReversed().map(ref => (
+            {refs.map(ref => (
                 <li>
                     <a href={`/${categories[ref]}/${ref}`}>{`${ref} - ${mappings[ref] ?? 0}`}</a>
                 </li>
