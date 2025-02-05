@@ -347,98 +347,105 @@ declare module 'astro:content' {
   slug: "240610152201";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "240610164501.md": {
 	id: "240610164501.md";
   slug: "240610164501";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "240611100301.md": {
 	id: "240611100301.md";
   slug: "240611100301";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "240611103553.md": {
 	id: "240611103553.md";
   slug: "240611103553";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "241026090000.md": {
 	id: "241026090000.md";
   slug: "241026090000";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250101052312.md": {
 	id: "250101052312.md";
   slug: "250101052312";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250101173519.md": {
 	id: "250101173519.md";
   slug: "250101173519";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250130073757.md": {
 	id: "250130073757.md";
   slug: "250130073757";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250130081822.md": {
 	id: "250130081822.md";
   slug: "250130081822";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250131121405.md": {
 	id: "250131121405.md";
   slug: "250131121405";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250201111442.md": {
 	id: "250201111442.md";
   slug: "250201111442";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250201115105.md": {
 	id: "250201115105.md";
   slug: "250201115105";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250203120334.md": {
 	id: "250203120334.md";
   slug: "250203120334";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
 } & { render(): Render[".md"] };
 "250204123024.md": {
 	id: "250204123024.md";
   slug: "250204123024";
   body: string;
   collection: "note";
-  data: InferEntrySchema<"note">
+  data: any
+} & { render(): Render[".md"] };
+"250205072700.md": {
+	id: "250205072700.md";
+  slug: "250205072700";
+  body: string;
+  collection: "note";
+  data: any
 } & { render(): Render[".md"] };
 };
 "writing": {
@@ -447,84 +454,84 @@ declare module 'astro:content' {
   slug: "1";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "10.md": {
 	id: "10.md";
   slug: "10";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "11.md": {
 	id: "11.md";
   slug: "11";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "12.md": {
 	id: "12.md";
   slug: "12";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "2.md": {
 	id: "2.md";
   slug: "2";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "3.md": {
 	id: "3.md";
   slug: "3";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "4.md": {
 	id: "4.md";
   slug: "4";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "5.md": {
 	id: "5.md";
   slug: "5";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "6.md": {
 	id: "6.md";
   slug: "6";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "7.md": {
 	id: "7.md";
   slug: "7";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "8.md": {
 	id: "8.md";
   slug: "8";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 "9.md": {
 	id: "9.md";
   slug: "9";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -536,5 +543,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }
