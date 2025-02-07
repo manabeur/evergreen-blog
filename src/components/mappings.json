@@ -13,5 +13,6 @@
   "250203120334": "When to use an array?",
   "241026090000": "A linked list is a linear data structure composed of nodes",
   "250204123024": "Losing the head pointer causes a memory leak",
-  "250205072700": "Different types of linked lists"
+  "250205072700": "Different types of linked lists",
+  "241113121417": "A singly linked list allows only one-way traversal"
 }
