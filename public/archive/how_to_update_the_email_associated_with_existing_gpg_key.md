@@ -11,7 +11,7 @@ $ gpg --list-secret-keys --keyid-format=long
 
 sec   ed25519/1420DCAC2218D8CF 2024-03-04 [SC]
       51D19A62EAB0A97D21B975521420DCAC2218D8CF
-uid                 [ultimate] Jii Yoo <rolemadelen@tuta.io>
+uid                 [ultimate] Jii Yoo <jiiyoo@example.com>
 ssb   cv25519/F6E9A1DC50DE1D24 2024-03-04 [E]
 ```
 

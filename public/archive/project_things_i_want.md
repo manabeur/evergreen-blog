@@ -5,7 +5,7 @@ pubDate: 'Jul 09 2023 11:08'
 ---
 
 <!-- ![](Side%20Project%20-%20Things%20I%20Want/things-i-want.gif) -->
-- Project Repository: https://github.com/rolemadelen/things-i-want
+- Project Repository: https://github.com/imgldot/things-i-want
 - Project Demo: https://want.madelen.me
 
 # Project
