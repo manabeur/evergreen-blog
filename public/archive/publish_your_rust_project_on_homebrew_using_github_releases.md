@@ -41,12 +41,12 @@ Write about your release in the textarea and once you're done, click `Publish re
 In the later process, you'll need the URL of tar package (`pomosh-mac.tar.gz`). Open the `Assets` section and copy the URL of your tar archive.
 
 ```text
-https://github.com/imgldot/pomosh/releases/download/v0.1.0/pomosh-mac.tar.gz
+https://github.com/manabeur/pomosh/releases/download/v0.1.0/pomosh-mac.tar.gz
 ```
 
 ## Preparing the Third Party Repository
 
-You can install third-party repositories using the `brew tap` command. [Taps](https://github.com/imgldot/pomosh/releases/download/v0.1.0/pomosh-mac.tar.gz), are simply a repository with specific names and couple configuration files written in [Ruby](https://www.ruby-lang.org/en/).
+You can install third-party repositories using the `brew tap` command. [Taps](https://github.com/manabeur/pomosh/releases/download/v0.1.0/pomosh-mac.tar.gz), are simply a repository with specific names and couple configuration files written in [Ruby](https://www.ruby-lang.org/en/).
 
 We'll create a repository in Github. You'll name your repository using the following format:
 
@@ -78,8 +78,8 @@ In the `pomosh.rb`, paste the following command.
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Pomosh < Formula
   desc "Command-line Pomodoro Timer written in Rust"
-  homepage "https://github.com/imgldot/pomosh"
-  url "https://github.com/imgldot/pomosh/releases/latest/download/pomosh-mac.tar.gz"
+  homepage "https://github.com/manabeur/pomosh"
+  url "https://github.com/manabeur/pomosh/releases/latest/download/pomosh-mac.tar.gz"
   sha256 "YOUR_SHA256"
   version "0.1.0"
 
@@ -115,7 +115,7 @@ $ brew install <project_name>
 
 In my case, it will be:
 ```shell
-$ brew tap imgldot/pomosh
+$ brew tap manabeur/pomosh
 $ brew install pomosh
 ```
 

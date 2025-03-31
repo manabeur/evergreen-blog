@@ -198,7 +198,7 @@ fn play_audio() {
 }
 ```
 
-After the release, I had an [issue with the program not playing the audio](https://github.com/imgldot/pomosh/issues/3). This was because I used `File` to open the audio. I had to load the audio file at runtime. So I used `include_bytes!` to embed the file's contents into the binary.
+After the release, I had an [issue with the program not playing the audio](https://github.com/manabeur/pomosh/issues/3). This was because I used `File` to open the audio. I had to load the audio file at runtime. So I used `include_bytes!` to embed the file's contents into the binary.
 
 ```rust
 const CHIME_SOUND: &[u8] = include_bytes!("../assets/chime.mp3");
@@ -222,6 +222,6 @@ And here's a completed view of `pomosh`:
 
 I've learned numerous concepts while doing the project. Only couple days in learning Rust, I only knew about `std::io`. But through this project, I learned about other crates like `thread`, `chrono`, `SystemTime`, `rodio`, and many others.
 
-Another new thing that I was able to achieve was letting people use homebrew to install this CLI program. I've never done this before, and I got very excited when I was able to install it using `brew tap imgldot/pomosh && brew install pomosh`. I felt like the old days when I was first exposed to the programming.
+Another new thing that I was able to achieve was letting people use homebrew to install this CLI program. I've never done this before, and I got very excited when I was able to install it using `brew tap manabeur/pomosh && brew install pomosh`. I felt like the old days when I was first exposed to the programming.
 
 Want to try it out? Check out the [project repository](https://github.com/img9417/pomosh).

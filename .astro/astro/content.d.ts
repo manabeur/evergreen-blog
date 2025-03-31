@@ -152,6 +152,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"archives": {
+"12.md": {
+	id: "12.md";
+  slug: "12";
+  body: string;
+  collection: "archives";
+  data: any
+} & { render(): Render[".md"] };
 "a-key-could-be-of-any-type-in-a-hash-table.md": {
 	id: "a-key-could-be-of-any-type-in-a-hash-table.md";
   slug: "a-key-could-be-of-any-type-in-a-hash-table";
@@ -470,14 +477,85 @@ declare module 'astro:content' {
   data: InferEntrySchema<"note">
 } & { render(): Render[".md"] };
 };
-"writing": Record<string, {
-  id: string;
-  slug: string;
+"writing": {
+"1.md": {
+	id: "1.md";
+  slug: "1";
   body: string;
   collection: "writing";
-  data: InferEntrySchema<"writing">;
-  render(): Render[".md"];
-}>;
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"10.md": {
+	id: "10.md";
+  slug: "10";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"11.md": {
+	id: "11.md";
+  slug: "11";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"2.md": {
+	id: "2.md";
+  slug: "2";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"3.md": {
+	id: "3.md";
+  slug: "3";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"4.md": {
+	id: "4.md";
+  slug: "4";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"5.md": {
+	id: "5.md";
+  slug: "5";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"6.md": {
+	id: "6.md";
+  slug: "6";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"7.md": {
+	id: "7.md";
+  slug: "7";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"8.md": {
+	id: "8.md";
+  slug: "8";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+"9.md": {
+	id: "9.md";
+  slug: "9";
+  body: string;
+  collection: "writing";
+  data: InferEntrySchema<"writing">
+} & { render(): Render[".md"] };
+};
 
 	};
 

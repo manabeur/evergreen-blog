@@ -4,10 +4,10 @@
 
 ## Blog History:
 
-- Vue blog → https://github.com/imgldot/vue-blog
-- Multilingual Blog v1 → https://github.com/imgldot/euisblue.github.io
-- Multilingual Blog v2 → https://github.com/imgldot/bluelog
-- Blog v1 → https://github.com/imgldot/blog-v1
-- Blog v2 → https://github.com/imgldot/blog-v2
-- Minimalist blog → https://github.com/imgldot/minimalist-blog
+- Vue blog → https://github.com/manabeur/vue-blog
+- Multilingual Blog v1 → https://github.com/manabeur/euisblue.github.io
+- Multilingual Blog v2 → https://github.com/manabeur/bluelog
+- Blog v1 → https://github.com/manabeur/blog-v1
+- Blog v2 → https://github.com/manabeur/blog-v2
+- Minimalist blog → https://github.com/manabeur/minimalist-blog
 - evergreen → Current blog
